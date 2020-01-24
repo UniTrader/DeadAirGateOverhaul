@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//index">
+<!-- BEGIN DA1 -->
+	<entry name="cluster_DA1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA1E_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA1W_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA1ARG_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA1HOP_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA1PAR_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA1TEL_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END DA1 -->
+<!-- BEGIN DA2 NEUTRAL -->
+	<entry name="cluster_DA2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2N_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2E_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2S_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2W_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END DA2 NEUTRAL -->
+<!-- BEGIN DA2 ARG -->
+	<entry name="cluster_DA2ARGNE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2ARGE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2ARGSE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2ARGS_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2ARGNW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2ARGC_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END DA2 ARG -->
+<!-- BEGIN DA2 HOP -->
+	<entry name="cluster_DA2HOPNE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2HOPE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2HOPSE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2HOPSW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2HOPN_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2HOPC_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END DA2 HOP -->
+<!-- BEGIN DA2 PAR -->
+	<entry name="cluster_DA2PARNW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2PARW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2PARSW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2PARSE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2PARN_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2PARC_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END DA2 PAR -->
+<!-- BEGIN DA2 TEL -->
+	<entry name="cluster_DA2TELNW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2TELW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2TELSW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2TELS_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2TELNE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2TELC_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END DA2 TEL -->
+<!-- BEGIN DA2 HOP CORE -->
+	<entry name="cluster_DA2HOP1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2HOP2_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END DA2 HOP CORE -->
+<!-- BEGIN DA2 XEN CORE -->
+	<entry name="cluster_DA2XEN1_sector*" value="maps\xu_ep2_universe\sectors" />
+</add>
+</diff>

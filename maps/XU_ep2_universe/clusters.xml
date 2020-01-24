@@ -1,0 +1,5441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//macros">
+<!-- BEGIN DA1 -->
+	<macro name="Cluster_DA1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1S01_Region001_connection" ref="regions">
+				<macro name="CDA1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region002_connection" ref="regions">
+				<macro name="CDA1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1" />
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA1S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA1E_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1E_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1E_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1ES01_Region001_connection" ref="regions">
+				<macro name="CDA1ES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1E_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region002_connection" ref="regions">
+				<macro name="CDA1ES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1E_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1E" />
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA1ES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA1W_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1W_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1W_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1WS01_Region001_connection" ref="regions">
+				<macro name="CDA1WS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1W_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region002_connection" ref="regions">
+				<macro name="CDA1WS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1W_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1W" />
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA1WS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA1ARG_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1ARG_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1ARG_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1ARGS01_Region001_connection" ref="regions">
+				<macro name="CDA1ARGS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1ARG_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region002_connection" ref="regions">
+				<macro name="CDA1ARGS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1ARG_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1ARG" />
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA1ARGS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA1HOP_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1HOP_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1HOP_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1HOPS01_Region001_connection" ref="regions">
+				<macro name="CDA1HOPS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1HOP_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region002_connection" ref="regions">
+				<macro name="CDA1HOPS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1HOP_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1HOP" />
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA1HOPS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA1PAR_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1PAR_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1PAR_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1PARS01_Region001_connection" ref="regions">
+				<macro name="CDA1PARS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1PAR_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region002_connection" ref="regions">
+				<macro name="CDA1PARS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1PAR_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1PAR" />
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA1PARS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA1TEL_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1TEL_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1TEL_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1TELS01_Region001_connection" ref="regions">
+				<macro name="CDA1TELS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1TEL_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region002_connection" ref="regions">
+				<macro name="CDA1TELS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1TEL_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1TEL" />
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA1TELS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA1 -->
+<!-- BEGIN DA2 NEUTRAL -->
+	<macro name="Cluster_DA2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2S01_Region001_connection" ref="regions">
+				<macro name="CDA2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region002_connection" ref="regions">
+				<macro name="CDA2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2" />
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2N_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2N_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2N_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2NS01_Region001_connection" ref="regions">
+				<macro name="CDA2NS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2N_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region002_connection" ref="regions">
+				<macro name="CDA2NS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2N_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2N" />
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2NS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2E_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2E_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2E_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ES01_Region001_connection" ref="regions">
+				<macro name="CDA2ES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2E_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region002_connection" ref="regions">
+				<macro name="CDA2ES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2E_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2E" />
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2ES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2S_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2S_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2S_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2SS01_Region001_connection" ref="regions">
+				<macro name="CDA2SS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2S_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region002_connection" ref="regions">
+				<macro name="CDA2SS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2S_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2S" />
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2SS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2W_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2W_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2W_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2WS01_Region001_connection" ref="regions">
+				<macro name="CDA2WS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2W_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region002_connection" ref="regions">
+				<macro name="CDA2WS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2W_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2W" />
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2WS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 NEUTRAL -->
+<!-- BEGIN DA2 ARG -->
+	<macro name="Cluster_DA2ARGNE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGNE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGNE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGNES01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGNES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGNES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGNE" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2ARGNES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2ARGE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGES01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGE" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2ARGES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2ARGSE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGSE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGSE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGSES01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGSES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGSES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGSE" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2ARGSES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2ARGS_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGS_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGS_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGSS01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGSS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGS_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGSS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGS_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGS" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2ARGSS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2ARGNW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGNW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGNW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGNWS01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGNWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGNWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGNW" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2ARGNWS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2ARGC_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGC_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGC_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGCS01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGCS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGCS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGC" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2ARGCS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 ARG -->
+<!-- BEGIN DA2 HOP -->
+	<macro name="Cluster_DA2HOPNE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPNE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPNE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPNES01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPNES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPNES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPNE" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HOPNES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2HOPE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPES01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPE" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HOPES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2HOPSE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPSE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPSE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPSES01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPSES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPSES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPSE" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HOPSES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2HOPSW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPSW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPSW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPSWS01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPSWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPSWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPSW" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HOPSWS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2HOPN_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPN_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPN_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPNS01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPNS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPN_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPNS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPN_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPN" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HOPNS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2HOPC_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPC_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPC_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPCS01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPCS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPCS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPC" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HOPCS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 HOP -->
+<!-- BEGIN DA2 PAR -->
+	<macro name="Cluster_DA2PARNW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARNW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARNW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARNWS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARNWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARNWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARNW" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2PARNWS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2PARW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARWS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARW" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2PARWS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2PARSW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARSW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARSW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARSWS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARSWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARSWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARSW" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2PARSWS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2PARSE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARSE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARSE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARSES01_Region001_connection" ref="regions">
+				<macro name="CDA2PARSES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region002_connection" ref="regions">
+				<macro name="CDA2PARSES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARSE" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2PARSES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2PARN_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARN_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARN_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARNS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARNS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARN_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARNS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARN_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARN" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2PARNS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2PARC_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARC_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARC_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARCS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARCS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARCS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARC" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2PARCS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 PAR -->
+<!-- BEGIN DA2 TEL -->
+	<macro name="Cluster_DA2TELNW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELNW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELNW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELNWS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELNWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELNWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELNW" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2TELNWS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2TELW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELWS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELW" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2TELWS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2TELSW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELSW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELSW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELSWS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELSWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELSWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELSW" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2TELSWS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2TELS_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELS_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELS_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELSS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELSS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELS_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELSS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELS_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELS" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2TELSS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2TELNE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELNE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELNE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELNES01_Region001_connection" ref="regions">
+				<macro name="CDA2TELNES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region002_connection" ref="regions">
+				<macro name="CDA2TELNES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELNE" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2TELNES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2TELC_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELC_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELC_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELCS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELCS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELCS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELC" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2TELCS01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 TEL -->
+<!-- BEGIN DA2 HOP CORE -->
+	<macro name="Cluster_DA2HOP1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOP1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOP1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOP1S01_Region001_connection" ref="regions">
+				<macro name="CDA2HOP1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOP1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region002_connection" ref="regions">
+				<macro name="CDA2HOP1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOP1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOP1" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HOP1S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DA2HOP2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOP2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOP2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOP2S01_Region001_connection" ref="regions">
+				<macro name="CDA2HOP2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOP2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region002_connection" ref="regions">
+				<macro name="CDA2HOP2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOP2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOP2" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HOP2S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 HOP CORE -->
+<!-- BEGIN DA2 XEN CORE -->
+	<macro name="Cluster_DA2XEN1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2XEN1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2XEN1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2XEN1S01_Region001_connection" ref="regions">
+				<macro name="CDA2XEN1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2XEN1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region002_connection" ref="regions">
+				<macro name="CDA2XEN1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2XEN1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2XEN1" />
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2XEN1S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 XEN CORE -->
+</add>
+<replace sel="//macros/macro[@name='Cluster_02_macro']/connections/connection[@name='C02S02_Region001_connection']/macro/properties/region">
+	<region ref="p1_40km_ice_field" />
+</replace>
+<!-- Let's try to solve the route problem -->
+<!-- v0.6 -->
+<remove sel="//macros/macro[@name='Cluster_01_macro']/connections/connection[@name='SuperHighway001_Cluster_01_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_01_macro']/connections/connection[@name='SuperHighway002_Cluster_01_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_01_macro']/connections/connection[@name='SuperHighway003_Cluster_01_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_01_macro']/connections/connection[@name='SuperHighway004_Cluster_01_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_01_macro']/connections/connection[@name='SuperHighway005_Cluster_01_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_01_macro']/connections/connection[@name='SuperHighway006_Cluster_01_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_04_macro']/connections/connection[@name='SuperHighway001_Cluster_04_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_04_macro']/connections/connection[@name='SuperHighway002_Cluster_04_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_06_macro']/connections/connection[@name='SuperHighway001_Cluster_06_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_06_macro']/connections/connection[@name='SuperHighway002_Cluster_06_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_15_macro']/connections/connection[@name='SuperHighway001_Cluster_15_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_15_macro']/connections/connection[@name='SuperHighway002_Cluster_15_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_19_macro']/connections/connection[@name='SuperHighway001_Cluster_19_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_19_macro']/connections/connection[@name='SuperHighway002_Cluster_19_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_21_macro']/connections/connection[@name='SuperHighway001_Cluster_21_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_21_macro']/connections/connection[@name='SuperHighway002_Cluster_21_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_25_macro']/connections/connection[@name='SuperHighway001_Cluster_25_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_25_macro']/connections/connection[@name='SuperHighway002_Cluster_25_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_26_macro']/connections/connection[@name='SuperHighway001_Cluster_26_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_26_macro']/connections/connection[@name='SuperHighway002_Cluster_26_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_29_macro']/connections/connection[@name='SuperHighway001_Cluster_29_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_29_macro']/connections/connection[@name='SuperHighway002_Cluster_29_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_32_macro']/connections/connection[@name='SuperHighway001_Cluster_32_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_32_macro']/connections/connection[@name='SuperHighway002_Cluster_32_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_42_macro']/connections/connection[@name='SuperHighway001_Cluster_42_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_42_macro']/connections/connection[@name='SuperHighway002_Cluster_42_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_50_macro']/connections/connection[@name='SuperHighway001_Cluster_50_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_50_macro']/connections/connection[@name='SuperHighway002_Cluster_50_connection']"/>
+</diff>
+
+

@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//god/stations">
+<!-- BEGIN ARGON -->
+	<station id="arg_defence_cluster_DA2ARGNE_sector001" race="argon" owner="argon" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO6_cluster_DA2ARGNE_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="argon" tags="[defence]" />
+      </station>
+    </station>
+	<station id="arg_defence_cluster_DA2ARGE_sector001" race="argon" owner="argon" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO3_cluster_DA2ARGE_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="argon" tags="[defence]" />
+      </station>
+    </station>
+	<station id="arg_defence_cluster_DA2ARGSE_sector001" race="argon" owner="argon" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO2_cluster_DA2ARGSE_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="argon" tags="[defence]" />
+      </station>
+    </station>
+	<station id="arg_defence_cluster_DA2ARGS_sector001" race="argon" owner="argon" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO2_cluster_DA2ARGS_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="argon" tags="[defence]" />
+      </station>
+    </station>
+	<station id="arg_defence_cluster_DA2ARGNW_sector001" race="argon" owner="argon" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO5_cluster_DA2ARGNW_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="argon" tags="[defence]" />
+      </station>
+    </station>
+	<station id="arg_defence_cluster_DA2ARGC_sector001" race="argon" owner="argon" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO6_cluster_DA2ARGC_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="argon" tags="[defence]" />
+      </station>
+    </station>
+<!-- END ARGON -->
+<!-- BEGIN HOP -->
+	<station id="hol_defence_cluster_DA2HOPNE_sector001" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO3_cluster_DA2HOPNE_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="holyorder" tags="[defence]" />
+      </station>
+    </station>
+	<station id="hol_defence_cluster_DA2HOPE_sector001" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO3_cluster_DA2HOPE_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="holyorder" tags="[defence]" />
+      </station>
+    </station>
+	<station id="hol_defence_cluster_DA2HOPSE_sector001" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO5_cluster_DA2HOPSE_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="holyorder" tags="[defence]" />
+      </station>
+    </station>
+	<station id="hol_defence_cluster_DA2HOPSW_sector001" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO4_cluster_DA2HOPSW_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="holyorder" tags="[defence]" />
+      </station>
+    </station>
+	<station id="hol_defence_cluster_DA2HOPN_sector001" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO3_cluster_DA2HOPN_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="holyorder" tags="[defence]" />
+      </station>
+    </station>
+	<station id="hol_defence_cluster_DA2HOPC_sector001" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO5_cluster_DA2HOPC_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="holyorder" tags="[defence]" />
+      </station>
+    </station>
+<!-- END HOP -->
+<!-- BEGIN PAR -->
+	<station id="par_defence_cluster_DA2PARNW_sector001" race="paranid" owner="paranid" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO5_cluster_DA2PARNW_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="paranid" tags="[defence]" />
+      </station>
+    </station>
+	<station id="par_defence_cluster_DA2PARW_sector001" race="paranid" owner="paranid" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO6_cluster_DA2PARW_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="paranid" tags="[defence]" />
+      </station>
+    </station>
+	<station id="par_defence_cluster_DA2PARSW_sector001" race="paranid" owner="paranid" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO3_cluster_DA2PARSW_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="paranid" tags="[defence]" />
+      </station>
+    </station>
+	<station id="par_defence_cluster_DA2PARSE_sector001" race="paranid" owner="paranid" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO4_cluster_DA2PARSE_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="paranid" tags="[defence]" />
+      </station>
+    </station>
+	<station id="par_defence_cluster_DA2PARN_sector001" race="paranid" owner="paranid" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO5_cluster_DA2PARN_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="paranid" tags="[defence]" />
+      </station>
+    </station>
+	<station id="par_defence_cluster_DA2PARC_sector001" race="paranid" owner="paranid" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO3_cluster_DA2PARC_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="paranid" tags="[defence]" />
+      </station>
+    </station>
+<!-- END PAR -->
+<!-- BEGIN TEL -->
+	<station id="tel_defence_cluster_DA2TELNW_sector001" race="teladi" owner="teladi" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO2_cluster_DA2TELNW_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="teladi" tags="[defence]" />
+      </station>
+    </station>
+	<station id="tel_defence_cluster_DA2TELW_sector001" race="teladi" owner="teladi" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO5_cluster_DA2TELW_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="teladi" tags="[defence]" />
+      </station>
+    </station>
+	<station id="tel_defence_cluster_DA2TELSW_sector001" race="teladi" owner="teladi" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO6_cluster_DA2TELSW_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="teladi" tags="[defence]" />
+      </station>
+    </station>
+	<station id="tel_defence_cluster_DA2TELS_sector001" race="teladi" owner="teladi" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO6_cluster_DA2TELS_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="teladi" tags="[defence]" />
+      </station>
+    </station>
+	<station id="tel_defence_cluster_DA2TELNE_sector001" race="teladi" owner="teladi" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO3_cluster_DA2TELNE_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="teladi" tags="[defence]" />
+      </station>
+    </station>
+	<station id="tel_defence_cluster_DA2TELC_sector001" race="teladi" owner="teladi" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO2_cluster_DA2TELC_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="teladi" tags="[defence]" />
+      </station>
+    </station>
+<!-- END TEL -->
+<!-- BEGIN HOP CORE -->
+	<station id="hol_defence_cluster_DA2HOP1_sector001" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO1_cluster_DA2HOP1_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="holyorder" tags="[defence]" />
+      </station>
+    </station>
+	<station id="hol_defence_cluster_DA2HOP2_sector001" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zoneDAGO4_cluster_DA2HOP2_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="holyorder" tags="[defence]" />
+      </station>
+    </station>
+<!-- END HOP CORE -->
+<!-- BEGIN XEN -->
+	<station id="xen_defence_cluster_DA2XEN1_sector001" race="xenon" owner="xenon" type="defence">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="ZoneDAGO2_Cluster_DA2XEN1_Sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="xenon" tags="[defence]" />
+      </station>
+    </station>
+</add>
+<replace sel="//god/stations/station[@id='ant_defence_cluster_13_sector001']">
+	<station id="arg_defence_cluster_13_sector001" race="argon" owner="argon" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zone001_cluster_13_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="argon" tags="[defence]" />
+      </station>
+    </station>
+</replace>
+<remove sel="//god/objects/object[@id='xen_79B_asteroidbase_01']"/>
+<remove sel="//god/objects/object[@id='xen_79B_smallstation_01']"/>
+<remove sel="//god/objects/object[@id='xen_79B_smallstation_02']"/>
+<remove sel="//god/objects/object[@id='xen_79B_smallstation_03']"/>
+<remove sel="//god/objects/object[@id='xen_79B_smallstation_04']"/>
+<remove sel="//god/objects/object[@id='xen_79B_smallstation_05']"/>
+<remove sel="//god/objects/object[@id='xen_79B_smallstation_06']"/>
+<remove sel="//god/objects/object[@id='xen_tc_smallstation_01']"/>
+<remove sel="//god/objects/object[@id='xen_tc_smallstation_02']"/>
+<remove sel="//god/objects/object[@id='xen_tc_smallstation_03']"/>
+<remove sel="//god/objects/object[@id='xen_tc_smallstation_04']"/>
+<replace sel="//god/products/product[@id='arg_meat']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="argon" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+<replace sel="//god/products/product[@id='arg_spices']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="argon" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+<replace sel="//god/products/product[@id='arg_wheat']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="argon" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+<replace sel="//god/products/product[@id='ant_meat']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="antigone" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+<replace sel="//god/products/product[@id='ant_spices']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="antigone" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+<replace sel="//god/products/product[@id='ant_wheat']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="antigone" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+<replace sel="//god/products/product[@id='tel_spaceweed']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+<replace sel="//god/products/product[@id='tel_spices']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+<replace sel="//god/products/product[@id='tel_sunriseflowers']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+<replace sel="//god/products/product[@id='tel_swampplant']/location">
+	<location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="self" comparison="ge" matchextension="false">
+		<economy max="0.25" maxbound="false" />
+	</location>
+</replace>
+</diff>

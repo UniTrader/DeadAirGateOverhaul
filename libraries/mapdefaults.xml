@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+	<add sel="//defaults">
+<!-- BEGIN DA1 -->
+		<dataset macro="Cluster_DA1_macro">
+			<properties>
+				<identification name="{20005,9006}" description="{20005,9006}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1_Sector001_macro">
+			<properties>
+				<identification name="{20005,9006}" description="{20005,9006}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1E_macro">
+			<properties>
+				<identification name="{20005,9002}" description="{20005,9002}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1E_Sector001_macro">
+			<properties>
+				<identification name="{20005,9002}" description="{20005,9002}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1W_macro">
+			<properties>
+				<identification name="{20005,9003}" description="{20005,9003}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1W_Sector001_macro">
+			<properties>
+				<identification name="{20005,9003}" description="{20005,9003}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1ARG_macro">
+			<properties>
+				<identification name="{20005,9005}" description="{20005,9005}" />
+				<sounds>
+					<music ref="music_cluster_28" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1ARG_Sector001_macro">
+			<properties>
+				<identification name="{20005,9005}" description="{20005,9005}" />
+				<sounds>
+					<music ref="music_cluster_28" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1HOP_macro">
+			<properties>
+				<identification name="{20005,9004}" description="{20005,9004}" />
+				<sounds>
+					<music ref="music_cluster_23" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1HOP_Sector001_macro">
+			<properties>
+				<identification name="{20005,9004}" description="{20005,9004}" />
+				<sounds>
+					<music ref="music_cluster_23" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1PAR_macro">
+			<properties>
+				<identification name="{20005,3046}" description="{20005,3046}" />
+				<sounds>
+					<music ref="music_cluster_18" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1PAR_Sector001_macro">
+			<properties>
+				<identification name="{20005,3046}" description="{20005,3046}" />
+				<sounds>
+					<music ref="music_cluster_18" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1TEL_macro">
+			<properties>
+				<identification name="{20005,9010}" description="{20005,9010}" />
+				<sounds>
+					<music ref="music_cluster_09" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA1TEL_Sector001_macro">
+			<properties>
+				<identification name="{20005,9010}" description="{20005,9010}" />
+				<sounds>
+					<music ref="music_cluster_09" />
+				</sounds>
+			</properties>
+		</dataset>
+<!-- END DA1 -->
+<!-- BEGIN DA2 NEUTRAL -->
+		<dataset macro="Cluster_DA2_macro">
+			<properties>
+				<identification name="{20005,9037}" description="{20005,9037}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2_Sector001_macro">
+			<properties>
+				<identification name="{20005,9037}" description="{20005,9037}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2N_macro">
+			<properties>
+				<identification name="{20005,9008}" description="{20005,9008}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2N_Sector001_macro">
+			<properties>
+				<identification name="{20005,9008}" description="{20005,9008}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2E_macro">
+			<properties>
+				<identification name="{20005,9009}" description="{20005,9009}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2E_Sector001_macro">
+			<properties>
+				<identification name="{20005,9009}" description="{20005,9009}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2S_macro">
+			<properties>
+				<identification name="{20005,9012}" description="{20005,9012}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2S_Sector001_macro">
+			<properties>
+				<identification name="{20005,9012}" description="{20005,9012}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2W_macro">
+			<properties>
+				<identification name="{20005,9013}" description="{20005,9013}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2W_Sector001_macro">
+			<properties>
+				<identification name="{20005,9013}" description="{20005,9013}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+<!-- END DA2 NEUTRAL -->
+<!-- BEGIN DA2 ARG -->
+		<dataset macro="Cluster_DA2ARGNE_macro">
+			<properties>
+				<identification name="{20005,1008}" description="{20005,1008}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGNE_Sector001_macro">
+			<properties>
+				<identification name="{20005,1008}" description="{20005,1008}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGE_macro">
+			<properties>
+				<identification name="{20005,1014}" description="{20005,1014}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGE_Sector001_macro">
+			<properties>
+				<identification name="{20005,1014}" description="{20005,1014}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGSE_macro">
+			<properties>
+				<identification name="{20005,1017}" description="{20005,1017}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGSE_Sector001_macro">
+			<properties>
+				<identification name="{20005,1017}" description="{20005,1017}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGS_macro">
+			<properties>
+				<identification name="{20005,1018}" description="{20005,1018}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGS_Sector001_macro">
+			<properties>
+				<identification name="{20005,1018}" description="{20005,1018}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGNW_macro">
+			<properties>
+				<identification name="{20005,1020}" description="{20005,1020}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGNW_Sector001_macro">
+			<properties>
+				<identification name="{20005,1020}" description="{20005,1020}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGC_macro">
+			<properties>
+				<identification name="{20005,1021}" description="{20005,1021}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2ARGC_Sector001_macro">
+			<properties>
+				<identification name="{20005,1021}" description="{20005,1021}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+<!-- END DA2 ARG -->
+<!-- BEGIN DA2 HOP -->
+		<dataset macro="Cluster_DA2HOPNE_macro">
+			<properties>
+				<identification name="{20005,3004}" description="{20005,3004}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPNE_Sector001_macro">
+			<properties>
+				<identification name="{20005,3004}" description="{20005,3004}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPE_macro">
+			<properties>
+				<identification name="{20005,3010}" description="{20005,3010}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPE_Sector001_macro">
+			<properties>
+				<identification name="{20005,3010}" description="{20005,3010}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPSE_macro">
+			<properties>
+				<identification name="{20005,3011}" description="{20005,3011}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPSE_Sector001_macro">
+			<properties>
+				<identification name="{20005,3011}" description="{20005,3011}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPSW_macro">
+			<properties>
+				<identification name="{20005,3013}" description="{20005,3013}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPSW_Sector001_macro">
+			<properties>
+				<identification name="{20005,3013}" description="{20005,3013}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPN_macro">
+			<properties>
+				<identification name="{20005,3016}" description="{20005,3016}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPN_Sector001_macro">
+			<properties>
+				<identification name="{20005,3016}" description="{20005,3016}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPC_macro">
+			<properties>
+				<identification name="{20005,3017}" description="{20005,3017}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOPC_Sector001_macro">
+			<properties>
+				<identification name="{20005,3017}" description="{20005,3017}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+<!-- END DA2 HOP -->
+<!-- BEGIN DA2 PAR -->
+		<dataset macro="Cluster_DA2PARNW_macro">
+			<properties>
+				<identification name="{20005,3018}" description="{20005,3018}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARNW_Sector001_macro">
+			<properties>
+				<identification name="{20005,3018}" description="{20005,3018}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARW_macro">
+			<properties>
+				<identification name="{20005,3019}" description="{20005,3019}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARW_Sector001_macro">
+			<properties>
+				<identification name="{20005,3019}" description="{20005,3019}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARSW_macro">
+			<properties>
+				<identification name="{20005,3022}" description="{20005,3022}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARSW_Sector001_macro">
+			<properties>
+				<identification name="{20005,3022}" description="{20005,3022}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARSE_macro">
+			<properties>
+				<identification name="{20005,3024}" description="{20005,3024}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARSE_Sector001_macro">
+			<properties>
+				<identification name="{20005,3024}" description="{20005,3024}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARN_macro">
+			<properties>
+				<identification name="{20005,3037}" description="{20005,3037}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARN_Sector001_macro">
+			<properties>
+				<identification name="{20005,3037}" description="{20005,3037}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARC_macro">
+			<properties>
+				<identification name="{20005,3038}" description="{20005,3038}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2PARC_Sector001_macro">
+			<properties>
+				<identification name="{20005,3038}" description="{20005,3038}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+<!-- END DA2 PAR -->
+<!-- BEGIN DA2 TEL -->
+		<dataset macro="Cluster_DA2TELNW_macro">
+			<properties>
+				<identification name="{20005,6013}" description="{20005,6013}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELNW_Sector001_macro">
+			<properties>
+				<identification name="{20005,6013}" description="{20005,6013}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELW_macro">
+			<properties>
+				<identification name="{20005,6015}" description="{20005,6015}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELW_Sector001_macro">
+			<properties>
+				<identification name="{20005,6015}" description="{20005,6015}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELSW_macro">
+			<properties>
+				<identification name="{20005,6016}" description="{20005,6016}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELSW_Sector001_macro">
+			<properties>
+				<identification name="{20005,6016}" description="{20005,6016}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELS_macro">
+			<properties>
+				<identification name="{20005,6018}" description="{20005,6018}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELS_Sector001_macro">
+			<properties>
+				<identification name="{20005,6018}" description="{20005,6018}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELNE_macro">
+			<properties>
+				<identification name="{20005,6019}" description="{20005,6019}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELNE_Sector001_macro">
+			<properties>
+				<identification name="{20005,6019}" description="{20005,6019}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELC_macro">
+			<properties>
+				<identification name="{20005,6023}" description="{20005,6023}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2TELC_Sector001_macro">
+			<properties>
+				<identification name="{20005,6023}" description="{20005,6023}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+<!-- END DA2 TEL -->
+<!-- BEGIN DA2 HOP CORE -->
+		<dataset macro="Cluster_DA2HOP1_macro">
+			<properties>
+				<identification name="{20005,3044}" description="{20005,3044}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.7" security="0.75" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOP1_Sector001_macro">
+			<properties>
+				<identification name="{20005,3044}" description="{20005,3044}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOP2_macro">
+			<properties>
+				<identification name="{20005,3045}" description="{20005,3045}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.7" security="0.75" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2HOP2_Sector001_macro">
+			<properties>
+				<identification name="{20005,3045}" description="{20005,3045}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+<!-- END DA2 HOP CORE -->
+<!-- BEGIN DA2 XEN CORE -->
+		<dataset macro="Cluster_DA2XEN1_macro">
+			<properties>
+				<identification name="{20005,9030}" description="{20005,9030}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA2XEN1_Sector001_macro">
+			<properties>
+				<identification name="{20005,9030}" description="{20005,9030}" />
+				<sounds>
+					<music ref="music_cluster_14" />
+				</sounds>
+			</properties>
+		</dataset>
+	</add>
+<!-- 
+CORE: <area sunlight="1" economy="0.75" security="0.75" />
+OCCUPIED: <area sunlight="1" economy="0.5" security="0.5" />
+BORDER: <area sunlight="1" economy="0.25" security="0.25" />
+NEUTRAL: <area sunlight="1" economy="0.5" security="0.1" />
+-->
+<replace sel="//defaults/dataset[@macro='Cluster_01_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_02_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_03_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_05_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_06_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_07_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_08_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_09_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_10_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_11_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_12_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_13_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_14_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_15_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_18_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_19_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_20_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_22_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_23_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_24_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_27_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_28_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_29_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_30_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_34_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_35_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_36_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_37_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_38_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_39_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_40_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_41_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_42_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_43_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_46_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_47_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
+
+</diff>

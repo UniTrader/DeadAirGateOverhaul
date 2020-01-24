@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<replace sel="//macros/macro[@name='XU_EP2_universe_macro']/connections">
+  <connections>
+      <connection name="Cluster_01_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="34640000" />
+        </offset>
+		<macro ref="Cluster_01_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_02_connection" ref="clusters">
+        <offset>
+          <position x="90000000" y="0" z="17320000" />
+        </offset>
+        <macro ref="Cluster_02_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_03_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="51960000" />
+        </offset>
+        <macro ref="Cluster_03_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_04_connection" ref="clusters">
+        <offset>
+          <position x="0" y="0" z="-17320000" />
+        </offset>
+        <macro ref="Cluster_04_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_05_connection" ref="clusters">
+        <offset>
+          <position x="45000000" y="0" z="25980000" />
+        </offset>
+        <macro ref="Cluster_05_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_06_connection" ref="clusters">
+        <offset>
+          <position x="-30000000" y="0" z="34640000" />
+        </offset>
+        <macro ref="Cluster_06_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_07_connection" ref="clusters">
+        <offset>
+          <position x="-60000000" y="0" z="34640000" />
+        </offset>
+        <macro ref="Cluster_07_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_08_connection" ref="clusters">
+        <offset>
+          <position x="-30000000" y="0" z="51960000" />
+        </offset>
+        <macro ref="Cluster_08_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_09_connection" ref="clusters">
+        <offset>
+          <position x="60000000" y="0" z="51960000" />
+        </offset>
+        <macro ref="Cluster_09_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_10_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="-34640000" />
+        </offset>
+        <macro ref="Cluster_10_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_11_connection" ref="clusters">
+        <offset>
+          <position x="-30000000" y="0" z="-34640000" />
+        </offset>
+        <macro ref="Cluster_11_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_12_connection" ref="clusters">
+        <offset>
+          <position x="-45000000" y="0" z="-25980000" />
+        </offset>
+        <macro ref="Cluster_12_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_13_connection" ref="clusters">
+        <offset>
+          <position x="-45000000" y="0" z="25980000" />
+        </offset>
+        <macro ref="Cluster_13_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_14_connection" ref="clusters">
+        <offset>
+          <position x="-45000000" y="0" z="43300000" />
+        </offset>
+        <macro ref="Cluster_14_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_15_connection" ref="clusters">
+        <offset>
+          <position x="60000000" y="0" z="34640000" />
+        </offset>
+        <macro ref="Cluster_15_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_16_connection" ref="clusters">
+        <offset>
+          <position x="60000000" y="0" z="69280000" />
+        </offset>
+        <macro ref="Cluster_16_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_17_connection" ref="clusters">
+        <offset>
+          <position x="45000000" y="0" z="77940000" />
+        </offset>
+        <macro ref="Cluster_17_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_18_connection" ref="clusters">
+        <offset>
+          <position x="45000000" y="0" z="-43300000" />
+        </offset>
+        <macro ref="Cluster_18_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_19_connection" ref="clusters">
+        <offset>
+          <position x="60000000" y="0" z="17320000" />
+        </offset>
+        <macro ref="Cluster_19_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_20_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="69280000" />
+        </offset>
+        <macro ref="Cluster_20_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_21_connection" ref="clusters">
+        <offset>
+          <position x="75000000" y="0" z="-25980000" />
+        </offset>
+        <macro ref="Cluster_21_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_22_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="-51960000" />
+        </offset>
+        <macro ref="Cluster_22_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_23_connection" ref="clusters">
+        <offset>
+          <position x="60000000" y="0" z="-34640000" />
+        </offset>
+        <macro ref="Cluster_23_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_24_connection" ref="clusters">
+        <offset>
+          <position x="-45000000" y="0" z="-43300000" />
+        </offset>
+        <macro ref="Cluster_24_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_25_connection" ref="clusters">
+        <offset>
+          <position x="-75000000" y="0" z="-43300000" />
+        </offset>
+        <macro ref="Cluster_25_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_26_connection" ref="clusters">
+        <offset>
+          <position x="-75000000" y="0" z="-25980000" />
+        </offset>
+        <macro ref="Cluster_26_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_27_connection" ref="clusters">
+        <offset>
+          <position x="-75000000" y="0" z="25980000" />
+        </offset>
+        <macro ref="Cluster_27_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_28_connection" ref="clusters">
+        <offset>
+          <position x="-90000000" y="0" z="17320000" />
+        </offset>
+        <macro ref="Cluster_28_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_29_connection" ref="clusters">
+        <offset>
+          <position x="-30000000" y="0" z="69280000" />
+        </offset>
+        <macro ref="Cluster_29_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_30_connection" ref="clusters">
+        <offset>
+          <position x="-45000000" y="0" z="60620000" />
+        </offset>
+        <macro ref="Cluster_30_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_31_connection" ref="clusters">
+        <offset>
+          <position x="0" y="0" z="-86600000" />
+        </offset>
+        <macro ref="Cluster_31_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_32_connection" ref="clusters">
+        <offset>
+          <position x="-60000000" y="0" z="69280000" />
+        </offset>
+        <macro ref="Cluster_32_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_33_connection" ref="clusters">
+        <offset>
+          <position x="-45000000" y="0" z="77940000" />
+        </offset>
+        <macro ref="Cluster_33_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_34_connection" ref="clusters">
+        <offset>
+          <position x="45000000" y="0" z="43300000" />
+        </offset>
+        <macro ref="Cluster_34_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_35_connection" ref="clusters">
+        <offset>
+          <position x="-45000000" y="0" z="-60620000" />
+        </offset>
+        <macro ref="Cluster_35_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_36_connection" ref="clusters">
+        <offset>
+          <position x="-60000000" y="0" z="-51960000" />
+        </offset>
+        <macro ref="Cluster_36_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_37_connection" ref="clusters">
+        <offset>
+          <position x="60000000" y="0" z="-51960000" />
+        </offset>
+        <macro ref="Cluster_37_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_38_connection" ref="clusters">
+        <offset>
+          <position x="45000000" y="0" z="-60620000" />
+        </offset>
+        <macro ref="Cluster_38_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_39_connection" ref="clusters">
+        <offset>
+          <position x="45000000" y="0" z="60620000" />
+        </offset>
+        <macro ref="Cluster_39_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_40_connection" ref="clusters">
+        <offset>
+          <position x="-75000000" y="0" z="8660000" />
+        </offset>
+        <macro ref="Cluster_40_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_41_connection" ref="clusters">
+        <offset>
+          <position x="-60000000" y="0" z="17320000" />
+        </offset>
+        <macro ref="Cluster_41_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_42_connection" ref="clusters">
+        <offset>
+          <position x="75000000" y="0" z="8660000" />
+        </offset>
+        <macro ref="Cluster_42_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_43_connection" ref="clusters">
+        <offset>
+          <position x="75000000" y="0" z="25980000" />
+        </offset>
+        <macro ref="Cluster_43_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_44_connection" ref="clusters">
+        <offset>
+          <position x="0" y="0" z="86600000" />
+        </offset>
+        <macro ref="Cluster_44_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_45_connection" ref="clusters">
+        <offset>
+          <position x="-15000000" y="0" z="95260000" />
+        </offset>
+        <macro ref="Cluster_45_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_46_connection" ref="clusters">
+        <offset>
+          <position x="-60000000" y="0" z="51960000" />
+        </offset>
+        <macro ref="Cluster_46_macro" connection="galaxy" />
+      </connection>
+      <connection name="Cluster_47_connection" ref="clusters">
+        <offset>
+          <position x="45000000" y="0" z="-25980000" />
+        </offset>
+        <macro ref="Cluster_47_macro" connection="galaxy" />
+      </connection>
+	  <!-- 3.0 Beta 5 -->
+	  <connection name="Cluster_48_connection" ref="clusters">
+        <offset>
+          <position x="15000000" y="0" z="77940000" />
+        </offset>
+        <macro ref="Cluster_48_macro" connection="galaxy" />
+      </connection>
+	  <connection name="Cluster_49_connection" ref="clusters">
+        <offset>
+          <position x="-15000000" y="0" z="-77940000" />
+        </offset>
+        <macro ref="Cluster_49_macro" connection="galaxy" />
+      </connection>
+	  <connection name="Cluster_50_connection" ref="clusters">
+        <offset>
+          <position x="0" y="0" z="34640000" />
+        </offset>
+        <macro ref="Cluster_50_macro" connection="galaxy" />
+      </connection>
+  </connections>
+</replace>
+<add sel="//macros/macro[@name='XU_EP2_universe_macro']/connections">
+<!-- BEGIN DA1 -->
+	<connection name="Cluster_DA1_connection" ref="clusters">
+		<offset>
+			<position x="0" y="0" z="17320000" />
+        </offset>
+        <macro ref="Cluster_DA1_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA1E_connection" ref="clusters">
+		<offset>
+			<position x="30000000" y="0" z="0" />
+        </offset>
+        <macro ref="Cluster_DA1E_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA1W_connection" ref="clusters">
+		<offset>
+			<position x="-30000000" y="0" z="0" />
+        </offset>
+        <macro ref="Cluster_DA1W_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA1ARG_connection" ref="clusters">
+		<offset>
+			<position x="-75000000" y="0" z="43300000" />
+        </offset>
+        <macro ref="Cluster_DA1ARG_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA1HOP_connection" ref="clusters">
+		<offset>
+			<position x="-60000000" y="0" z="-69280000" />
+        </offset>
+        <macro ref="Cluster_DA1HOP_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA1PAR_connection" ref="clusters">
+		<offset>
+			<position x="60000000" y="0" z="-69280000" />
+        </offset>
+        <macro ref="Cluster_DA1PAR_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA1TEL_connection" ref="clusters">
+		<offset>
+			<position x="75000000" y="0" z="43300000" />
+        </offset>
+        <macro ref="Cluster_DA1TEL_macro" connection="galaxy" />
+	</connection>
+<!-- END DA1 -->
+<!-- BEGIN DA2 NEUTRAL -->
+	<connection name="Cluster_DA2_connection" ref="clusters">
+		<!--<offset>
+			<position x="0" y="0" z="0" />
+        </offset>-->
+        <macro ref="Cluster_DA2_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2N_connection" ref="clusters">
+		<offset>
+			<position x="0" y="0" z="69280000" />
+        </offset>
+        <macro ref="Cluster_DA2N_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2E_connection" ref="clusters">
+		<offset>
+			<position x="60000000" y="0" z="0" />
+        </offset>
+        <macro ref="Cluster_DA2E_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2S_connection" ref="clusters">
+		<offset>
+			<position x="0" y="0" z="-69280000" />
+        </offset>
+        <macro ref="Cluster_DA2S_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2W_connection" ref="clusters">
+		<offset>
+			<position x="-60000000" y="0" z="0" />
+        </offset>
+        <macro ref="Cluster_DA2W_macro" connection="galaxy" />
+	</connection>
+<!-- END DA2 NEUTRAL -->
+<!-- BEGIN DA2 ARG -->
+	<connection name="Cluster_DA2ARGNE_connection" ref="clusters">
+		<offset>
+			<position x="-15000000" y="0" z="60620000" />
+        </offset>
+        <macro ref="Cluster_DA2ARGNE_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2ARGE_connection" ref="clusters">
+		<offset>
+			<position x="-15000000" y="0" z="43300000" />
+        </offset>
+        <macro ref="Cluster_DA2ARGE_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2ARGSE_connection" ref="clusters">
+		<offset>
+			<position x="-15000000" y="0" z="25980000" />
+        </offset>
+        <macro ref="Cluster_DA2ARGSE_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2ARGS_connection" ref="clusters">
+		<offset>
+			<position x="-45000000" y="0" z="8660000" />
+        </offset>
+        <macro ref="Cluster_DA2ARGS_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2ARGNW_connection" ref="clusters">
+		<offset>
+			<position x="-75000000" y="0" z="60620000" />
+        </offset>
+        <macro ref="Cluster_DA2ARGNW_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2ARGC_connection" ref="clusters">
+		<offset>
+			<position x="-15000000" y="0" z="8660000" />
+        </offset>
+        <macro ref="Cluster_DA2ARGC_macro" connection="galaxy" />
+	</connection>
+<!-- END DA2 ARG -->
+<!-- BEGIN DA2 HOP -->
+	<connection name="Cluster_DA2HOPNE_connection" ref="clusters">
+		<offset>
+			<position x="-15000000" y="0" z="-25980000" />
+        </offset>
+        <macro ref="Cluster_DA2HOPNE_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2HOPE_connection" ref="clusters">
+		<offset>
+			<position x="-15000000" y="0" z="-43300000" />
+        </offset>
+        <macro ref="Cluster_DA2HOPE_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2HOPSE_connection" ref="clusters">
+		<offset>
+			<position x="-15000000" y="0" z="-60620000" />
+        </offset>
+        <macro ref="Cluster_DA2HOPSE_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2HOPSW_connection" ref="clusters">
+		<offset>
+			<position x="-75000000" y="0" z="-60620000" />
+        </offset>
+        <macro ref="Cluster_DA2HOPSW_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2HOPN_connection" ref="clusters">
+		<offset>
+			<position x="-45000000" y="0" z="-8660000" />
+        </offset>
+        <macro ref="Cluster_DA2HOPN_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2HOPC_connection" ref="clusters">
+		<offset>
+			<position x="-15000000" y="0" z="-8660000" />
+        </offset>
+        <macro ref="Cluster_DA2HOPC_macro" connection="galaxy" />
+	</connection>
+<!-- END DA2 HOP -->
+<!-- BEGIN DA2 PAR -->
+	<connection name="Cluster_DA2PARNW_connection" ref="clusters">
+		<offset>
+			<position x="15000000" y="0" z="-25980000" />
+        </offset>
+        <macro ref="Cluster_DA2PARNW_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2PARW_connection" ref="clusters">
+		<offset>
+			<position x="15000000" y="0" z="-43300000" />
+        </offset>
+        <macro ref="Cluster_DA2PARW_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2PARSW_connection" ref="clusters">
+		<offset>
+			<position x="15000000" y="0" z="-60620000" />
+        </offset>
+        <macro ref="Cluster_DA2PARSW_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2PARSE_connection" ref="clusters">
+		<offset>
+			<position x="75000000" y="0" z="-60620000" />
+        </offset>
+        <macro ref="Cluster_DA2PARSE_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2PARN_connection" ref="clusters">
+		<offset>
+			<position x="45000000" y="0" z="-8660000" />
+        </offset>
+        <macro ref="Cluster_DA2PARN_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2PARC_connection" ref="clusters">
+		<offset>
+			<position x="15000000" y="0" z="-8660000" />
+        </offset>
+        <macro ref="Cluster_DA2PARC_macro" connection="galaxy" />
+	</connection>
+<!-- END DA2 PAR -->
+<!-- BEGIN DA2 TEL -->
+	<connection name="Cluster_DA2TELNW_connection" ref="clusters">
+		<offset>
+			<position x="15000000" y="0" z="60620000" />
+        </offset>
+        <macro ref="Cluster_DA2TELNW_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2TELW_connection" ref="clusters">
+		<offset>
+			<position x="15000000" y="0" z="43300000" />
+        </offset>
+        <macro ref="Cluster_DA2TELW_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2TELSW_connection" ref="clusters">
+		<offset>
+			<position x="15000000" y="0" z="25980000" />
+        </offset>
+        <macro ref="Cluster_DA2TELSW_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2TELS_connection" ref="clusters">
+		<offset>
+			<position x="45000000" y="0" z="8660000" />
+        </offset>
+        <macro ref="Cluster_DA2TELS_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2TELNE_connection" ref="clusters">
+		<offset>
+			<position x="75000000" y="0" z="60620000" />
+        </offset>
+        <macro ref="Cluster_DA2TELNE_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2TELC_connection" ref="clusters">
+		<offset>
+			<position x="15000000" y="0" z="8660000" />
+        </offset>
+        <macro ref="Cluster_DA2TELC_macro" connection="galaxy" />
+	</connection>
+<!-- END DA2 TEL -->
+<!-- BEGIN DA2 HOP CORE -->
+	<connection name="Cluster_DA2HOP1_connection" ref="clusters">
+		<offset>
+			<position x="-60000000" y="0" z="-34640000" />
+        </offset>
+        <macro ref="Cluster_DA2HOP1_macro" connection="galaxy" />
+	</connection>
+	<connection name="Cluster_DA2HOP2_connection" ref="clusters">
+		<offset>
+			<position x="-30000000" y="0" z="-51960000" />
+        </offset>
+        <macro ref="Cluster_DA2HOP2_macro" connection="galaxy" />
+	</connection>
+<!-- END DA2 HOP CORE -->
+<!-- BEGIN DA2 XEN CORE -->
+	<connection name="Cluster_DA2XEN1_connection" ref="clusters">
+		<offset>
+			<position x="75000000" y="0" z="-43300000" />
+        </offset>
+        <macro ref="Cluster_DA2XEN1_macro" connection="galaxy" />
+	</connection>
+<!-- END DA2 XEN CORE -->
+<!-- BEGIN CONNECTING THE UNIVERSE -->
+<!-- BEGIN ARG/ANT GATES -->
+	<connection name="ClusterGate033To032" ref="destination" path="../Cluster_33_connection/Cluster_33_Sector001_connection/ZoneDAGO5_Cluster_33_Sector001_connection/connection_ClusterGate033To032">
+		<macro connection="destination" path="../../../../../Cluster_32_connection/Cluster_32_Sector002_connection/ZoneDAGO2_Cluster_32_Sector002_connection/connection_ClusterGate032To033" />
+	</connection>
+	
+	<connection name="ClusterGate032ToDA2ARGNW" ref="destination" path="../Cluster_32_connection/Cluster_32_Sector001_connection/ZoneDAGO5_Cluster_32_Sector001_connection/connection_ClusterGate032ToDA2ARGNW">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGNW_connection/Cluster_DA2ARGNW_Sector001_connection/ZoneDAGO2_Cluster_DA2ARGNW_Sector001_connection/connection_ClusterGateDA2ARGNWTo032" />
+	</connection>
+	
+	<connection name="ClusterGateDA2ARGNWTo046" ref="destination" path="../Cluster_DA2ARGNW_connection/Cluster_DA2ARGNW_Sector001_connection/ZoneDAGO3_Cluster_DA2ARGNW_Sector001_connection/connection_ClusterGateDA2ARGNWTo046">
+		<macro connection="destination" path="../../../../../Cluster_46_connection/Cluster_46_Sector001_connection/ZoneDAGO6_Cluster_46_Sector001_connection/connection_ClusterGate046ToDA2ARGNW" />
+	</connection>
+	
+	<connection name="ClusterGate046To030" ref="destination" path="../Cluster_46_connection/Cluster_46_Sector001_connection/ZoneDAGO2_Cluster_46_Sector001_connection/connection_ClusterGate046To030">
+		<macro connection="destination" path="../../../../../Cluster_30_connection/Cluster_30_Sector001_connection/ZoneDAGO5_Cluster_30_Sector001_connection/connection_ClusterGate030To046" />
+	</connection>
+	<connection name="ClusterGate046To014" ref="destination" path="../Cluster_46_connection/Cluster_46_Sector001_connection/ZoneDAGO3_Cluster_46_Sector001_connection/connection_ClusterGate046To014">
+		<macro connection="destination" path="../../../../../Cluster_14_connection/Cluster_14_Sector001_connection/ZoneDAGO6_Cluster_14_Sector001_connection/connection_ClusterGate014To046" />
+	</connection>
+	<connection name="ClusterGate046To007" ref="destination" path="../Cluster_46_connection/Cluster_46_Sector001_connection/ZoneDAGO4_Cluster_46_Sector001_connection/connection_ClusterGate046To007">
+		<macro connection="destination" path="../../../../../Cluster_07_connection/Cluster_07_Sector001_connection/ZoneDAGO1_Cluster_07_Sector001_connection/connection_ClusterGate007To046" />
+	</connection>
+	
+	<connection name="ClusterGate030To029" ref="destination" path="../Cluster_30_connection/Cluster_30_Sector001_connection/ZoneDAGO2_Cluster_30_Sector001_connection/connection_ClusterGate030To029">
+		<macro connection="destination" path="../../../../../Cluster_29_connection/Cluster_29_Sector001_connection/ZoneDAGO5_Cluster_29_Sector001_connection/connection_ClusterGate029To030" />
+	</connection>
+	<connection name="ClusterGate030To008" ref="destination" path="../Cluster_30_connection/Cluster_30_Sector001_connection/ZoneDAGO3_Cluster_30_Sector001_connection/connection_ClusterGate030To008">
+		<macro connection="destination" path="../../../../../Cluster_08_connection/Cluster_08_Sector001_connection/ZoneDAGO6_Cluster_08_Sector001_connection/connection_ClusterGate008To030" />
+	</connection>
+	<connection name="ClusterGate030To014" ref="destination" path="../Cluster_30_connection/Cluster_30_Sector001_connection/ZoneDAGO4_Cluster_30_Sector001_connection/connection_ClusterGate030To014">
+		<macro connection="destination" path="../../../../../Cluster_14_connection/Cluster_14_Sector001_connection/ZoneDAGO1_Cluster_14_Sector001_connection/connection_ClusterGate014To030" />
+	</connection>
+	
+	<connection name="ClusterGate014To008" ref="destination" path="../Cluster_14_connection/Cluster_14_Sector001_connection/ZoneDAGO2_Cluster_14_Sector001_connection/connection_ClusterGate014To008">
+		<macro connection="destination" path="../../../../../Cluster_08_connection/Cluster_08_Sector001_connection/ZoneDAGO5_Cluster_08_Sector001_connection/connection_ClusterGate008To014" />
+	</connection>
+	<connection name="ClusterGate014To006" ref="destination" path="../Cluster_14_connection/Cluster_14_Sector001_connection/ZoneDAGO3_Cluster_14_Sector001_connection/connection_ClusterGate014To006">
+		<macro connection="destination" path="../../../../../Cluster_06_connection/Cluster_06_Sector001_connection/ZoneDAGO6_Cluster_06_Sector001_connection/connection_ClusterGate006To014" />
+	</connection>
+	<connection name="ClusterGate014To013" ref="destination" path="../Cluster_14_connection/Cluster_14_Sector001_connection/ZoneDAGO4_Cluster_14_Sector001_connection/connection_ClusterGate014To013">
+		<macro connection="destination" path="../../../../../Cluster_13_connection/Cluster_13_Sector001_connection/ZoneDAGO1_Cluster_13_Sector001_connection/connection_ClusterGate013To014" />
+	</connection>
+	<connection name="ClusterGate014To007" ref="destination" path="../Cluster_14_connection/Cluster_14_Sector001_connection/ZoneDAGO5_Cluster_14_Sector001_connection/connection_ClusterGate014To007">
+		<macro connection="destination" path="../../../../../Cluster_07_connection/Cluster_07_Sector001_connection/ZoneDAGO2_Cluster_07_Sector001_connection/connection_ClusterGate007To014" />
+	</connection>
+	
+	<connection name="ClusterGate007To013" ref="destination" path="../Cluster_07_connection/Cluster_07_Sector001_connection/ZoneDAGO3_Cluster_07_Sector001_connection/connection_ClusterGate007To013">
+		<macro connection="destination" path="../../../../../Cluster_13_connection/Cluster_13_Sector001_connection/ZoneDAGO6_Cluster_13_Sector001_connection/connection_ClusterGate013To007" />
+	</connection>
+	<connection name="ClusterGate007ToDA1ARG" ref="destination" path="../Cluster_07_connection/Cluster_07_Sector001_connection/ZoneDAGO6_Cluster_07_Sector001_connection/connection_ClusterGate007ToDA1ARG">
+		<macro connection="destination" path="../../../../../Cluster_DA1ARG_connection/Cluster_DA1ARG_Sector001_connection/ZoneDAGO3_Cluster_DA1ARG_Sector001_connection/connection_ClusterGateDA1ARGTo007" />
+	</connection>
+	
+	<connection name="ClusterGate008ToDA2ARGNE" ref="destination" path="../Cluster_08_connection/Cluster_08_Sector001_connection/ZoneDAGO2_Cluster_08_Sector001_connection/connection_ClusterGate008ToDA2ARGNE">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGNE_connection/Cluster_DA2ARGNE_Sector001_connection/ZoneDAGO5_Cluster_DA2ARGNE_Sector001_connection/connection_ClusterGateDA2ARGNETo008" />
+	</connection>
+	<connection name="ClusterGate008ToDA2ARGE" ref="destination" path="../Cluster_08_connection/Cluster_08_Sector001_connection/ZoneDAGO3_Cluster_08_Sector001_connection/connection_ClusterGate008ToDA2ARGE">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGE_connection/Cluster_DA2ARGE_Sector001_connection/ZoneDAGO6_Cluster_DA2ARGE_Sector001_connection/connection_ClusterGateDA2ARGETo008" />
+	</connection>
+	<connection name="ClusterGate008To006" ref="destination" path="../Cluster_08_connection/Cluster_08_Sector001_connection/ZoneDAGO4_Cluster_08_Sector001_connection/connection_ClusterGate008To006">
+		<macro connection="destination" path="../../../../../Cluster_06_connection/Cluster_06_Sector001_connection/ZoneDAGO1_Cluster_06_Sector001_connection/connection_ClusterGate006To008" />
+	</connection>
+	
+	<connection name="ClusterGate006ToDA2ARGE" ref="destination" path="../Cluster_06_connection/Cluster_06_Sector002_connection/ZoneDAGO2_Cluster_06_Sector002_connection/connection_ClusterGate006ToDA2ARGE">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGE_connection/Cluster_DA2ARGE_Sector001_connection/ZoneDAGO5_Cluster_DA2ARGE_Sector001_connection/connection_ClusterGateDA2ARGETo006" />
+	</connection>
+	<connection name="ClusterGate006ToDA2ARGSE" ref="destination" path="../Cluster_06_connection/Cluster_06_Sector002_connection/ZoneDAGO3_Cluster_06_Sector002_connection/connection_ClusterGate006ToDA2ARGSE">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGSE_connection/Cluster_DA2ARGSE_Sector001_connection/ZoneDAGO6_Cluster_DA2ARGSE_Sector001_connection/connection_ClusterGateDA2ARGSETo006" />
+	</connection>
+	<connection name="ClusterGate006To013" ref="destination" path="../Cluster_06_connection/Cluster_06_Sector001_connection/ZoneDAGO5_Cluster_06_Sector001_connection/connection_ClusterGate006To013">
+		<macro connection="destination" path="../../../../../Cluster_13_connection/Cluster_13_Sector001_connection/ZoneDAGO2_Cluster_13_Sector001_connection/connection_ClusterGate013To006" />
+	</connection>
+	
+	<connection name="ClusterGate013ToDA2ARGS" ref="destination" path="../Cluster_13_connection/Cluster_13_Sector001_connection/ZoneDAGO4_Cluster_13_Sector001_connection/connection_ClusterGate013ToDA2ARGS">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGS_connection/Cluster_DA2ARGS_Sector001_connection/ZoneDAGO1_Cluster_DA2ARGS_Sector001_connection/connection_ClusterGateDA2ARGSTo013" />
+	</connection>
+	<connection name="ClusterGate013To041" ref="destination" path="../Cluster_13_connection/Cluster_13_Sector001_connection/ZoneDAGO5_Cluster_13_Sector001_connection/connection_ClusterGate013To041">
+		<macro connection="destination" path="../../../../../Cluster_41_connection/Cluster_41_Sector001_connection/ZoneDAGO2_Cluster_41_Sector001_connection/connection_ClusterGate041To013" />
+	</connection>
+	
+	<connection name="ClusterGate041ToDA2ARGS" ref="destination" path="../Cluster_41_connection/Cluster_41_Sector001_connection/ZoneDAGO3_Cluster_41_Sector001_connection/connection_ClusterGate041ToDA2ARGS">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGS_connection/Cluster_DA2ARGS_Sector001_connection/ZoneDAGO6_Cluster_DA2ARGS_Sector001_connection/connection_ClusterGateDA2ARGSTo041" />
+	</connection>
+	<connection name="ClusterGate041To040" ref="destination" path="../Cluster_41_connection/Cluster_41_Sector001_connection/ZoneDAGO5_Cluster_41_Sector001_connection/connection_ClusterGate041To040">
+		<macro connection="destination" path="../../../../../Cluster_40_connection/Cluster_40_Sector001_connection/ZoneDAGO2_Cluster_40_Sector001_connection/connection_ClusterGate040To041" />
+	</connection>
+<!-- 25 GATES -->
+	<connection name="ClusterGate041To027" ref="destination" path="../Cluster_41_connection/Cluster_41_Sector001_connection/ZoneDAGO6_Cluster_41_Sector001_connection/connection_ClusterGate041To027">
+		<macro connection="destination" path="../../../../../Cluster_27_connection/Cluster_27_Sector001_connection/ZoneDAGO3_Cluster_27_Sector001_connection/connection_ClusterGate027To041" />
+	</connection>
+	
+	<connection name="ClusterGate028To027" ref="destination" path="../Cluster_28_connection/Cluster_28_Sector001_connection/ZoneDAGO2_Cluster_28_Sector001_connection/connection_ClusterGate028To027">
+		<macro connection="destination" path="../../../../../Cluster_27_connection/Cluster_27_Sector001_connection/ZoneDAGO5_Cluster_27_Sector001_connection/connection_ClusterGate027To028" />
+	</connection>
+	<connection name="ClusterGate028To040" ref="destination" path="../Cluster_28_connection/Cluster_28_Sector001_connection/ZoneDAGO3_Cluster_28_Sector001_connection/connection_ClusterGate028To040">
+		<macro connection="destination" path="../../../../../Cluster_40_connection/Cluster_40_Sector001_connection/ZoneDAGO6_Cluster_40_Sector001_connection/connection_ClusterGate040To028" />
+	</connection>
+	
+	<connection name="ClusterGate027ToDA1ARG" ref="destination" path="../Cluster_27_connection/Cluster_27_Sector001_connection/ZoneDAGO1_Cluster_27_Sector001_connection/connection_ClusterGate027ToDA1ARG">
+		<macro connection="destination" path="../../../../../Cluster_DA1ARG_connection/Cluster_DA1ARG_Sector001_connection/ZoneDAGO4_Cluster_DA1ARG_Sector001_connection/connection_ClusterGateDA1ARGTo027" />
+	</connection>
+	<connection name="ClusterGate027To040" ref="destination" path="../Cluster_27_connection/Cluster_27_Sector001_connection/ZoneDAGO4_Cluster_27_Sector001_connection/connection_ClusterGate027To040">
+		<macro connection="destination" path="../../../../../Cluster_40_connection/Cluster_40_Sector001_connection/ZoneDAGO1_Cluster_40_Sector001_connection/connection_ClusterGate040To027" />
+	</connection>
+	
+	<connection name="ClusterGateDA2ARGNEToDA2N" ref="destination" path="../Cluster_DA2ARGNE_connection/Cluster_DA2ARGNE_Sector001_connection/ZoneDAGO2_Cluster_DA2ARGNE_Sector001_connection/connection_ClusterGateDA2ARGNEToDA2N">
+		<macro connection="destination" path="../../../../../Cluster_DA2N_connection/Cluster_DA2N_Sector001_connection/ZoneDAGO5_Cluster_DA2N_Sector001_connection/connection_ClusterGateDA2NToDA2ARGNE" />
+	</connection>
+	<connection name="ClusterGateDA2ARGNEToDA2ARGE" ref="destination" path="../Cluster_DA2ARGNE_connection/Cluster_DA2ARGNE_Sector001_connection/ZoneDAGO4_Cluster_DA2ARGNE_Sector001_connection/connection_ClusterGateDA2ARGNEToDA2ARGE">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGE_connection/Cluster_DA2ARGE_Sector001_connection/ZoneDAGO1_Cluster_DA2ARGE_Sector001_connection/connection_ClusterGateDA2ARGEToDA2ARGNE" />
+	</connection>
+	
+	<connection name="ClusterGateDA2ARGEToDA2ARGSE" ref="destination" path="../Cluster_DA2ARGE_connection/Cluster_DA2ARGE_Sector001_connection/ZoneDAGO4_Cluster_DA2ARGE_Sector001_connection/connection_ClusterGateDA2ARGEToDA2ARGSE">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGSE_connection/Cluster_DA2ARGSE_Sector001_connection/ZoneDAGO1_Cluster_DA2ARGSE_Sector001_connection/connection_ClusterGateDA2ARGSEToDA2ARGE" />
+	</connection>
+	
+	<connection name="ClusterGateDA2ARGSEToDA2ARGC" ref="destination" path="../Cluster_DA2ARGSE_connection/Cluster_DA2ARGSE_Sector001_connection/ZoneDAGO4_Cluster_DA2ARGSE_Sector001_connection/connection_ClusterGateDA2ARGSEToDA2ARGC">
+		<macro connection="destination" path="../../../../../Cluster_DA2ARGC_connection/Cluster_DA2ARGC_Sector001_connection/ZoneDAGO1_Cluster_DA2ARGC_Sector001_connection/connection_ClusterGateDA2ARGCToDA2ARGSE" />
+	</connection>
+	
+	<connection name="ClusterGateDA2ARGSToDA2W" ref="destination" path="../Cluster_DA2ARGS_connection/Cluster_DA2ARGS_Sector001_connection/ZoneDAGO5_Cluster_DA2ARGS_Sector001_connection/connection_ClusterGateDA2ARGSToDA2W">
+		<macro connection="destination" path="../../../../../Cluster_DA2W_connection/Cluster_DA2W_Sector001_connection/ZoneDAGO2_Cluster_DA2W_Sector001_connection/connection_ClusterGateDA2WToDA2ARGS" />
+	</connection>
+	
+	<connection name="ClusterGateDA1ARGToDA1W" ref="destination" path="../Cluster_DA1ARG_connection/Cluster_DA1ARG_Sector001_connection/ZoneDAGO2_Cluster_DA1ARG_Sector001_connection/connection_ClusterGateDA1ARGToDA1W">
+		<macro connection="destination" path="../../../../../Cluster_DA1W_connection/Cluster_DA1W_Sector001_connection/ZoneDAGO6_Cluster_DA1W_Sector001_connection/connection_ClusterGateDA1WToDA1ARG" />
+	</connection>
+	
+	<connection name="ClusterGateDA2ARGCToDA2" ref="destination" path="../Cluster_DA2ARGC_connection/Cluster_DA2ARGC_Sector001_connection/ZoneDAGO3_Cluster_DA2ARGC_Sector001_connection/connection_ClusterGateDA2ARGCToDA2">
+		<macro connection="destination" path="../../../../../Cluster_DA2_connection/Cluster_DA2_Sector001_connection/ZoneDAGO6_Cluster_DA2_Sector001_connection/connection_ClusterGateDA2ToDA2ARGC" />
+	</connection>
+<!-- END ARG/ANT GATES -->
+<!-- BEGIN HOP GATES -->
+	<connection name="ClusterGate026To025" ref="destination" path="../Cluster_26_connection/Cluster_26_Sector002_connection/ZoneDAGO4_Cluster_26_Sector002_connection/connection_ClusterGate026To025">
+		<macro connection="destination" path="../../../../../Cluster_25_connection/Cluster_25_Sector002_connection/ZoneDAGO1_Cluster_25_Sector002_connection/connection_ClusterGate025To026" />
+	</connection>
+	
+	<connection name="ClusterGate025ToDA2HOPSW" ref="destination" path="../Cluster_25_connection/Cluster_25_Sector001_connection/ZoneDAGO4_Cluster_25_Sector001_connection/connection_ClusterGate025ToDA2HOPSW">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOPSW_connection/Cluster_DA2HOPSW_Sector001_connection/ZoneDAGO1_Cluster_DA2HOPSW_Sector001_connection/connection_ClusterGateDA2HOPSWTo025" />
+	</connection>
+	
+	<connection name="ClusterGateDA2HOPSWTo036" ref="destination" path="../Cluster_DA2HOPSW_connection/Cluster_DA2HOPSW_Sector001_connection/ZoneDAGO2_Cluster_DA2HOPSW_Sector001_connection/connection_ClusterGateDA2HOPSWTo036">
+		<macro connection="destination" path="../../../../../Cluster_36_connection/Cluster_36_Sector001_connection/ZoneDAGO5_Cluster_36_Sector001_connection/connection_ClusterGate036ToDA2HOPSW" />
+	</connection>
+	
+	<connection name="ClusterGate036ToDA2HOP1" ref="destination" path="../Cluster_36_connection/Cluster_36_Sector001_connection/ZoneDAGO1_Cluster_36_Sector001_connection/connection_ClusterGate036ToDA2HOP1">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOP1_connection/Cluster_DA2HOP1_Sector001_connection/ZoneDAGO4_Cluster_DA2HOP1_Sector001_connection/connection_ClusterGateDA2HOP1To036" />
+	</connection>
+	<connection name="ClusterGate036To024" ref="destination" path="../Cluster_36_connection/Cluster_36_Sector001_connection/ZoneDAGO2_Cluster_36_Sector001_connection/connection_ClusterGate036To024">
+		<macro connection="destination" path="../../../../../Cluster_24_connection/Cluster_24_Sector001_connection/ZoneDAGO5_Cluster_24_Sector001_connection/connection_ClusterGate024To036" />
+	</connection>
+	<connection name="ClusterGate036To035" ref="destination" path="../Cluster_36_connection/Cluster_36_Sector001_connection/ZoneDAGO3_Cluster_36_Sector001_connection/connection_ClusterGate036To035">
+		<macro connection="destination" path="../../../../../Cluster_35_connection/Cluster_35_Sector001_connection/ZoneDAGO6_Cluster_35_Sector001_connection/connection_ClusterGate035To036" />
+	</connection>
+	
+	<connection name="ClusterGateDA2HOP1To012" ref="destination" path="../Cluster_DA2HOP1_connection/Cluster_DA2HOP1_Sector001_connection/ZoneDAGO2_Cluster_DA2HOP1_Sector001_connection/connection_ClusterGateDA2HOP1To012">
+		<macro connection="destination" path="../../../../../Cluster_12_connection/Cluster_12_Sector001_connection/ZoneDAGO5_Cluster_12_Sector001_connection/connection_ClusterGate012ToDA2HOP1" />
+	</connection>
+	<connection name="ClusterGateDA2HOP1To024" ref="destination" path="../Cluster_DA2HOP1_connection/Cluster_DA2HOP1_Sector001_connection/ZoneDAGO3_Cluster_DA2HOP1_Sector001_connection/connection_ClusterGateDA2HOP1To024">
+		<macro connection="destination" path="../../../../../Cluster_24_connection/Cluster_24_Sector001_connection/ZoneDAGO6_Cluster_24_Sector001_connection/connection_ClusterGate024ToDA2HOP1" />
+	</connection>
+	
+	<connection name="ClusterGate024To012" ref="destination" path="../Cluster_24_connection/Cluster_24_Sector001_connection/ZoneDAGO1_Cluster_24_Sector001_connection/connection_ClusterGate024To012">
+		<macro connection="destination" path="../../../../../Cluster_12_connection/Cluster_12_Sector001_connection/ZoneDAGO4_Cluster_12_Sector001_connection/connection_ClusterGate012To024" />
+	</connection>
+	<connection name="ClusterGate024To011" ref="destination" path="../Cluster_24_connection/Cluster_24_Sector001_connection/ZoneDAGO2_Cluster_24_Sector001_connection/connection_ClusterGate024To011">
+		<macro connection="destination" path="../../../../../Cluster_11_connection/Cluster_11_Sector001_connection/ZoneDAGO5_Cluster_11_Sector001_connection/connection_ClusterGate011To024" />
+	</connection>
+	<connection name="ClusterGate024ToDA2HOP2" ref="destination" path="../Cluster_24_connection/Cluster_24_Sector001_connection/ZoneDAGO3_Cluster_24_Sector001_connection/connection_ClusterGate024ToDA2HOP2">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOP2_connection/Cluster_DA2HOP2_Sector001_connection/ZoneDAGO6_Cluster_DA2HOP2_Sector001_connection/connection_ClusterGateDA2HOP2To024" />
+	</connection>
+	<connection name="ClusterGate024To035" ref="destination" path="../Cluster_24_connection/Cluster_24_Sector001_connection/ZoneDAGO4_Cluster_24_Sector001_connection/connection_ClusterGate024To035">
+		<macro connection="destination" path="../../../../../Cluster_35_connection/Cluster_35_Sector001_connection/ZoneDAGO1_Cluster_35_Sector001_connection/connection_ClusterGate035To024" />
+	</connection>
+	
+	<connection name="ClusterGate012ToDA2HOPN" ref="destination" path="../Cluster_12_connection/Cluster_12_Sector001_connection/ZoneDAGO1_Cluster_12_Sector001_connection/connection_ClusterGate012ToDA2HOPN">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOPN_connection/Cluster_DA2HOPN_Sector001_connection/ZoneDAGO4_Cluster_DA2HOPN_Sector001_connection/connection_ClusterGateDA2HOPNTo012" />
+	</connection>
+<!-- 50 GATES -->
+	<connection name="ClusterGate012To011" ref="destination" path="../Cluster_12_connection/Cluster_12_Sector001_connection/ZoneDAGO3_Cluster_12_Sector001_connection/connection_ClusterGate012To011">
+		<macro connection="destination" path="../../../../../Cluster_11_connection/Cluster_11_Sector001_connection/ZoneDAGO6_Cluster_11_Sector001_connection/connection_ClusterGate011To012" />
+	</connection>
+	
+	<connection name="ClusterGate011ToDA2HOPNE" ref="destination" path="../Cluster_11_connection/Cluster_11_Sector001_connection/ZoneDAGO2_Cluster_11_Sector001_connection/connection_ClusterGate011ToDA2HOPNE">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOPNE_connection/Cluster_DA2HOPNE_Sector001_connection/ZoneDAGO5_Cluster_DA2HOPNE_Sector001_connection/connection_ClusterGateDA2HOPNETo011" />
+	</connection>
+	<connection name="ClusterGate011ToDA2HOPE" ref="destination" path="../Cluster_11_connection/Cluster_11_Sector001_connection/ZoneDAGO3_Cluster_11_Sector001_connection/connection_ClusterGate011ToDA2HOPE">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOPE_connection/Cluster_DA2HOPE_Sector001_connection/ZoneDAGO6_Cluster_DA2HOPE_Sector001_connection/connection_ClusterGateDA2HOPETo011" />
+	</connection>
+	<connection name="ClusterGate011ToDA2HOP2" ref="destination" path="../Cluster_11_connection/Cluster_11_Sector001_connection/ZoneDAGO4_Cluster_11_Sector001_connection/connection_ClusterGate011ToDA2HOP2">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOP2_connection/Cluster_DA2HOP2_Sector001_connection/ZoneDAGO1_Cluster_DA2HOP2_Sector001_connection/connection_ClusterGateDA2HOP2To011" />
+	</connection>
+	
+	<connection name="ClusterGateDA2HOP2ToDA2HOPE" ref="destination" path="../Cluster_DA2HOP2_connection/Cluster_DA2HOP2_Sector001_connection/ZoneDAGO2_Cluster_DA2HOP2_Sector001_connection/connection_ClusterGateDA2HOP2ToDA2HOPE">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOPE_connection/Cluster_DA2HOPE_Sector001_connection/ZoneDAGO5_Cluster_DA2HOPE_Sector001_connection/connection_ClusterGateDA2HOPEToDA2HOP2" />
+	</connection>
+	<connection name="ClusterGateDA2HOP2ToDA2HOPSE" ref="destination" path="../Cluster_DA2HOP2_connection/Cluster_DA2HOP2_Sector001_connection/ZoneDAGO3_Cluster_DA2HOP2_Sector001_connection/connection_ClusterGateDA2HOP2ToDA2HOPSE">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOPSE_connection/Cluster_DA2HOPSE_Sector001_connection/ZoneDAGO6_Cluster_DA2HOPSE_Sector001_connection/connection_ClusterGateDA2HOPSEToDA2HOP2" />
+	</connection>
+	<connection name="ClusterGateDA2HOP2To035" ref="destination" path="../Cluster_DA2HOP2_connection/Cluster_DA2HOP2_Sector001_connection/ZoneDAGO5_Cluster_DA2HOP2_Sector001_connection/connection_ClusterGateDA2HOP2To035">
+		<macro connection="destination" path="../../../../../Cluster_35_connection/Cluster_35_Sector001_connection/ZoneDAGO2_Cluster_35_Sector001_connection/connection_ClusterGate035ToDA2HOP2" />
+	</connection>
+	
+	<connection name="ClusterGate035ToDA1HOP" ref="destination" path="../Cluster_35_connection/Cluster_35_Sector001_connection/ZoneDAGO5_Cluster_35_Sector001_connection/connection_ClusterGate035ToDA1HOP">
+		<macro connection="destination" path="../../../../../Cluster_DA1HOP_connection/Cluster_DA1HOP_Sector001_connection/ZoneDAGO2_Cluster_DA1HOP_Sector001_connection/connection_ClusterGateDA1HOPTo035" />
+	</connection>
+	
+	<connection name="ClusterGateDA1HOPToDA1W" ref="destination" path="../Cluster_DA1HOP_connection/Cluster_DA1HOP_Sector001_connection/ZoneDAGO1_Cluster_DA1HOP_Sector001_connection/connection_ClusterGateDA1HOPToDA1W">
+		<macro connection="destination" path="../../../../../Cluster_DA1W_connection/Cluster_DA1W_Sector001_connection/ZoneDAGO5_Cluster_DA1W_Sector001_connection/connection_ClusterGateDA1WToDA1HOP" />
+	</connection>
+	
+	<connection name="ClusterGateDA2HOPNToDA2W" ref="destination" path="../Cluster_DA2HOPN_connection/Cluster_DA2HOPN_Sector001_connection/ZoneDAGO6_Cluster_DA2HOPN_Sector001_connection/connection_ClusterGateDA2HOPNToDA2W">
+		<macro connection="destination" path="../../../../../Cluster_DA2W_connection/Cluster_DA2W_Sector001_connection/ZoneDAGO3_Cluster_DA2W_Sector001_connection/connection_ClusterGateDA2WToDA2HOPN" />
+	</connection>
+	
+	<connection name="ClusterGateDA2HOPNEToDA2HOPC" ref="destination" path="../Cluster_DA2HOPNE_connection/Cluster_DA2HOPNE_Sector001_connection/ZoneDAGO1_Cluster_DA2HOPNE_Sector001_connection/connection_ClusterGateDA2HOPNEToDA2HOPC">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOPC_connection/Cluster_DA2HOPC_Sector001_connection/ZoneDAGO4_Cluster_DA2HOPC_Sector001_connection/connection_ClusterGateDA2HOPCToDA2HOPNE" />
+	</connection>
+	<connection name="ClusterGateDA2HOPNEToDA2HOPE" ref="destination" path="../Cluster_DA2HOPNE_connection/Cluster_DA2HOPNE_Sector001_connection/ZoneDAGO4_Cluster_DA2HOPNE_Sector001_connection/connection_ClusterGateDA2HOPNEToDA2HOPE">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOPE_connection/Cluster_DA2HOPE_Sector001_connection/ZoneDAGO1_Cluster_DA2HOPE_Sector001_connection/connection_ClusterGateDA2HOPEToDA2HOPNE" />
+	</connection>
+	
+	<connection name="ClusterGateDA2HOPEToDA2HOPSE" ref="destination" path="../Cluster_DA2HOPE_connection/Cluster_DA2HOPE_Sector001_connection/ZoneDAGO4_Cluster_DA2HOPE_Sector001_connection/connection_ClusterGateDA2HOPEToDA2HOPSE">
+		<macro connection="destination" path="../../../../../Cluster_DA2HOPSE_connection/Cluster_DA2HOPSE_Sector001_connection/ZoneDAGO1_Cluster_DA2HOPSE_Sector001_connection/connection_ClusterGateDA2HOPSEToDA2HOPE" />
+	</connection>
+	
+	<connection name="ClusterGateDA2HOPSEToDA2S" ref="destination" path="../Cluster_DA2HOPSE_connection/Cluster_DA2HOPSE_Sector001_connection/ZoneDAGO3_Cluster_DA2HOPSE_Sector001_connection/connection_ClusterGateDA2HOPSEToDA2S">
+		<macro connection="destination" path="../../../../../Cluster_DA2S_connection/Cluster_DA2S_Sector001_connection/ZoneDAGO6_Cluster_DA2S_Sector001_connection/connection_ClusterGateDA2SToDA2HOPSE" />
+	</connection>
+	
+	<connection name="ClusterGateDA2HOPCToDA2" ref="destination" path="../Cluster_DA2HOPC_connection/Cluster_DA2HOPC_Sector001_connection/ZoneDAGO2_Cluster_DA2HOPC_Sector001_connection/connection_ClusterGateDA2HOPCToDA2">
+		<macro connection="destination" path="../../../../../Cluster_DA2_connection/Cluster_DA2_Sector001_connection/ZoneDAGO5_Cluster_DA2_Sector001_connection/connection_ClusterGateDA2ToDA2HOPC" />
+	</connection>
+<!-- END HOP GATES -->
+<!-- BEGIN PAR GATES -->
+	<connection name="ClusterGate021ToDA2XEN1" ref="destination" path="../Cluster_21_connection/Cluster_21_Sector002_connection/ZoneDAGO4_Cluster_21_Sector002_connection/connection_ClusterGate021ToDA2XEN1">
+		<macro connection="destination" path="../../../../../Cluster_DA2XEN1_connection/Cluster_DA2XEN1_Sector001_connection/ZoneDAGO1_Cluster_DA2XEN1_Sector001_connection/connection_ClusterGateDA2XEN1To021" />
+	</connection>
+	
+	<connection name="ClusterGateDA2XEN1ToDA2PARSE" ref="destination" path="../Cluster_DA2XEN1_connection/Cluster_DA2XEN1_Sector001_connection/ZoneDAGO4_Cluster_DA2XEN1_Sector001_connection/connection_ClusterGateDA2XEN1ToDA2PARSE">
+		<macro connection="destination" path="../../../../../Cluster_DA2PARSE_connection/Cluster_DA2PARSE_Sector001_connection/ZoneDAGO1_Cluster_DA2PARSE_Sector001_connection/connection_ClusterGateDA2PARSEToDA2XEN1" />
+	</connection>
+	
+	<connection name="ClusterGateDA2PARSETo037" ref="destination" path="../Cluster_DA2PARSE_connection/Cluster_DA2PARSE_Sector001_connection/ZoneDAGO6_Cluster_DA2PARSE_Sector001_connection/connection_ClusterGateDA2PARSETo037">
+		<macro connection="destination" path="../../../../../Cluster_37_connection/Cluster_37_Sector001_connection/ZoneDAGO3_Cluster_37_Sector001_connection/connection_ClusterGate037ToDA2PARSE" />
+	</connection>
+	
+	<connection name="ClusterGate037To023" ref="destination" path="../Cluster_37_connection/Cluster_37_Sector001_connection/ZoneDAGO1_Cluster_37_Sector001_connection/connection_ClusterGate037To023">
+		<macro connection="destination" path="../../../../../Cluster_23_connection/Cluster_23_Sector001_connection/ZoneDAGO4_Cluster_23_Sector001_connection/connection_ClusterGate023To037" />
+	</connection>
+	<connection name="ClusterGate037To038" ref="destination" path="../Cluster_37_connection/Cluster_37_Sector001_connection/ZoneDAGO5_Cluster_37_Sector001_connection/connection_ClusterGate037To038">
+		<macro connection="destination" path="../../../../../Cluster_38_connection/Cluster_38_Sector001_connection/ZoneDAGO2_Cluster_38_Sector001_connection/connection_ClusterGate038To037" />
+	</connection>
+	<connection name="ClusterGate037To018" ref="destination" path="../Cluster_37_connection/Cluster_37_Sector001_connection/ZoneDAGO6_Cluster_37_Sector001_connection/connection_ClusterGate037To018">
+		<macro connection="destination" path="../../../../../Cluster_18_connection/Cluster_18_Sector001_connection/ZoneDAGO3_Cluster_18_Sector001_connection/connection_ClusterGate018To037" />
+	</connection>
+	
+	<connection name="ClusterGate023To018" ref="destination" path="../Cluster_23_connection/Cluster_23_Sector001_connection/ZoneDAGO5_Cluster_23_Sector001_connection/connection_ClusterGate023To018">
+		<macro connection="destination" path="../../../../../Cluster_18_connection/Cluster_18_Sector001_connection/ZoneDAGO2_Cluster_18_Sector001_connection/connection_ClusterGate018To023" />
+	</connection>
+	<connection name="ClusterGate023To047" ref="destination" path="../Cluster_23_connection/Cluster_23_Sector001_connection/ZoneDAGO6_Cluster_23_Sector001_connection/connection_ClusterGate023To047">
+		<macro connection="destination" path="../../../../../Cluster_47_connection/Cluster_47_Sector001_connection/ZoneDAGO3_Cluster_47_Sector001_connection/connection_ClusterGate047To023" />
+	</connection>
+	
+	<connection name="ClusterGate018To047" ref="destination" path="../Cluster_18_connection/Cluster_18_Sector001_connection/ZoneDAGO1_Cluster_18_Sector001_connection/connection_ClusterGate018To047">
+		<macro connection="destination" path="../../../../../Cluster_47_connection/Cluster_47_Sector001_connection/ZoneDAGO4_Cluster_47_Sector001_connection/connection_ClusterGate047To018" />
+	</connection>
+	<connection name="ClusterGate018To038" ref="destination" path="../Cluster_18_connection/Cluster_18_Sector001_connection/ZoneDAGO4_Cluster_18_Sector001_connection/connection_ClusterGate018To038">
+		<macro connection="destination" path="../../../../../Cluster_38_connection/Cluster_38_Sector001_connection/ZoneDAGO1_Cluster_38_Sector001_connection/connection_ClusterGate038To018" />
+	</connection>
+<!-- 75 GATES -->
+	<connection name="ClusterGate018To022" ref="destination" path="../Cluster_18_connection/Cluster_18_Sector001_connection/ZoneDAGO5_Cluster_18_Sector001_connection/connection_ClusterGate018To022">
+		<macro connection="destination" path="../../../../../Cluster_22_connection/Cluster_22_Sector001_connection/ZoneDAGO2_Cluster_22_Sector001_connection/connection_ClusterGate022To018" />
+	</connection>
+	<connection name="ClusterGate018To010" ref="destination" path="../Cluster_18_connection/Cluster_18_Sector001_connection/ZoneDAGO6_Cluster_18_Sector001_connection/connection_ClusterGate018To010">
+		<macro connection="destination" path="../../../../../Cluster_10_connection/Cluster_10_Sector001_connection/ZoneDAGO3_Cluster_10_Sector001_connection/connection_ClusterGate010To018" />
+	</connection>
+	
+	<connection name="ClusterGate038ToDA1PAR" ref="destination" path="../Cluster_38_connection/Cluster_38_Sector001_connection/ZoneDAGO3_Cluster_38_Sector001_connection/connection_ClusterGate038ToDA1PAR">
+		<macro connection="destination" path="../../../../../Cluster_DA1PAR_connection/Cluster_DA1PAR_Sector001_connection/ZoneDAGO6_Cluster_DA1PAR_Sector001_connection/connection_ClusterGateDA1PARTo038" />
+	</connection>
+	<connection name="ClusterGate038To022" ref="destination" path="../Cluster_38_connection/Cluster_38_Sector001_connection/ZoneDAGO6_Cluster_38_Sector001_connection/connection_ClusterGate038To022">
+		<macro connection="destination" path="../../../../../Cluster_22_connection/Cluster_22_Sector001_connection/ZoneDAGO3_Cluster_22_Sector001_connection/connection_ClusterGate022To038" />
+	</connection>
+	
+	<connection name="ClusterGate022ToDA2PARSW" ref="destination" path="../Cluster_22_connection/Cluster_22_Sector001_connection/ZoneDAGO5_Cluster_22_Sector001_connection/connection_ClusterGate022ToDA2PARSW">
+		<macro connection="destination" path="../../../../../Cluster_DA2PARSW_connection/Cluster_DA2PARSW_Sector001_connection/ZoneDAGO2_Cluster_DA2PARSW_Sector001_connection/connection_ClusterGateDA2PARSWTo022" />
+	</connection>
+	<connection name="ClusterGate022ToDA2PARW" ref="destination" path="../Cluster_22_connection/Cluster_22_Sector001_connection/ZoneDAGO6_Cluster_22_Sector001_connection/connection_ClusterGate022ToDA2PARW">
+		<macro connection="destination" path="../../../../../Cluster_DA2PARW_connection/Cluster_DA2PARW_Sector001_connection/ZoneDAGO3_Cluster_DA2PARW_Sector001_connection/connection_ClusterGateDA2PARWTo022" />
+	</connection>
+	<connection name="ClusterGate022To010" ref="destination" path="../Cluster_22_connection/Cluster_22_Sector001_connection/ZoneDAGO1_Cluster_22_Sector001_connection/connection_ClusterGate022To010">
+		<macro connection="destination" path="../../../../../Cluster_10_connection/Cluster_10_Sector001_connection/ZoneDAGO4_Cluster_10_Sector001_connection/connection_ClusterGate010To022" />
+	</connection>
+	
+	<connection name="ClusterGate010ToDA2PARW" ref="destination" path="../Cluster_10_connection/Cluster_10_Sector001_connection/ZoneDAGO5_Cluster_10_Sector001_connection/connection_ClusterGate010ToDA2PARW">
+		<macro connection="destination" path="../../../../../Cluster_DA2PARW_connection/Cluster_DA2PARW_Sector001_connection/ZoneDAGO2_Cluster_DA2PARW_Sector001_connection/connection_ClusterGateDA2PARWTo010" />
+	</connection>
+	<connection name="ClusterGate010ToDA2PARNW" ref="destination" path="../Cluster_10_connection/Cluster_10_Sector001_connection/ZoneDAGO6_Cluster_10_Sector001_connection/connection_ClusterGate010ToDA2PARNW">
+		<macro connection="destination" path="../../../../../Cluster_DA2PARNW_connection/Cluster_DA2PARNW_Sector001_connection/ZoneDAGO3_Cluster_DA2PARNW_Sector001_connection/connection_ClusterGateDA2PARNWTo010" />
+	</connection>
+	<connection name="ClusterGate010To047" ref="destination" path="../Cluster_10_connection/Cluster_10_Sector001_connection/ZoneDAGO2_Cluster_10_Sector001_connection/connection_ClusterGate010To047">
+		<macro connection="destination" path="../../../../../Cluster_47_connection/Cluster_47_Sector001_connection/ZoneDAGO5_Cluster_47_Sector001_connection/connection_ClusterGate047To010" />
+	</connection>
+	
+	<connection name="ClusterGate047ToDA2PARN" ref="destination" path="../Cluster_47_connection/Cluster_47_Sector001_connection/ZoneDAGO1_Cluster_47_Sector001_connection/connection_ClusterGate047ToDA2PARN">
+		<macro connection="destination" path="../../../../../Cluster_DA2PARN_connection/Cluster_DA2PARN_Sector001_connection/ZoneDAGO4_Cluster_DA2PARN_Sector001_connection/connection_ClusterGateDA2PARNTo047" />
+	</connection>
+	
+	<connection name="ClusterGateDA1PARToDA1E" ref="destination" path="../Cluster_DA1PAR_connection/Cluster_DA1PAR_Sector001_connection/ZoneDAGO1_Cluster_DA1PAR_Sector001_connection/connection_ClusterGateDA1PARToDA1E">
+		<macro connection="destination" path="../../../../../Cluster_DA1E_connection/Cluster_DA1E_Sector001_connection/ZoneDAGO3_Cluster_DA1E_Sector001_connection/connection_ClusterGateDA1EToDA1PAR" />
+	</connection>
+	
+	<connection name="ClusterGateDA2PARSWToDA2S" ref="destination" path="../Cluster_DA2PARSW_connection/Cluster_DA2PARSW_Sector001_connection/ZoneDAGO5_Cluster_DA2PARSW_Sector001_connection/connection_ClusterGateDA2PARSWToDA2S">
+		<macro connection="destination" path="../../../../../Cluster_DA2S_connection/Cluster_DA2S_Sector001_connection/ZoneDAGO2_Cluster_DA2S_Sector001_connection/connection_ClusterGateDA2SToDA2PARSW" />
+	</connection>
+	<connection name="ClusterGateDA2PARSWToDA2PARW" ref="destination" path="../Cluster_DA2PARSW_connection/Cluster_DA2PARSW_Sector001_connection/ZoneDAGO1_Cluster_DA2PARSW_Sector001_connection/connection_ClusterGateDA2PARSWToDA2PARW">
+		<macro connection="destination" path="../../../../../Cluster_DA2PARW_connection/Cluster_DA2PARW_Sector001_connection/ZoneDAGO4_Cluster_DA2PARW_Sector001_connection/connection_ClusterGateDA2PARWToDA2PARSW" />
+	</connection>
+	
+	<connection name="ClusterGateDA2PARWToDA2PARNW" ref="destination" path="../Cluster_DA2PARW_connection/Cluster_DA2PARW_Sector001_connection/ZoneDAGO1_Cluster_DA2PARW_Sector001_connection/connection_ClusterGateDA2PARWToDA2PARNW">
+		<macro connection="destination" path="../../../../../Cluster_DA2PARNW_connection/Cluster_DA2PARNW_Sector001_connection/ZoneDAGO4_Cluster_DA2PARNW_Sector001_connection/connection_ClusterGateDA2PARNWToDA2PARW" />
+	</connection>
+	
+	<connection name="ClusterGateDA2PARNWToDA2PARC" ref="destination" path="../Cluster_DA2PARNW_connection/Cluster_DA2PARNW_Sector001_connection/ZoneDAGO1_Cluster_DA2PARNW_Sector001_connection/connection_ClusterGateDA2PARNWToDA2PARC">
+		<macro connection="destination" path="../../../../../Cluster_DA2PARC_connection/Cluster_DA2PARC_Sector001_connection/ZoneDAGO4_Cluster_DA2PARC_Sector001_connection/connection_ClusterGateDA2PARCToDA2PARNW" />
+	</connection>
+	
+	<connection name="ClusterGateDA2PARNToDA2E" ref="destination" path="../Cluster_DA2PARN_connection/Cluster_DA2PARN_Sector001_connection/ZoneDAGO2_Cluster_DA2PARN_Sector001_connection/connection_ClusterGateDA2PARNToDA2E">
+		<macro connection="destination" path="../../../../../Cluster_DA2E_connection/Cluster_DA2E_Sector001_connection/ZoneDAGO5_Cluster_DA2E_Sector001_connection/connection_ClusterGateDA2EToDA2PARN" />
+	</connection>
+	
+	<connection name="ClusterGateDA2PARCToDA2" ref="destination" path="../Cluster_DA2PARC_connection/Cluster_DA2PARC_Sector001_connection/ZoneDAGO6_Cluster_DA2PARC_Sector001_connection/connection_ClusterGateDA2PARCToDA2">
+		<macro connection="destination" path="../../../../../Cluster_DA2_connection/Cluster_DA2_Sector001_connection/ZoneDAGO3_Cluster_DA2_Sector001_connection/connection_ClusterGateDA2ToDA2PARC" />
+	</connection>
+<!-- END PAR GATES -->
+<!-- BEGIN TEL/MIN GATES -->
+	<connection name="ClusterGate017To016" ref="destination" path="../Cluster_17_connection/Cluster_17_Sector001_connection/ZoneDAGO3_Cluster_17_Sector001_connection/connection_ClusterGate017To016">
+		<macro connection="destination" path="../../../../../Cluster_16_connection/Cluster_16_Sector001_connection/ZoneDAGO6_Cluster_16_Sector001_connection/connection_ClusterGate016To017" />
+	</connection>
+	
+	<connection name="ClusterGate016ToDA2TELNE" ref="destination" path="../Cluster_16_connection/Cluster_16_Sector001_connection/ZoneDAGO3_Cluster_16_Sector001_connection/connection_ClusterGate016ToDA2TELNE">
+		<macro connection="destination" path="../../../../../Cluster_DA2TELNE_connection/Cluster_DA2TELNE_Sector001_connection/ZoneDAGO6_Cluster_DA2TELNE_Sector001_connection/connection_ClusterGateDA2TELNETo016" />
+	</connection>
+	
+	<connection name="ClusterGateDA2TELNETo009" ref="destination" path="../Cluster_DA2TELNE_connection/Cluster_DA2TELNE_Sector001_connection/ZoneDAGO5_Cluster_DA2TELNE_Sector001_connection/connection_ClusterGateDA2TELNETo009">
+		<macro connection="destination" path="../../../../../Cluster_09_connection/Cluster_09_Sector001_connection/ZoneDAGO2_Cluster_09_Sector001_connection/connection_ClusterGate009ToDA2TELNE" />
+	</connection>
+	
+	<connection name="ClusterGate009To015" ref="destination" path="../Cluster_09_connection/Cluster_09_Sector001_connection/ZoneDAGO4_Cluster_09_Sector001_connection/connection_ClusterGate009To015">
+		<macro connection="destination" path="../../../../../Cluster_15_connection/Cluster_15_Sector001_connection/ZoneDAGO1_Cluster_15_Sector001_connection/connection_ClusterGate015To009" />
+	</connection>
+	<connection name="ClusterGate009To034" ref="destination" path="../Cluster_09_connection/Cluster_09_Sector001_connection/ZoneDAGO5_Cluster_09_Sector001_connection/connection_ClusterGate009To034">
+		<macro connection="destination" path="../../../../../Cluster_34_connection/Cluster_34_Sector001_connection/ZoneDAGO2_Cluster_34_Sector001_connection/connection_ClusterGate034To009" />
+	</connection>
+	<connection name="ClusterGate009To039" ref="destination" path="../Cluster_09_connection/Cluster_09_Sector001_connection/ZoneDAGO6_Cluster_09_Sector001_connection/connection_ClusterGate009To039">
+		<macro connection="destination" path="../../../../../Cluster_39_connection/Cluster_39_Sector001_connection/ZoneDAGO3_Cluster_39_Sector001_connection/connection_ClusterGate039To009" />
+	</connection>
+	
+	<connection name="ClusterGate039To034" ref="destination" path="../Cluster_39_connection/Cluster_39_Sector001_connection/ZoneDAGO4_Cluster_39_Sector001_connection/connection_ClusterGate039To034">
+		<macro connection="destination" path="../../../../../Cluster_34_connection/Cluster_34_Sector001_connection/ZoneDAGO1_Cluster_34_Sector001_connection/connection_ClusterGate034To039" />
+	</connection>
+<!-- 100 GATES -->
+	<connection name="ClusterGate039To003" ref="destination" path="../Cluster_39_connection/Cluster_39_Sector001_connection/ZoneDAGO5_Cluster_39_Sector001_connection/connection_ClusterGate039To003">
+		<macro connection="destination" path="../../../../../Cluster_03_connection/Cluster_03_Sector001_connection/ZoneDAGO2_Cluster_03_Sector001_connection/connection_ClusterGate003To039" />
+	</connection>
+	<connection name="ClusterGate039To020" ref="destination" path="../Cluster_39_connection/Cluster_39_Sector001_connection/ZoneDAGO6_Cluster_39_Sector001_connection/connection_ClusterGate039To020">
+		<macro connection="destination" path="../../../../../Cluster_20_connection/Cluster_20_Sector001_connection/ZoneDAGO3_Cluster_20_Sector001_connection/connection_ClusterGate020To039" />
+	</connection>
+	
+	<connection name="ClusterGate034To015" ref="destination" path="../Cluster_34_connection/Cluster_34_Sector001_connection/ZoneDAGO3_Cluster_34_Sector001_connection/connection_ClusterGate034To015">
+		<macro connection="destination" path="../../../../../Cluster_15_connection/Cluster_15_Sector001_connection/ZoneDAGO6_Cluster_15_Sector001_connection/connection_ClusterGate015To034" />
+	</connection>
+	<connection name="ClusterGate034To005" ref="destination" path="../Cluster_34_connection/Cluster_34_Sector001_connection/ZoneDAGO4_Cluster_34_Sector001_connection/connection_ClusterGate034To005">
+		<macro connection="destination" path="../../../../../Cluster_05_connection/Cluster_05_Sector001_connection/ZoneDAGO1_Cluster_05_Sector001_connection/connection_ClusterGate005To034" />
+	</connection>
+	<connection name="ClusterGate034To001" ref="destination" path="../Cluster_34_connection/Cluster_34_Sector001_connection/ZoneDAGO5_Cluster_34_Sector001_connection/connection_ClusterGate034To001">
+		<macro connection="destination" path="../../../../../Cluster_01_connection/Cluster_01_Sector003_connection/ZoneDAGO2_Cluster_01_Sector003_connection/connection_ClusterGate001To034" />
+	</connection>
+	<connection name="ClusterGate034To003" ref="destination" path="../Cluster_34_connection/Cluster_34_Sector001_connection/ZoneDAGO6_Cluster_34_Sector001_connection/connection_ClusterGate034To003">
+		<macro connection="destination" path="../../../../../Cluster_03_connection/Cluster_03_Sector001_connection/ZoneDAGO3_Cluster_03_Sector001_connection/connection_ClusterGate003To034" />
+	</connection>
+	
+	<connection name="ClusterGate015ToDA1TEL" ref="destination" path="../Cluster_15_connection/Cluster_15_Sector002_connection/ZoneDAGO2_Cluster_15_Sector002_connection/connection_ClusterGate015ToDA1TEL">
+		<macro connection="destination" path="../../../../../Cluster_DA1TEL_connection/Cluster_DA1TEL_Sector001_connection/ZoneDAGO5_Cluster_DA1TEL_Sector001_connection/connection_ClusterGateDA1TELTo015" />
+	</connection>
+	<connection name="ClusterGate015To005" ref="destination" path="../Cluster_15_connection/Cluster_15_Sector001_connection/ZoneDAGO5_Cluster_15_Sector001_connection/connection_ClusterGate015To005">
+		<macro connection="destination" path="../../../../../Cluster_05_connection/Cluster_05_Sector001_connection/ZoneDAGO2_Cluster_05_Sector001_connection/connection_ClusterGate005To015" />
+	</connection>
+	
+	<connection name="ClusterGate005To019" ref="destination" path="../Cluster_05_connection/Cluster_05_Sector001_connection/ZoneDAGO3_Cluster_05_Sector001_connection/connection_ClusterGate005To019">
+		<macro connection="destination" path="../../../../../Cluster_19_connection/Cluster_19_Sector001_connection/ZoneDAGO6_Cluster_19_Sector001_connection/connection_ClusterGate019To005" />
+	</connection>
+	<connection name="ClusterGate005ToDA2TELS" ref="destination" path="../Cluster_05_connection/Cluster_05_Sector001_connection/ZoneDAGO4_Cluster_05_Sector001_connection/connection_ClusterGate005ToDA2TELS">
+		<macro connection="destination" path="../../../../../Cluster_DA2TELS_connection/Cluster_DA2TELS_Sector001_connection/ZoneDAGO1_Cluster_DA2TELS_Sector001_connection/connection_ClusterGateDA2TELSTo005" />
+	</connection>
+	<connection name="ClusterGate005To001" ref="destination" path="../Cluster_05_connection/Cluster_05_Sector001_connection/ZoneDAGO6_Cluster_05_Sector001_connection/connection_ClusterGate005To001">
+		<macro connection="destination" path="../../../../../Cluster_01_connection/Cluster_01_Sector001_connection/ZoneDAGO3_Cluster_01_Sector001_connection/connection_ClusterGate001To005" />
+	</connection>
+	
+	<connection name="ClusterGate001ToDA2TELSW" ref="destination" path="../Cluster_01_connection/Cluster_01_Sector002_connection/ZoneDAGO5_Cluster_01_Sector002_connection/connection_ClusterGate001ToDA2TELSW">
+		<macro connection="destination" path="../../../../../Cluster_DA2TELSW_connection/Cluster_DA2TELSW_Sector001_connection/ZoneDAGO2_Cluster_DA2TELSW_Sector001_connection/connection_ClusterGateDA2TELSWTo001" />
+	</connection>
+	<connection name="ClusterGate001ToDA2TELW" ref="destination" path="../Cluster_01_connection/Cluster_01_Sector002_connection/ZoneDAGO6_Cluster_01_Sector002_connection/connection_ClusterGate001ToDA2TELW">
+		<macro connection="destination" path="../../../../../Cluster_DA2TELW_connection/Cluster_DA2TELW_Sector001_connection/ZoneDAGO3_Cluster_DA2TELW_Sector001_connection/connection_ClusterGateDA2TELWTo001" />
+	</connection>
+	<connection name="ClusterGate001To003" ref="destination" path="../Cluster_01_connection/Cluster_01_Sector003_connection/ZoneDAGO1_Cluster_01_Sector003_connection/connection_ClusterGate001To003">
+		<macro connection="destination" path="../../../../../Cluster_03_connection/Cluster_03_Sector001_connection/ZoneDAGO4_Cluster_03_Sector001_connection/connection_ClusterGate003To001" />
+	</connection>
+	
+	<connection name="ClusterGate003ToDA2TELW" ref="destination" path="../Cluster_03_connection/Cluster_03_Sector001_connection/ZoneDAGO5_Cluster_03_Sector001_connection/connection_ClusterGate003ToDA2TELW">
+		<macro connection="destination" path="../../../../../Cluster_DA2TELW_connection/Cluster_DA2TELW_Sector001_connection/ZoneDAGO2_Cluster_DA2TELW_Sector001_connection/connection_ClusterGateDA2TELWTo003" />
+	</connection>
+	<connection name="ClusterGate003ToDA2TELNW" ref="destination" path="../Cluster_03_connection/Cluster_03_Sector001_connection/ZoneDAGO6_Cluster_03_Sector001_connection/connection_ClusterGate003ToDA2TELNW">
+		<macro connection="destination" path="../../../../../Cluster_DA2TELNW_connection/Cluster_DA2TELNW_Sector001_connection/ZoneDAGO3_Cluster_DA2TELNW_Sector001_connection/connection_ClusterGateDA2TELNWTo003" />
+	</connection>
+	
+	<connection name="ClusterGateDA2TELSWToDA2TELC" ref="destination" path="../Cluster_DA2TELSW_connection/Cluster_DA2TELSW_Sector001_connection/ZoneDAGO4_Cluster_DA2TELSW_Sector001_connection/connection_ClusterGateDA2TELSWToDA2TELC">
+		<macro connection="destination" path="../../../../../Cluster_DA2TELC_connection/Cluster_DA2TELC_Sector001_connection/ZoneDAGO1_Cluster_DA2TELC_Sector001_connection/connection_ClusterGateDA2TELCToDA2TELSW" />
+	</connection>
+	<connection name="ClusterGateDA2TELSWToDA2TELW" ref="destination" path="../Cluster_DA2TELSW_connection/Cluster_DA2TELSW_Sector001_connection/ZoneDAGO1_Cluster_DA2TELSW_Sector001_connection/connection_ClusterGateDA2TELSWToDA2TELW">
+		<macro connection="destination" path="../../../../../Cluster_DA2TELW_connection/Cluster_DA2TELW_Sector001_connection/ZoneDAGO4_Cluster_DA2TELW_Sector001_connection/connection_ClusterGateDA2TELWToDA2TELSW" />
+	</connection>
+	
+	<connection name="ClusterGateDA2TELWToDA2TELNW" ref="destination" path="../Cluster_DA2TELW_connection/Cluster_DA2TELW_Sector001_connection/ZoneDAGO1_Cluster_DA2TELW_Sector001_connection/connection_ClusterGateDA2TELWToDA2TELNW">
+		<macro connection="destination" path="../../../../../Cluster_DA2TELNW_connection/Cluster_DA2TELNW_Sector001_connection/ZoneDAGO4_Cluster_DA2TELNW_Sector001_connection/connection_ClusterGateDA2TELNWToDA2TELW" />
+	</connection>
+	
+	<connection name="ClusterGateDA2TELNWToDA2N" ref="destination" path="../Cluster_DA2TELNW_connection/Cluster_DA2TELNW_Sector001_connection/ZoneDAGO6_Cluster_DA2TELNW_Sector001_connection/connection_ClusterGateDA2TELNWToDA2N">
+		<macro connection="destination" path="../../../../../Cluster_DA2N_connection/Cluster_DA2N_Sector001_connection/ZoneDAGO3_Cluster_DA2N_Sector001_connection/connection_ClusterGateDA2NToDA2TELNW" />
+	</connection>
+	
+	<connection name="ClusterGateDA2TELCToDA2" ref="destination" path="../Cluster_DA2TELC_connection/Cluster_DA2TELC_Sector001_connection/ZoneDAGO5_Cluster_DA2TELC_Sector001_connection/connection_ClusterGateDA2TELCToDA2">
+		<macro connection="destination" path="../../../../../Cluster_DA2_connection/Cluster_DA2_Sector001_connection/ZoneDAGO2_Cluster_DA2_Sector001_connection/connection_ClusterGateDA2ToDA2TELC" />
+	</connection>
+	
+	<connection name="ClusterGateDA2TELSToDA2E" ref="destination" path="../Cluster_DA2TELS_connection/Cluster_DA2TELS_Sector001_connection/ZoneDAGO3_Cluster_DA2TELS_Sector001_connection/connection_ClusterGateDA2TELSToDA2E">
+		<macro connection="destination" path="../../../../../Cluster_DA2E_connection/Cluster_DA2E_Sector001_connection/ZoneDAGO6_Cluster_DA2E_Sector001_connection/connection_ClusterGateDA2EToDA2TELS" />
+	</connection>
+	<connection name="ClusterGateDA2TELSTo019" ref="destination" path="../Cluster_DA2TELS_connection/Cluster_DA2TELS_Sector001_connection/ZoneDAGO2_Cluster_DA2TELS_Sector001_connection/connection_ClusterGateDA2TELSTo019">
+		<macro connection="destination" path="../../../../../Cluster_19_connection/Cluster_19_Sector001_connection/ZoneDAGO5_Cluster_19_Sector001_connection/connection_ClusterGate019ToDA2TELS" />
+	</connection>
+	
+	<connection name="ClusterGate019To043" ref="destination" path="../Cluster_19_connection/Cluster_19_Sector002_connection/ZoneDAGO2_Cluster_19_Sector002_connection/connection_ClusterGate019To043">
+		<macro connection="destination" path="../../../../../Cluster_43_connection/Cluster_43_Sector001_connection/ZoneDAGO5_Cluster_43_Sector001_connection/connection_ClusterGate043To019" />
+	</connection>
+	<connection name="ClusterGate019To042" ref="destination" path="../Cluster_19_connection/Cluster_19_Sector001_connection/ZoneDAGO3_Cluster_19_Sector001_connection/connection_ClusterGate019To042">
+		<macro connection="destination" path="../../../../../Cluster_42_connection/Cluster_42_Sector001_connection/ZoneDAGO6_Cluster_42_Sector001_connection/connection_ClusterGate042To019" />
+	</connection>
+<!-- 125 GATES -->
+	<connection name="ClusterGate002To042" ref="destination" path="../Cluster_02_connection/Cluster_02_Sector001_connection/ZoneDAGO5_Cluster_02_Sector001_connection/connection_ClusterGate002To042">
+		<macro connection="destination" path="../../../../../Cluster_42_connection/Cluster_42_Sector001_connection/ZoneDAGO2_Cluster_42_Sector001_connection/connection_ClusterGate042To002" />
+	</connection>
+	<connection name="ClusterGate002To043" ref="destination" path="../Cluster_02_connection/Cluster_02_Sector001_connection/ZoneDAGO6_Cluster_02_Sector001_connection/connection_ClusterGate002To043">
+		<macro connection="destination" path="../../../../../Cluster_43_connection/Cluster_43_Sector001_connection/ZoneDAGO3_Cluster_43_Sector001_connection/connection_ClusterGate043To002" />
+	</connection>
+	
+	<connection name="ClusterGate043ToDA1TEL" ref="destination" path="../Cluster_43_connection/Cluster_43_Sector001_connection/ZoneDAGO1_Cluster_43_Sector001_connection/connection_ClusterGate043ToDA1TEL">
+		<macro connection="destination" path="../../../../../Cluster_DA1TEL_connection/Cluster_DA1TEL_Sector001_connection/ZoneDAGO4_Cluster_DA1TEL_Sector001_connection/connection_ClusterGateDA1TELTo043" />
+	</connection>
+	
+	<connection name="ClusterGateDA1TELToDA1E" ref="destination" path="../Cluster_DA1TEL_connection/Cluster_DA1TEL_Sector001_connection/ZoneDAGO6_Cluster_DA1TEL_Sector001_connection/connection_ClusterGateDA1TELToDA1E">
+		<macro connection="destination" path="../../../../../Cluster_DA1E_connection/Cluster_DA1E_Sector001_connection/ZoneDAGO2_Cluster_DA1E_Sector001_connection/connection_ClusterGateDA1EToDA1TEL" />
+	</connection>
+
+	<connection name="ClusterGate043To042" ref="destination" path="../Cluster_43_connection/Cluster_43_Sector001_connection/ZoneDAGO4_Cluster_43_Sector001_connection/connection_ClusterGate043To042">
+		<macro connection="destination" path="../../../../../Cluster_42_connection/Cluster_42_Sector001_connection/ZoneDAGO1_Cluster_42_Sector001_connection/connection_ClusterGate042To043" />
+	</connection>
+<!-- END TEL/MIN GATES -->
+<!-- BEGIN DA1 CENTRAL GATES -->
+	<connection name="ClusterGateDA1ToDA1E" ref="destination" path="../Cluster_DA1_connection/Cluster_DA1_Sector001_connection/ZoneDAGO3_Cluster_DA1_Sector001_connection/connection_ClusterGateDA1ToDA1E">
+		<macro connection="destination" path="../../../../../Cluster_DA1E_connection/Cluster_DA1E_Sector001_connection/ZoneDAGO6_Cluster_DA1E_Sector001_connection/connection_ClusterGateDA1EToDA1" />
+	</connection>
+	<connection name="ClusterGateDA1ToDA1W" ref="destination" path="../Cluster_DA1_connection/Cluster_DA1_Sector001_connection/ZoneDAGO5_Cluster_DA1_Sector001_connection/connection_ClusterGateDA1ToDA1W">
+		<macro connection="destination" path="../../../../../Cluster_DA1W_connection/Cluster_DA1W_Sector001_connection/ZoneDAGO2_Cluster_DA1W_Sector001_connection/connection_ClusterGateDA1WToDA1" />
+	</connection>
+<!-- END DA1 CENTRAL GATES -->
+<!-- BEGIN NEUTRAL GATES -->
+	<connection name="ClusterGate045To044" ref="destination" path="../Cluster_45_connection/Cluster_45_Sector001_connection/ZoneDAGO3_Cluster_45_Sector001_connection/connection_ClusterGate045To044">
+		<macro connection="destination" path="../../../../../Cluster_44_connection/Cluster_44_Sector001_connection/ZoneDAGO6_Cluster_44_Sector001_connection/connection_ClusterGate044To045" />
+	</connection>
+	
+	<connection name="ClusterGate044ToDA2N" ref="destination" path="../Cluster_44_connection/Cluster_44_Sector001_connection/ZoneDAGO4_Cluster_44_Sector001_connection/connection_ClusterGate044ToDA2N">
+		<macro connection="destination" path="../../../../../Cluster_DA2N_connection/Cluster_DA2N_Sector001_connection/ZoneDAGO1_Cluster_DA2N_Sector001_connection/connection_ClusterGateDA2NTo044" />
+	</connection>
+	
+	<connection name="ClusterGateDA2To004" ref="destination" path="../Cluster_DA2_connection/Cluster_DA2_Sector001_connection/ZoneDAGO4_Cluster_DA2_Sector001_connection/connection_ClusterGateDA2To004">
+		<macro connection="destination" path="../../../../../Cluster_04_connection/Cluster_04_Sector002_connection/ZoneDAGO2_Cluster_04_Sector002_connection/connection_ClusterGate004ToDA2" />
+	</connection>
+	
+	<connection name="ClusterGateDA2STo031" ref="destination" path="../Cluster_DA2S_connection/Cluster_DA2S_Sector001_connection/ZoneDAGO4_Cluster_DA2S_Sector001_connection/connection_ClusterGateDA2STo031">
+		<macro connection="destination" path="../../../../../Cluster_31_connection/Cluster_31_Sector001_connection/ZoneDAGO1_Cluster_31_Sector001_connection/connection_ClusterGate031ToDA2S" />
+	</connection>
+<!-- END NEUTRAL GATES -->
+<!-- 136 GATES -->
+<!-- Let's try to solve the route problem -->
+<!-- v0.6 -->
+	<connection name="ClusterGate001ATo001B" ref="destination" path="../Cluster_01_connection/Cluster_01_Sector001_connection/ZoneDAGO6_Cluster_01_Sector001_connection/connection_ClusterGate001ATo001B">
+		<macro connection="destination" path="../../../../../Cluster_01_connection/Cluster_01_Sector002_connection/ZoneDAGO3_Cluster_01_Sector002_connection/connection_ClusterGate001BTo001A" />
+	</connection>
+	<connection name="ClusterGate001ATo001C" ref="destination" path="../Cluster_01_connection/Cluster_01_Sector001_connection/ZoneDAGO1_Cluster_01_Sector001_connection/connection_ClusterGate001ATo001C">
+		<macro connection="destination" path="../../../../../Cluster_01_connection/Cluster_01_Sector003_connection/ZoneDAGO4_Cluster_01_Sector003_connection/connection_ClusterGate001CTo001A" />
+	</connection>
+	<connection name="ClusterGate001BTo001C" ref="destination" path="../Cluster_01_connection/Cluster_01_Sector002_connection/ZoneDAGO2_Cluster_01_Sector002_connection/connection_ClusterGate001BTo001C">
+		<macro connection="destination" path="../../../../../Cluster_01_connection/Cluster_01_Sector003_connection/ZoneDAGO5_Cluster_01_Sector003_connection/connection_ClusterGate001CTo001B" />
+	</connection>
+	
+	<connection name="ClusterGate004ATo004B" ref="destination" path="../Cluster_04_connection/Cluster_04_Sector001_connection/ZoneDAGO4_Cluster_04_Sector001_connection/connection_ClusterGate004ATo004B">
+		<macro connection="destination" path="../../../../../Cluster_04_connection/Cluster_04_Sector002_connection/ZoneDAGO6_Cluster_04_Sector002_connection/connection_ClusterGate004BTo004A" />
+	</connection>
+	
+	<connection name="ClusterGate006ATo006B" ref="destination" path="../Cluster_06_connection/Cluster_06_Sector001_connection/ZoneDAGO4_Cluster_06_Sector001_connection/connection_ClusterGate006ATo006B">
+		<macro connection="destination" path="../../../../../Cluster_06_connection/Cluster_06_Sector002_connection/ZoneDAGO6_Cluster_06_Sector002_connection/connection_ClusterGate006BTo006A" />
+	</connection>
+	
+	<connection name="ClusterGate015ATo015B" ref="destination" path="../Cluster_15_connection/Cluster_15_Sector001_connection/ZoneDAGO2_Cluster_15_Sector001_connection/connection_ClusterGate015ATo015B">
+		<macro connection="destination" path="../../../../../Cluster_15_connection/Cluster_15_Sector002_connection/ZoneDAGO4_Cluster_15_Sector002_connection/connection_ClusterGate015BTo015A" />
+	</connection>
+	
+	<connection name="ClusterGate019ATo019B" ref="destination" path="../Cluster_19_connection/Cluster_19_Sector001_connection/ZoneDAGO2_Cluster_19_Sector001_connection/connection_ClusterGate019ATo019B">
+		<macro connection="destination" path="../../../../../Cluster_19_connection/Cluster_19_Sector002_connection/ZoneDAGO4_Cluster_19_Sector002_connection/connection_ClusterGate019BTo019A" />
+	</connection>
+	
+	<connection name="ClusterGate021ATo021B" ref="destination" path="../Cluster_21_connection/Cluster_21_Sector001_connection/ZoneDAGO1_Cluster_21_Sector001_connection/connection_ClusterGate021ATo021B">
+		<macro connection="destination" path="../../../../../Cluster_21_connection/Cluster_21_Sector002_connection/ZoneDAGO3_Cluster_21_Sector002_connection/connection_ClusterGate021BTo021A" />
+	</connection>
+	
+	<connection name="ClusterGate025ATo025B" ref="destination" path="../Cluster_25_connection/Cluster_25_Sector001_connection/ZoneDAGO5_Cluster_25_Sector001_connection/connection_ClusterGate025ATo025B">
+		<macro connection="destination" path="../../../../../Cluster_25_connection/Cluster_25_Sector002_connection/ZoneDAGO2_Cluster_25_Sector002_connection/connection_ClusterGate025BTo025A" />
+	</connection>
+	
+	<connection name="ClusterGate026ATo026B" ref="destination" path="../Cluster_26_connection/Cluster_26_Sector001_connection/ZoneDAGO4_Cluster_26_Sector001_connection/connection_ClusterGate026ATo026B">
+		<macro connection="destination" path="../../../../../Cluster_26_connection/Cluster_26_Sector002_connection/ZoneDAGO6_Cluster_26_Sector002_connection/connection_ClusterGate026BTo026A" />
+	</connection>
+	
+	<connection name="ClusterGate029ATo029B" ref="destination" path="../Cluster_29_connection/Cluster_29_Sector001_connection/ZoneDAGO1_Cluster_29_Sector001_connection/connection_ClusterGate029ATo029B">
+		<macro connection="destination" path="../../../../../Cluster_29_connection/Cluster_29_Sector002_connection/ZoneDAGO5_Cluster_29_Sector002_connection/connection_ClusterGate029BTo029A" />
+	</connection>
+	
+	<connection name="ClusterGate032ATo032B" ref="destination" path="../Cluster_32_connection/Cluster_32_Sector001_connection/ZoneDAGO1_Cluster_32_Sector001_connection/connection_ClusterGate032ATo032B">
+		<macro connection="destination" path="../../../../../Cluster_32_connection/Cluster_32_Sector002_connection/ZoneDAGO3_Cluster_32_Sector002_connection/connection_ClusterGate032BTo032A" />
+	</connection>
+	
+	<connection name="ClusterGate042ATo042B" ref="destination" path="../Cluster_42_connection/Cluster_42_Sector001_connection/ZoneDAGO3_Cluster_42_Sector001_connection/connection_ClusterGate042ATo042B">
+		<macro connection="destination" path="../../../../../Cluster_42_connection/Cluster_42_Sector002_connection/ZoneDAGO1_Cluster_42_Sector002_connection/connection_ClusterGate042BTo042A" />
+	</connection>
+	<!-- 3.0 Beta 5 -->
+	<connection name="ClusterGate048ToDA2N" ref="destination" path="../Cluster_48_connection/Cluster_48_Sector001_connection/ZoneDAGO5_Cluster_48_Sector001_connection/connection_ClusterGate048ToDA2N">
+		<macro connection="destination" path="../../../../../Cluster_DA2N_connection/Cluster_DA2N_Sector001_connection/ZoneDAGO2_Cluster_DA2N_Sector001_connection/connection_ClusterGateDA2NTo048" />
+	</connection>
+	<connection name="ClusterGate049ToDA2S" ref="destination" path="../Cluster_49_connection/Cluster_49_Sector001_connection/ZoneDAGO2_Cluster_49_Sector001_connection/connection_ClusterGate049ToDA2S">
+		<macro connection="destination" path="../../../../../Cluster_DA2S_connection/Cluster_DA2S_Sector001_connection/ZoneDAGO5_Cluster_DA2S_Sector001_connection/connection_ClusterGateDA2STo049" />
+	</connection>
+	<connection name="ClusterGate050To050" ref="destination" path="../Cluster_50_connection/Cluster_50_Sector001_connection/ZoneDAGO3_Cluster_50_Sector001_connection/connection_ClusterGate050ATo050B">
+		<macro connection="destination" path="../../../../../Cluster_50_connection/Cluster_50_Sector002_connection/ZoneDAGO6_Cluster_50_Sector002_connection/connection_ClusterGate050BTo050A" />
+	</connection>
+	<connection name="ClusterGate050ToDA2" ref="destination" path="../Cluster_50_connection/Cluster_50_Sector002_connection/ZoneDAGO4_Cluster_50_Sector002_connection/connection_ClusterGate050ToDA2">
+		<macro connection="destination" path="../../../../../Cluster_DA2_connection/Cluster_DA2_Sector001_connection/ZoneDAGO1_Cluster_DA2_Sector001_connection/connection_ClusterGateDA2To050" />
+	</connection>
+<!--<connection name="ClusterGate0XXTo0YY" ref="destination" path="../Cluster_XX_connection/Cluster_XX_Sector001_connection/ZoneDAGO#_Cluster_XX_Sector001_connection/connection_ClusterGate0XXTo0YY">
+		<macro connection="destination" path="../../../../../Cluster_YY_connection/Cluster_YY_Sector001_connection/ZoneDAGO#_Cluster_YY_Sector001_connection/connection_ClusterGate0YYTo0XX" />
+	</connection>-->
+</add>
+</diff>
