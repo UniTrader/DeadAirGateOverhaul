@@ -328,4 +328,52 @@
 		<economy max="0.25" maxbound="false" />
 	</location>
 </replace>
+<replace sel="//god/stations/station[@id='shipyard_holyorder']">
+    <station id="shipyard_holyorder" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" />
+      </quotas>
+	  <location class="sector" macro="cluster_24_sector001_macro" matchextension="false">
+        <corerange min="0.2" max="1.2" />
+      </location>
+      <station>
+        <select faction="holyorder" tags="[shipyard]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+</replace>
+<replace sel="//god/stations/station[@id='wharf_holyorder']">
+    <station id="wharf_holyorder" race="paranid" owner="holyorder" type="factory">
+      <quotas>
+        <quota galaxy="1" />
+      </quotas>
+      <location class="sector" macro="cluster_24_sector001_macro" matchextension="false">
+        <corerange min="0.2" max="1.2" />
+      </location>
+      <station>
+        <select faction="holyorder" tags="[wharf]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+</replace>
+<replace sel="//god/stations/station[@id='tradestation_holyorder']">
+    <station id="tradestation_holyorder" race="paranid" owner="holyorder" type="tradingstation">
+      <quotas>
+        <quota galaxy="1" />
+      </quotas>
+      <location class="sector" macro="cluster_24_sector001_macro" matchextension="false">
+        <corerange min="0.2" max="1.2" />
+      </location>
+      <station>
+        <select faction="holyorder" tags="[tradestation]" />
+        <loadout>
+          <level exact="0.75" />
+        </loadout>
+      </station>
+    </station>
+</replace>
 </diff>

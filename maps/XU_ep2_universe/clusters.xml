@@ -271,7 +271,7 @@
 				<macro name="CDA1ES01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -409,7 +409,7 @@
 				<macro name="CDA1WS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -685,7 +685,7 @@
 				<macro name="CDA1HOPS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -961,7 +961,7 @@
 				<macro name="CDA1TELS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -1238,7 +1238,7 @@
 				<macro name="CDA2NS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -1376,7 +1376,7 @@
 				<macro name="CDA2ES01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -1652,7 +1652,7 @@
 				<macro name="CDA2WS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -1791,7 +1791,7 @@
 				<macro name="CDA2ARGNES01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -2067,7 +2067,7 @@
 				<macro name="CDA2ARGSES01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -2205,7 +2205,7 @@
 				<macro name="CDA2ARGSS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -2481,7 +2481,7 @@
 				<macro name="CDA2ARGCS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -2620,7 +2620,7 @@
 				<macro name="CDA2HOPNES01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -2896,7 +2896,7 @@
 				<macro name="CDA2HOPSES01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -3034,7 +3034,7 @@
 				<macro name="CDA2HOPSWS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -3310,7 +3310,7 @@
 				<macro name="CDA2HOPCS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -3449,7 +3449,7 @@
 				<macro name="CDA2PARNWS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -3725,7 +3725,7 @@
 				<macro name="CDA2PARSWS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -3863,7 +3863,7 @@
 				<macro name="CDA2PARSES01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -4139,7 +4139,7 @@
 				<macro name="CDA2PARCS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -4278,7 +4278,7 @@
 				<macro name="CDA2TELNWS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -4554,7 +4554,7 @@
 				<macro name="CDA2TELSWS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -4692,7 +4692,7 @@
 				<macro name="CDA2TELSS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -4968,7 +4968,7 @@
 				<macro name="CDA2TELCS01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -5107,7 +5107,7 @@
 				<macro name="CDA2HOP1S01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago3_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
@@ -5384,7 +5384,7 @@
 				<macro name="CDA2XEN1S01_Region011_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
-						<region ref="dago1_outer_resources" />
+						<region ref="dago2_outer_resources" />
 					</properties>
 				</macro>
 			</connection>
