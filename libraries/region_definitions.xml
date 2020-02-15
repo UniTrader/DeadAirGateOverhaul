@@ -1126,7 +1126,7 @@
 		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
 		<asteroid groupref="asteroid_ore_m" densityfactor="2.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
 		<asteroid groupref="asteroid_silicon_m" densityfactor="2.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebulabig" densityfactor="0.5" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="0.2"/>
+		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebulabig" densityfactor="0.5" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
 		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformred="66" uniformgreen="33" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="hydrogen" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformred="33" uniformgreen="66" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="helium" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformred="33" uniformgreen="33" uniformblue="66" uniformdensity="0.4" backgroundfog="true" resources="methane" />
@@ -1139,6 +1139,64 @@
 		<resource ware="hydrogen" yield="high" />
 		<resource ware="helium" yield="high" />
 		<resource ware="methane" yield="high" />
+    </resources>
+  </region>
+  <region name="dago1_outer_resourcesblue" density="1.0" rotation="0" >
+    <boundary class="splinetube">
+      <size r="6000" />
+      <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="0.0" outlength="100000" />
+	  <splineposition x="200000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="-200000" tx="-1" ty="0" tz="0" inlength="100000" outlength="100000" />
+	  <splineposition x="-200000" y="0" z="0" tx="0" ty="0" tz="1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="100000" outlength="0.0" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_xl" lodrule="asteroidxl" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_ore_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_silicon_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebulamedium" densityfactor="0.75" rotationvariation="0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+		<nebula ref="fogvolume_small_macro" localred="165" localgreen="165" localblue="255" localdensity="1.0" uniformred="50" uniformgreen="165" uniformblue="255" uniformdensity="0.5" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="50" localgreen="225" localblue="255" localdensity="1.0" uniformred="50" uniformgreen="165" uniformblue="255" uniformdensity="0.5" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="0" localgreen="100" localblue="255" localdensity="1.0" uniformred="50" uniformgreen="165" uniformblue="255" uniformdensity="0.5" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+    </fields>
+    <resources>
+		<resource ware="ore" yield="high" />
+		<resource ware="silicon" yield="high" />
+		<resource ware="nividium" yield="high" />
+		<resource ware="ice" yield="high" />
+		<resource ware="hydrogen" yield="high" />
+		<resource ware="helium" yield="high" />
+		<resource ware="methane" yield="high" />
+    </resources>
+  </region>
+  <region name="dago1_outer_resources2" density="1.0" rotation="0" >
+    <boundary class="splinetube">
+      <size r="8000" />
+      <splineposition x="0" y="0" z="250000" tx="1" ty="0" tz="0" inlength="0.0" outlength="125000" />
+	  <splineposition x="250000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="125000" outlength="125000" />
+	  <splineposition x="0" y="0" z="-250000" tx="-1" ty="0" tz="0" inlength="125000" outlength="125000" />
+	  <splineposition x="-250000" y="0" z="0" tx="0" ty="0" tz="1" inlength="125000" outlength="125000" />
+	  <splineposition x="0" y="0" z="250000" tx="1" ty="0" tz="0" inlength="125000" outlength="0.0" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ore_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_silicon_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebulamedium" densityfactor="1.0" rotationvariation="0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+    </fields>
+    <resources>
+		<resource ware="ore" yield="high" />
+		<resource ware="silicon" yield="high" />
+		<resource ware="nividium" yield="high" />
     </resources>
   </region>
   <region name="dago2_outer_resources" density="1.5" rotation="0" >
@@ -1174,6 +1232,39 @@
 		<resource ware="methane" yield="high" />
     </resources>
   </region>
+  <region name="dago2_outer_resourcesred" density="1.0" rotation="0" >
+    <boundary class="splinetube">
+      <size r="6000" />
+      <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="0.0" outlength="100000" />
+	  <splineposition x="200000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="-200000" tx="-1" ty="0" tz="0" inlength="100000" outlength="100000" />
+	  <splineposition x="-200000" y="0" z="0" tx="0" ty="0" tz="1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="100000" outlength="0.0" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_xl" lodrule="asteroidxl" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_ore_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_silicon_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<positional ref="fog_outside_set1_lightorange_macro"  lodrule="nebulamedium" densityfactor="1.0" rotationvariation="0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="100" localblue="0" localdensity="1" uniformred="255" uniformgreen="165" uniformblue="50" uniformdensity="0.75" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="225" localblue="50" localdensity="1" uniformred="255" uniformgreen="165" uniformblue="50" uniformdensity="0.75" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="165" localblue="50" localdensity="1" uniformred="255" uniformgreen="165" uniformblue="50" uniformdensity="0.75" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+    </fields>
+    <resources>
+		<resource ware="ore" yield="high" />
+		<resource ware="silicon" yield="high" />
+		<resource ware="nividium" yield="high" />
+		<resource ware="ice" yield="high" />
+		<resource ware="hydrogen" yield="high" />
+		<resource ware="helium" yield="high" />
+		<resource ware="methane" yield="high" />
+    </resources>
+  </region>
   <region name="dago3_outer_resources" density="1.5" rotation="0" >
     <boundary class="splinetube">
       <size r="6000" />
@@ -1196,6 +1287,39 @@
 		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformred="66" uniformgreen="33" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="hydrogen" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformred="33" uniformgreen="66" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="helium" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformred="33" uniformgreen="33" uniformblue="66" uniformdensity="0.4" backgroundfog="true" resources="methane" />
+    </fields>
+    <resources>
+		<resource ware="ore" yield="high" />
+		<resource ware="silicon" yield="high" />
+		<resource ware="nividium" yield="high" />
+		<resource ware="ice" yield="high" />
+		<resource ware="hydrogen" yield="high" />
+		<resource ware="helium" yield="high" />
+		<resource ware="methane" yield="high" />
+    </resources>
+  </region>
+  <region name="dago3_outer_resourcesgreen" density="1.0" rotation="0" >
+    <boundary class="splinetube">
+      <size r="6000" />
+      <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="0.0" outlength="100000" />
+	  <splineposition x="200000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="-200000" tx="-1" ty="0" tz="0" inlength="100000" outlength="100000" />
+	  <splineposition x="-200000" y="0" z="0" tx="0" ty="0" tz="1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="100000" outlength="0.0" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_xl" lodrule="asteroidxl" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_ore_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_silicon_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<positional ref="fog_outside_set1_green_macro"  lodrule="nebulamedium" densityfactor="1.0" rotationvariation="0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+		<nebula ref="fogvolume_small_macro" localred="165" localgreen="255" localblue="50" localdensity="0.8" uniformred="165" uniformgreen="255" uniformblue="50" uniformdensity="0.4" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="100" localgreen="255" localblue="0" localdensity="0.8" uniformred="165" uniformgreen="255" uniformblue="50" uniformdensity="0.4" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="225" localgreen="255" localblue="50" localdensity="0.8" uniformred="165" uniformgreen="255" uniformblue="50" uniformdensity="0.4" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
     </fields>
     <resources>
 		<resource ware="ore" yield="high" />

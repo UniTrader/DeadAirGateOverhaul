@@ -137,6 +137,30 @@
 					</properties>
 				</macro>
 			</connection>
+			<connection name="CDA1S01_Region012_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region012_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resourcesblue" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region013_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region013_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources2" />
+					</properties>
+				</macro>
+			</connection>
 		</connections>
 	</macro>
 	
@@ -1101,6 +1125,18 @@
 					<component connection="cluster" ref="standardregion" />
 					<properties>
 						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region012_connection" ref="regions">
+				<offset>
+					<position x="-1" y="1" z="-1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources2" />
 					</properties>
 				</macro>
 			</connection>

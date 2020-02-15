@@ -82,6 +82,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_01_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_01_Sector002_macro" class="zone">
     <component ref="standardzone" />
@@ -153,6 +158,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_01_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -228,6 +238,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_01_Sector003_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_02_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -299,6 +314,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_02_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -374,6 +394,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_03_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_04_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -447,6 +472,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_04_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_04_Sector002_macro" class="zone">
     <component ref="standardzone" />
@@ -519,6 +549,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_04_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -595,6 +630,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_05_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_06_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -668,6 +708,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_06_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_06_Sector002_macro" class="zone">
     <component ref="standardzone" />
@@ -739,6 +784,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_06_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -826,6 +876,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_07_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_08_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -897,6 +952,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_08_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -972,6 +1032,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_09_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_10_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -1043,6 +1108,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_10_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -1118,6 +1188,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_11_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_12_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -1191,6 +1266,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_12_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_13_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -1262,6 +1342,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_13_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -1337,6 +1422,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_14_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_15_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -1408,6 +1498,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_15_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -1483,6 +1578,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_15_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_16_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -1554,6 +1654,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_16_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -1629,6 +1734,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_17_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_18_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -1700,6 +1810,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_18_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -1775,6 +1890,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_19_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_19_Sector002_macro" class="zone">
     <component ref="standardzone" />
@@ -1847,6 +1967,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_19_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_20_Sector001_macro" class="zone">
@@ -1921,6 +2046,12 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_20_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- Break Time @ cluster_20 -->	
 	<macro name="ZoneDAGO1_Cluster_21_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -1993,6 +2124,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_21_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_21_Sector002_macro" class="zone">
@@ -2067,6 +2203,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_21_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_22_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -2138,6 +2279,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_22_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -2213,6 +2359,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_23_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_24_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -2284,6 +2435,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_24_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -2359,6 +2515,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_25_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_25_Sector002_macro" class="zone">
     <component ref="standardzone" />
@@ -2431,6 +2592,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_25_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_26_Sector001_macro" class="zone">
@@ -2505,6 +2671,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_26_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_26_Sector002_macro" class="zone">
     <component ref="standardzone" />
@@ -2576,6 +2747,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_26_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -2651,6 +2827,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_27_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_28_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -2723,6 +2904,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_28_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_29_Sector001_macro" class="zone">
@@ -2797,6 +2983,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_29_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_29_Sector002_macro" class="zone">
     <component ref="standardzone" />
@@ -2869,6 +3060,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_29_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_30_Sector001_macro" class="zone">
@@ -2943,6 +3139,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_30_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_31_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -3015,6 +3216,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_31_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_32_Sector001_macro" class="zone">
@@ -3089,6 +3295,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_32_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_32_Sector002_macro" class="zone">
     <component ref="standardzone" />
@@ -3161,6 +3372,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_32_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_33_Sector001_macro" class="zone">
@@ -3235,6 +3451,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_33_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_34_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -3306,6 +3527,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_34_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -3381,6 +3607,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_35_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_36_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -3454,6 +3685,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_36_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_37_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -3525,6 +3761,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_37_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -3600,6 +3841,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_38_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_39_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -3673,6 +3919,12 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_39_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- 50 Sectors -->
 	<macro name="ZoneDAGO1_Cluster_40_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -3744,6 +3996,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_40_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -3819,6 +4076,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_41_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_42_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -3890,6 +4152,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_42_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -3965,6 +4232,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_42_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_43_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -4038,6 +4310,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_43_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_44_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -4109,6 +4386,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_44_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -4184,6 +4466,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_45_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_46_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -4255,6 +4542,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_46_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -4330,6 +4622,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_47_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	<!-- 3.0 Beta 5 -->
 	
 	<macro name="ZoneDAGO1_Cluster_48_Sector001_macro" class="zone">
@@ -4404,6 +4701,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_48_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_49_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -4476,6 +4778,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_49_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_50_Sector001_macro" class="zone">
@@ -4550,6 +4857,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_50_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_50_Sector002_macro" class="zone">
     <component ref="standardzone" />
@@ -4621,6 +4933,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_50_Sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -4698,6 +5015,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA1_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA1E_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -4771,6 +5093,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA1E_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA1W_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -4842,6 +5169,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA1W_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -4918,6 +5250,11 @@
     </connections>-->
 	<!-- USED IN TPWARS -->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA1ARG_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA1HOP_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -4990,6 +5327,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA1HOP_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA1PAR_Sector001_macro" class="zone">
@@ -5064,6 +5406,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA1PAR_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA1TEL_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -5135,6 +5482,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA1TEL_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 <!-- END DA1 -->
@@ -5211,6 +5563,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2N_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -5284,6 +5641,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2N_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2E_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -5355,6 +5717,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2E_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -5430,6 +5797,12 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2S_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- 70 Sectors -->
 	<macro name="ZoneDAGO1_Cluster_DA2W_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -5503,6 +5876,12 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2W_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- END DA2 NEUTRAL -->
 <!-- BEGIN DA2 ARG -->
 	<macro name="ZoneDAGO1_Cluster_DA2ARGNE_Sector001_macro" class="zone">
@@ -5577,6 +5956,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2ARGNE_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2ARGE_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -5648,6 +6032,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2ARGE_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -5723,6 +6112,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2ARGSE_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2ARGS_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -5794,6 +6188,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2ARGS_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -5869,6 +6268,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2ARGNW_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2ARGC_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -5942,6 +6346,12 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2ARGC_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- END DA2 ARG -->
 <!-- BEGIN DA2 HOP -->
 	<macro name="ZoneDAGO1_Cluster_DA2HOPNE_Sector001_macro" class="zone">
@@ -6015,6 +6425,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2HOPNE_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2HOPE_Sector001_macro" class="zone">
@@ -6090,6 +6505,11 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2HOPE_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2HOPSE_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -6161,6 +6581,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2HOPSE_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -6236,6 +6661,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2HOPSW_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2HOPC_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -6307,6 +6737,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2HOPC_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 
@@ -6382,6 +6817,12 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2HOPN_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- END DA2 HOP -->
 <!-- BEGIN DA2 PAR -->
 	<macro name="ZoneDAGO1_Cluster_DA2PARNW_Sector001_macro" class="zone">
@@ -6456,6 +6897,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2PARNW_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2PARW_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -6528,6 +6974,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2PARW_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2PARSW_Sector001_macro" class="zone">
@@ -6602,6 +7053,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2PARSW_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2PARSE_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -6673,6 +7129,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2PARSE_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -6748,6 +7209,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2PARN_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2PARC_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -6821,6 +7287,12 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2PARC_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- END DA2 PAR -->
 <!-- BEGIN DA2 TEL -->
 	<macro name="ZoneDAGO1_Cluster_DA2TELNW_Sector001_macro" class="zone">
@@ -6895,6 +7367,12 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2TELNW_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- 90 Sectors -->
 <macro name="ZoneDAGO1_Cluster_DA2TELW_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -6967,6 +7445,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2TELW_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2TELSW_Sector001_macro" class="zone">
@@ -7041,6 +7524,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2TELSW_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2TELS_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -7114,6 +7602,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2TELS_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2TELNE_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -7185,6 +7678,11 @@
         </offset>
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
+    </connections>
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2TELNE_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
 	</macro>
 	
@@ -7260,6 +7758,12 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2TELC_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- END DA2 TEL -->
 <!-- BEGIN DA2 HOP CORE -->
 	<macro name="ZoneDAGO1_Cluster_DA2HOP1_Sector001_macro" class="zone">
@@ -7334,6 +7838,11 @@
       </connection>
     </connections>-->
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2HOP1_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
 	
 	<macro name="ZoneDAGO1_Cluster_DA2HOP2_Sector001_macro" class="zone">
     <component ref="standardzone" />
@@ -7407,6 +7916,12 @@
       </connection>
     </connections>
 	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2HOP2_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
+	</macro>
+	
 <!-- END DA2 HOP CORE -->
 <!-- BEGIN DA2 XEN CORE -->
 	<macro name="ZoneDAGO1_Cluster_DA2XEN1_Sector001_macro" class="zone">
@@ -7480,6 +7995,11 @@
         <macro ref="props_gates_anc_gate_macro" connection="space" />
       </connection>
     </connections>-->
+	</macro>
+	<macro name="ZoneDAGO7_Cluster_DA2XEN1_Sector001_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+    </connections>
 	</macro>
 <!-- END DA2 XEN CORE -->
 <!-- 98 Sectors -->
