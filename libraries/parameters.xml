@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?> 
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-<replace sel="//parameters/navigation/travelspeed/@space">4000</replace>
-<replace sel="//parameters/aiflight/steering/linear/@start">1.8</replace>
-<replace sel="//parameters/aiflight/steering/linear/@end">10</replace>
-</diff>
-
