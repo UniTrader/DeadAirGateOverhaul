@@ -605,5 +605,16 @@ NEUTRAL: <area sunlight="1" economy="0.5" security="0.1" />
 <replace sel="//defaults/dataset[@macro='Cluster_43_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
 <replace sel="//defaults/dataset[@macro='Cluster_46_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
 <replace sel="//defaults/dataset[@macro='Cluster_47_macro']/properties/area"><area sunlight="1" economy="0.7" security="0.75" /></replace>
-
+<!-- Bring out the faction logic 
+<replace sel="//defaults/dataset[@macro='XXX']/properties/area">YYY</replace>
+-->
+<replace sel="//defaults/dataset[@macro='Cluster_04_macro']/properties/area"><area sunlight="1" economy="0.5" security="0.5" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_31_macro']/properties/area"><area sunlight="1" economy="0.25" security="0.25" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_42_Sector002_macro']/properties/area"><area factionlogic="true" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_44_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.25" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_45_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.25" /></replace>
+<!-- Bring back god -->
+<replace sel="//defaults/dataset[@macro='Cluster_48_macro']/properties/area"><area sunlight="1" economy="0.25" security="0.5" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_49_macro']/properties/area"><area sunlight="1" economy="0.25" security="0.5" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_50_macro']/properties/area"><area sunlight="1" economy="0.25" security="0.5" /></replace>
 </diff>

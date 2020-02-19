@@ -8138,7 +8138,7 @@
 <remove sel="//macros/macro[@name='Zone003_Cluster_19_Sector002_macro']/connections/connection[@name='connection_ClusterGate019To020']" />
 <remove sel="//macros/macro[@name='Zone004_Cluster_20_Sector001_macro']/connections/connection[@name='connection_ClusterGate020To021']" />
 <remove sel="//macros/macro[@name='Zone003_Cluster_20_Sector001_macro']/connections/connection[@name='connection_ClusterGate020To019']" />
-<remove sel="//macros/macro[@name='Zone002_Cluster_20_Sector001_macro']/connections/connection[@name='connection_ClusterGate020To209']" />
+<!--<remove sel="//macros/macro[@name='Zone002_Cluster_20_Sector001_macro']/connections/connection[@name='connection_ClusterGate020To209']" /> Removed in 3.0b6 -->
 <remove sel="//macros/macro[@name='Zone002_Cluster_20_Sector001_macro']/connections/connection[@name='connection_ClusterGate020To050']" />
 <remove sel="//macros/macro[@name='Zone001_Cluster_21_Sector001_macro']/connections/connection[@name='connection_ClusterGate021To020']" />
 <remove sel="//macros/macro[@name='Zone003_Cluster_21_Sector002_macro']/connections/connection[@name='connection_ClusterGate021To050']" />
