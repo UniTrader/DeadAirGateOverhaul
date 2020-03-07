@@ -6,7 +6,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO6_cluster_DA2ARGNE_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2ARGNE_sector001_macro" matchextension="false"/>
       <station>
         <select faction="argon" tags="[defence]" />
       </station>
@@ -15,7 +15,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO3_cluster_DA2ARGE_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2ARGE_sector001_macro" matchextension="false"/>
       <station>
         <select faction="argon" tags="[defence]" />
       </station>
@@ -24,7 +24,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO2_cluster_DA2ARGSE_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2ARGSE_sector001_macro" matchextension="false"/>
       <station>
         <select faction="argon" tags="[defence]" />
       </station>
@@ -33,7 +33,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO2_cluster_DA2ARGS_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2ARGS_sector001_macro" matchextension="false"/>
       <station>
         <select faction="argon" tags="[defence]" />
       </station>
@@ -42,7 +42,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO5_cluster_DA2ARGNW_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2ARGNW_sector001_macro" matchextension="false"/>
       <station>
         <select faction="argon" tags="[defence]" />
       </station>
@@ -51,7 +51,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO6_cluster_DA2ARGC_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2ARGC_sector001_macro" matchextension="false"/>
       <station>
         <select faction="argon" tags="[defence]" />
       </station>
@@ -62,7 +62,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO3_cluster_DA2HOPNE_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2HOPNE_sector001_macro" matchextension="false"/>
       <station>
         <select faction="holyorder" tags="[defence]" />
       </station>
@@ -71,7 +71,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO3_cluster_DA2HOPE_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2HOPE_sector001_macro" matchextension="false"/>
       <station>
         <select faction="holyorder" tags="[defence]" />
       </station>
@@ -80,7 +80,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO5_cluster_DA2HOPSE_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2HOPSE_sector001_macro" matchextension="false"/>
       <station>
         <select faction="holyorder" tags="[defence]" />
       </station>
@@ -89,7 +89,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO4_cluster_DA2HOPSW_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2HOPSW_sector001_macro" matchextension="false"/>
       <station>
         <select faction="holyorder" tags="[defence]" />
       </station>
@@ -98,7 +98,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO3_cluster_DA2HOPN_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2HOPN_sector001_macro" matchextension="false"/>
       <station>
         <select faction="holyorder" tags="[defence]" />
       </station>
@@ -107,7 +107,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO5_cluster_DA2HOPC_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2HOPC_sector001_macro" matchextension="false"/>
       <station>
         <select faction="holyorder" tags="[defence]" />
       </station>
@@ -118,7 +118,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO5_cluster_DA2PARNW_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2PARNW_sector001_macro" matchextension="false"/>
       <station>
         <select faction="paranid" tags="[defence]" />
       </station>
@@ -127,7 +127,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO6_cluster_DA2PARW_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2PARW_sector001_macro" matchextension="false"/>
       <station>
         <select faction="paranid" tags="[defence]" />
       </station>
@@ -136,7 +136,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO3_cluster_DA2PARSW_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2PARSW_sector001_macro" matchextension="false"/>
       <station>
         <select faction="paranid" tags="[defence]" />
       </station>
@@ -145,7 +145,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO4_cluster_DA2PARSE_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2PARSE_sector001_macro" matchextension="false"/>
       <station>
         <select faction="paranid" tags="[defence]" />
       </station>
@@ -154,7 +154,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO5_cluster_DA2PARN_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2PARN_sector001_macro" matchextension="false"/>
       <station>
         <select faction="paranid" tags="[defence]" />
       </station>
@@ -163,7 +163,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO3_cluster_DA2PARC_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2PARC_sector001_macro" matchextension="false"/>
       <station>
         <select faction="paranid" tags="[defence]" />
       </station>
@@ -174,7 +174,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO2_cluster_DA2TELNW_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2TELNW_sector001_macro" matchextension="false"/>
       <station>
         <select faction="teladi" tags="[defence]" />
       </station>
@@ -183,7 +183,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO5_cluster_DA2TELW_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2TELW_sector001_macro" matchextension="false"/>
       <station>
         <select faction="teladi" tags="[defence]" />
       </station>
@@ -192,7 +192,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO6_cluster_DA2TELSW_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2TELSW_sector001_macro" matchextension="false"/>
       <station>
         <select faction="teladi" tags="[defence]" />
       </station>
@@ -201,7 +201,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO6_cluster_DA2TELS_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2TELS_sector001_macro" matchextension="false"/>
       <station>
         <select faction="teladi" tags="[defence]" />
       </station>
@@ -210,7 +210,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO3_cluster_DA2TELNE_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2TELNE_sector001_macro" matchextension="false"/>
       <station>
         <select faction="teladi" tags="[defence]" />
       </station>
@@ -219,7 +219,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO2_cluster_DA2TELC_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2TELC_sector001_macro" matchextension="false"/>
       <station>
         <select faction="teladi" tags="[defence]" />
       </station>
@@ -230,7 +230,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO1_cluster_DA2HOP1_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2HOP1_sector001_macro" matchextension="false"/>
       <station>
         <select faction="holyorder" tags="[defence]" />
       </station>
@@ -239,7 +239,7 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="zoneDAGO4_cluster_DA2HOP2_sector001_macro" matchextension="false"/>
+      <location class="zone" macro="zoneDAGO7_cluster_DA2HOP2_sector001_macro" matchextension="false"/>
       <station>
         <select faction="holyorder" tags="[defence]" />
       </station>
@@ -250,7 +250,43 @@
       <quotas>
         <quota galaxy="1" zone="1" />
       </quotas>
-      <location class="zone" macro="ZoneDAGO2_Cluster_DA2XEN1_Sector001_macro" matchextension="false"/>
+      <location class="zone" macro="ZoneDAGO7_Cluster_DA2XEN1_Sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="xenon" tags="[defence]" />
+      </station>
+    </station>
+	<station id="xen_defence_cluster_DA3XEN1_sector001" race="xenon" owner="xenon" type="defence">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="ZoneDAGO7_Cluster_DA3XEN1_Sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="xenon" tags="[defence]" />
+      </station>
+    </station>
+	<station id="xen_defence_cluster_DA3XEN2_sector001" race="xenon" owner="xenon" type="defence">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="ZoneDAGO7_Cluster_DA3XEN2_Sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="xenon" tags="[defence]" />
+      </station>
+    </station>
+	<station id="xen_defence_cluster_DA3XEN3_sector001" race="xenon" owner="xenon" type="defence">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="ZoneDAGO7_Cluster_DA3XEN3_Sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="xenon" tags="[defence]" />
+      </station>
+    </station>
+	<station id="xen_defence_cluster_DA3XEN4_sector001" race="xenon" owner="xenon" type="defence">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="ZoneDAGO7_Cluster_DA3XEN4_Sector001_macro" matchextension="false"/>
       <station>
         <select faction="xenon" tags="[defence]" />
       </station>
@@ -334,7 +370,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-	  <location class="sector" macro="cluster_24_sector001_macro" matchextension="false" newzonechance="0.5">
+	  <location class="sector" macro="cluster_24_sector001_macro" matchextension="false" >
         <corerange min="0.2" max="2.0" />
       </location>
       <station>
@@ -350,7 +386,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-      <location class="sector" macro="cluster_24_sector001_macro" matchextension="false" newzonechance="0.5">
+      <location class="sector" macro="cluster_24_sector001_macro" matchextension="false" >
         <corerange min="0.2" max="2.0" />
       </location>
       <station>
@@ -366,7 +402,7 @@
       <quotas>
         <quota galaxy="1" />
       </quotas>
-      <location class="sector" macro="cluster_24_sector001_macro" matchextension="false" newzonechance="0.5">
+      <location class="sector" macro="cluster_11_sector001_macro" matchextension="false" >
         <corerange min="0.2" max="2.0" />
       </location>
       <station>

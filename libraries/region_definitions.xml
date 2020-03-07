@@ -1108,6 +1108,1069 @@
       <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
+<!-- END DA2 XEN CORE -->
+<!-- BEGIN DA2 HAT CORE -->
+  <region name="region_cluster_DA2HAT1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA2HAT1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="zoned_sound_01" seed="27180" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_02" seed="90493" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_03" seed="11368" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_04" seed="18999" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA2HAT2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA2HAT2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="zoned_sound_01" seed="27180" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_02" seed="90493" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_03" seed="11368" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_04" seed="18999" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+<!-- END DA2 HAT CORE -->
+<!-- BEGIN DA2 ALI CORE -->
+  <region name="region_cluster_DA2ALI1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA2ALI1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="zoned_sound_01" seed="27180" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_02" seed="90493" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_03" seed="11368" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_04" seed="18999" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA2ALI2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA2ALI2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="zoned_sound_01" seed="27180" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_02" seed="90493" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_03" seed="11368" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_04" seed="18999" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+<!-- END DA2 ALI CORE -->
+<!-- BEGIN DA2 SCA CORE -->
+  <region name="region_cluster_DA2SCA1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA2SCA1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="zoned_sound_01" seed="27180" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_02" seed="90493" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_03" seed="11368" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_04" seed="18999" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA2SCA2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA2SCA2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="zoned_sound_01" seed="27180" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_02" seed="90493" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_03" seed="11368" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_04" seed="18999" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+<!-- END DA2 SCA CORE -->
+<!-- BEGIN DA3 -->
+  <region name="region_cluster_DA3NW1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NW1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NW2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NW2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NW3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NW3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NW4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NW4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NW5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NW5_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NW6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NW6_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NW7_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NW7_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NE1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NE1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NE2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NE2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NE3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NE3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NE4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NE4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NE5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NE5_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3NE6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3NE6_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SE1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SE1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SE2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SE2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SE3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SE3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SE4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SE4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SE5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SE5_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SE6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SE6_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SE7_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SE7_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SW1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SW1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SW2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SW2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SW3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SW3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SW4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SW4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SW5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SW5_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SW6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SW6_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SW7_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SW7_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3W1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3W1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3W2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3W2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3W3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3W3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3E1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3E1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3E2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3E2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3E3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3E3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3XEN1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3XEN1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3XEN2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3XEN2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3XEN3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3XEN3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3XEN4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3XEN4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3HAT1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3HAT1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SCA1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SCA1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3SCA2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SCA2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3ALI1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3ALI1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+  <region name="region_cluster_DA3ALI2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3ALI2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+	</fields>
+  </region>
+<!-- END DA3 -->
+
   <region name="dago1_outer_resources" density="1.5" rotation="0" >
     <boundary class="splinetube">
       <size r="6000" />

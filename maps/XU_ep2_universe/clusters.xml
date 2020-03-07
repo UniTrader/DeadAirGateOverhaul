@@ -5427,10 +5427,3594 @@
 		</connections>
 	</macro>
 <!-- END DA2 XEN CORE -->
+<!-- MORE FROM SUPPLEMENT -->
+<!-- BEGIN DA2 HAT -->
+	<macro name="Cluster_DA2HAT1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HAT1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HAT1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HAT1S01_Region001_connection" ref="regions">
+				<macro name="CDA2HAT1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HAT1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT1S01_Region002_connection" ref="regions">
+				<macro name="CDA2HAT1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HAT1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HAT1" />
+				</macro>
+			</connection>
+			<connection name="CDA2HAT1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT1S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT1S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT1S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT1S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT1S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT1S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT1S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT1S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT1S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT1S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HAT1S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT1S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA2HAT2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HAT2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HAT2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HAT2S01_Region001_connection" ref="regions">
+				<macro name="CDA2HAT2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HAT2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT2S01_Region002_connection" ref="regions">
+				<macro name="CDA2HAT2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HAT2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HAT2" />
+				</macro>
+			</connection>
+			<connection name="CDA2HAT2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT2S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT2S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT2S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT2S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT2S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT2S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT2S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT2S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT2S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT2S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2HAT2S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT2S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HAT2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HAT2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 HAT -->
+<!-- BEGIN DA2 ALI -->
+	<macro name="Cluster_DA2ALI1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ALI1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ALI1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ALI1S01_Region001_connection" ref="regions">
+				<macro name="CDA2ALI1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ALI1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI1S01_Region002_connection" ref="regions">
+				<macro name="CDA2ALI1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ALI1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ALI1" />
+				</macro>
+			</connection>
+			<connection name="CDA2ALI1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI1S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI1S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI1S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI1S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI1S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI1S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI1S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI1S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI1S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI1S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2ALI1S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI1S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA2ALI2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ALI2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ALI2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ALI2S01_Region001_connection" ref="regions">
+				<macro name="CDA2ALI2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ALI2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI2S01_Region002_connection" ref="regions">
+				<macro name="CDA2ALI2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ALI2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ALI2" />
+				</macro>
+			</connection>
+			<connection name="CDA2ALI2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI2S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI2S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI2S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI2S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI2S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI2S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI2S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI2S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI2S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI2S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2ALI2S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI2S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ALI2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ALI2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 ALI -->
+<!-- BEGIN DA2 SCA -->
+	<macro name="Cluster_DA2SCA1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2SCA1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2SCA1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2SCA1S01_Region001_connection" ref="regions">
+				<macro name="CDA2SCA1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2SCA1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA1S01_Region002_connection" ref="regions">
+				<macro name="CDA2SCA1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2SCA1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2SCA1" />
+				</macro>
+			</connection>
+			<connection name="CDA2SCA1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA1S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA1S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA1S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA1S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA1S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA1S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA1S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA1S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA1S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA1S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2SCA1S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA1S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA2SCA2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2SCA2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2SCA2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2SCA2S01_Region001_connection" ref="regions">
+				<macro name="CDA2SCA2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2SCA2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA2S01_Region002_connection" ref="regions">
+				<macro name="CDA2SCA2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2SCA2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2SCA2" />
+				</macro>
+			</connection>
+			<connection name="CDA2SCA2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA2S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="-25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA2S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_hydrogen_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA2S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA2S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_helium_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA2S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA2S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA2S01_Region007_connection" ref="regions">
+				<offset>
+					<position x="25000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA2S01_Region007_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_methane_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA2S01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA2S01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_highyield_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA2SCA2S01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA2S01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_asteroid_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SCA2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SCA2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago1_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+<!-- END DA2 SCA -->
+<!-- BEGIN DA3 -->
+	<macro name="Cluster_DA3NW1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NW1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NW1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NW1S01_Region001_connection" ref="regions">
+				<macro name="CDA3NW1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NW1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW1S01_Region002_connection" ref="regions">
+				<macro name="CDA3NW1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NW1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NW1" />
+				</macro>
+			</connection>
+			<connection name="CDA3NW1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NW1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NW2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NW2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NW2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NW2S01_Region001_connection" ref="regions">
+				<macro name="CDA3NW2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NW2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW2S01_Region002_connection" ref="regions">
+				<macro name="CDA3NW2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NW2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NW2" />
+				</macro>
+			</connection>
+			<connection name="CDA3NW2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NW2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NW3_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NW3_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NW3_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NW3S01_Region001_connection" ref="regions">
+				<macro name="CDA3NW3S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NW3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW3S01_Region002_connection" ref="regions">
+				<macro name="CDA3NW3S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NW3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NW3" />
+				</macro>
+			</connection>
+			<connection name="CDA3NW3S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW3S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW3S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW3S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NW3S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW3S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NW4_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NW4_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NW4_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NW4S01_Region001_connection" ref="regions">
+				<macro name="CDA3NW4S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NW4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW4S01_Region002_connection" ref="regions">
+				<macro name="CDA3NW4S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NW4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NW4" />
+				</macro>
+			</connection>
+			<connection name="CDA3NW4S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW4S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW4S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW4S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NW4S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW4S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NW5_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NW5_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NW5_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NW5S01_Region001_connection" ref="regions">
+				<macro name="CDA3NW5S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NW5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW5S01_Region002_connection" ref="regions">
+				<macro name="CDA3NW5S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NW5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NW5" />
+				</macro>
+			</connection>
+			<connection name="CDA3NW5S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW5S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW5S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW5S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NW5S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW5S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NW6_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NW6_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NW6_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NW6S01_Region001_connection" ref="regions">
+				<macro name="CDA3NW6S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NW6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW6S01_Region002_connection" ref="regions">
+				<macro name="CDA3NW6S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NW6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NW6" />
+				</macro>
+			</connection>
+			<connection name="CDA3NW6S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW6S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW6S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW6S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NW6S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW6S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NW7_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NW7_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NW7_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NW7S01_Region001_connection" ref="regions">
+				<macro name="CDA3NW7S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NW7_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW7S01_Region002_connection" ref="regions">
+				<macro name="CDA3NW7S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NW7_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NW7" />
+				</macro>
+			</connection>
+			<connection name="CDA3NW7S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW7S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NW7S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW7S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NW7S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NW7S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NE1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NE1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NE1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NE1S01_Region001_connection" ref="regions">
+				<macro name="CDA3NE1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NE1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE1S01_Region002_connection" ref="regions">
+				<macro name="CDA3NE1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NE1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NE1" />
+				</macro>
+			</connection>
+			<connection name="CDA3NE1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NE1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NE2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NE2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NE2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NE2S01_Region001_connection" ref="regions">
+				<macro name="CDA3NE2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NE2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE2S01_Region002_connection" ref="regions">
+				<macro name="CDA3NE2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NE2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NE2" />
+				</macro>
+			</connection>
+			<connection name="CDA3NE2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NE2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NE3_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NE3_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NE3_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NE3S01_Region001_connection" ref="regions">
+				<macro name="CDA3NE3S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NE3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE3S01_Region002_connection" ref="regions">
+				<macro name="CDA3NE3S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NE3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NE3" />
+				</macro>
+			</connection>
+			<connection name="CDA3NE3S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE3S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE3S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE3S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NE3S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE3S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NE4_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NE4_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NE4_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NE4S01_Region001_connection" ref="regions">
+				<macro name="CDA3NE4S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NE4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE4S01_Region002_connection" ref="regions">
+				<macro name="CDA3NE4S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NE4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NE4" />
+				</macro>
+			</connection>
+			<connection name="CDA3NE4S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE4S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE4S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE4S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NE4S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE4S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NE5_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NE5_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NE5_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NE5S01_Region001_connection" ref="regions">
+				<macro name="CDA3NE5S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NE5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE5S01_Region002_connection" ref="regions">
+				<macro name="CDA3NE5S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NE5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NE5" />
+				</macro>
+			</connection>
+			<connection name="CDA3NE5S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE5S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE5S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE5S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NE5S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE5S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3NE6_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3NE6_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3NE6_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3NE6S01_Region001_connection" ref="regions">
+				<macro name="CDA3NE6S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3NE6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE6S01_Region002_connection" ref="regions">
+				<macro name="CDA3NE6S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3NE6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3NE6" />
+				</macro>
+			</connection>
+			<connection name="CDA3NE6S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE6S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3NE6S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE6S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3NE6S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3NE6S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SE1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SE1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SE1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SE1S01_Region001_connection" ref="regions">
+				<macro name="CDA3SE1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SE1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE1S01_Region002_connection" ref="regions">
+				<macro name="CDA3SE1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SE1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SE1" />
+				</macro>
+			</connection>
+			<connection name="CDA3SE1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SE1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SE2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SE2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SE2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SE2S01_Region001_connection" ref="regions">
+				<macro name="CDA3SE2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SE2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE2S01_Region002_connection" ref="regions">
+				<macro name="CDA3SE2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SE2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SE2" />
+				</macro>
+			</connection>
+			<connection name="CDA3SE2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SE2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SE3_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SE3_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SE3_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SE3S01_Region001_connection" ref="regions">
+				<macro name="CDA3SE3S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SE3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE3S01_Region002_connection" ref="regions">
+				<macro name="CDA3SE3S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SE3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SE3" />
+				</macro>
+			</connection>
+			<connection name="CDA3SE3S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE3S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE3S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE3S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SE3S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE3S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SE4_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SE4_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SE4_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SE4S01_Region001_connection" ref="regions">
+				<macro name="CDA3SE4S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SE4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE4S01_Region002_connection" ref="regions">
+				<macro name="CDA3SE4S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SE4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SE4" />
+				</macro>
+			</connection>
+			<connection name="CDA3SE4S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE4S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE4S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE4S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SE4S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE4S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SE5_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SE5_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SE5_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SE5S01_Region001_connection" ref="regions">
+				<macro name="CDA3SE5S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SE5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE5S01_Region002_connection" ref="regions">
+				<macro name="CDA3SE5S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SE5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SE5" />
+				</macro>
+			</connection>
+			<connection name="CDA3SE5S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE5S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE5S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE5S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SE5S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE5S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SE6_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SE6_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SE6_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SE6S01_Region001_connection" ref="regions">
+				<macro name="CDA3SE6S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SE6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE6S01_Region002_connection" ref="regions">
+				<macro name="CDA3SE6S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SE6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SE6" />
+				</macro>
+			</connection>
+			<connection name="CDA3SE6S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE6S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE6S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE6S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SE6S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE6S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SE7_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SE7_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SE7_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SE7S01_Region001_connection" ref="regions">
+				<macro name="CDA3SE7S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SE7_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE7S01_Region002_connection" ref="regions">
+				<macro name="CDA3SE7S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SE7_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SE7" />
+				</macro>
+			</connection>
+			<connection name="CDA3SE7S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE7S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SE7S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE7S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SE7S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SE7S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SW1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SW1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SW1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SW1S01_Region001_connection" ref="regions">
+				<macro name="CDA3SW1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SW1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW1S01_Region002_connection" ref="regions">
+				<macro name="CDA3SW1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SW1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SW1" />
+				</macro>
+			</connection>
+			<connection name="CDA3SW1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SW1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SW2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SW2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SW2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SW2S01_Region001_connection" ref="regions">
+				<macro name="CDA3SW2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SW2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW2S01_Region002_connection" ref="regions">
+				<macro name="CDA3SW2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SW2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SW2" />
+				</macro>
+			</connection>
+			<connection name="CDA3SW2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SW2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SW3_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SW3_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SW3_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SW3S01_Region001_connection" ref="regions">
+				<macro name="CDA3SW3S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SW3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW3S01_Region002_connection" ref="regions">
+				<macro name="CDA3SW3S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SW3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SW3" />
+				</macro>
+			</connection>
+			<connection name="CDA3SW3S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW3S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW3S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW3S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SW3S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW3S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SW4_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SW4_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SW4_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SW4S01_Region001_connection" ref="regions">
+				<macro name="CDA3SW4S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SW4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW4S01_Region002_connection" ref="regions">
+				<macro name="CDA3SW4S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SW4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SW4" />
+				</macro>
+			</connection>
+			<connection name="CDA3SW4S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW4S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW4S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW4S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SW4S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW4S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SW5_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SW5_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SW5_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SW5S01_Region001_connection" ref="regions">
+				<macro name="CDA3SW5S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SW5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW5S01_Region002_connection" ref="regions">
+				<macro name="CDA3SW5S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SW5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SW5" />
+				</macro>
+			</connection>
+			<connection name="CDA3SW5S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW5S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW5S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW5S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SW5S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW5S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SW6_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SW6_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SW6_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SW6S01_Region001_connection" ref="regions">
+				<macro name="CDA3SW6S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SW6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW6S01_Region002_connection" ref="regions">
+				<macro name="CDA3SW6S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SW6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SW6" />
+				</macro>
+			</connection>
+			<connection name="CDA3SW6S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW6S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW6S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW6S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SW6S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW6S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SW7_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SW7_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SW7_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SW7S01_Region001_connection" ref="regions">
+				<macro name="CDA3SW7S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SW7_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW7S01_Region002_connection" ref="regions">
+				<macro name="CDA3SW7S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SW7_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SW7" />
+				</macro>
+			</connection>
+			<connection name="CDA3SW7S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW7S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SW7S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW7S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SW7S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SW7S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3W1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3W1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3W1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3W1S01_Region001_connection" ref="regions">
+				<macro name="CDA3W1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3W1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3W1S01_Region002_connection" ref="regions">
+				<macro name="CDA3W1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3W1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3W1" />
+				</macro>
+			</connection>
+			<connection name="CDA3W1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3W1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3W1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3W1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3W1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3W1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3W2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3W2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3W2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3W2S01_Region001_connection" ref="regions">
+				<macro name="CDA3W2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3W2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3W2S01_Region002_connection" ref="regions">
+				<macro name="CDA3W2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3W2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3W2" />
+				</macro>
+			</connection>
+			<connection name="CDA3W2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3W2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3W2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3W2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3W2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3W2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3W3_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3W3_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3W3_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3W3S01_Region001_connection" ref="regions">
+				<macro name="CDA3W3S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3W3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3W3S01_Region002_connection" ref="regions">
+				<macro name="CDA3W3S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3W3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3W3" />
+				</macro>
+			</connection>
+			<connection name="CDA3W3S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3W3S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3W3S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3W3S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3W3S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3W3S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3E1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3E1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3E1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3E1S01_Region001_connection" ref="regions">
+				<macro name="CDA3E1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3E1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3E1S01_Region002_connection" ref="regions">
+				<macro name="CDA3E1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3E1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3E1" />
+				</macro>
+			</connection>
+			<connection name="CDA3E1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3E1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3E1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3E1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3E1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3E1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3E2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3E2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3E2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3E2S01_Region001_connection" ref="regions">
+				<macro name="CDA3E2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3E2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3E2S01_Region002_connection" ref="regions">
+				<macro name="CDA3E2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3E2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3E2" />
+				</macro>
+			</connection>
+			<connection name="CDA3E2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3E2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3E2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3E2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3E2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3E2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3E3_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3E3_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3E3_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3E3S01_Region001_connection" ref="regions">
+				<macro name="CDA3E3S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3E3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3E3S01_Region002_connection" ref="regions">
+				<macro name="CDA3E3S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3E3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3E3" />
+				</macro>
+			</connection>
+			<connection name="CDA3E3S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3E3S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3E3S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3E3S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3E3S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3E3S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3XEN1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3XEN1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3XEN1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3XEN1S01_Region001_connection" ref="regions">
+				<macro name="CDA3XEN1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3XEN1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3XEN1S01_Region002_connection" ref="regions">
+				<macro name="CDA3XEN1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3XEN1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3XEN1" />
+				</macro>
+			</connection>
+			<connection name="CDA3XEN1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3XEN1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3XEN1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3XEN2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3XEN2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3XEN2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3XEN2S01_Region001_connection" ref="regions">
+				<macro name="CDA3XEN2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3XEN2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3XEN2S01_Region002_connection" ref="regions">
+				<macro name="CDA3XEN2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3XEN2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3XEN2" />
+				</macro>
+			</connection>
+			<connection name="CDA3XEN2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3XEN2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3XEN2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3XEN3_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3XEN3_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3XEN3_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3XEN3S01_Region001_connection" ref="regions">
+				<macro name="CDA3XEN3S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3XEN3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3XEN3S01_Region002_connection" ref="regions">
+				<macro name="CDA3XEN3S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3XEN3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3XEN3" />
+				</macro>
+			</connection>
+			<connection name="CDA3XEN3S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN3S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3XEN3S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN3S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3XEN3S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN3S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3XEN4_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3XEN4_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3XEN4_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3XEN4S01_Region001_connection" ref="regions">
+				<macro name="CDA3XEN4S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3XEN4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3XEN4S01_Region002_connection" ref="regions">
+				<macro name="CDA3XEN4S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3XEN4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3XEN4" />
+				</macro>
+			</connection>
+			<connection name="CDA3XEN4S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN4S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3XEN4S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN4S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3XEN4S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3XEN4S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3HAT1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3HAT1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3HAT1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3HAT1S01_Region001_connection" ref="regions">
+				<macro name="CDA3HAT1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3HAT1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3HAT1S01_Region002_connection" ref="regions">
+				<macro name="CDA3HAT1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3HAT1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3HAT1" />
+				</macro>
+			</connection>
+			<connection name="CDA3HAT1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3HAT1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3HAT1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3HAT1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3HAT1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3HAT1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SCA1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SCA1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SCA1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SCA1S01_Region001_connection" ref="regions">
+				<macro name="CDA3SCA1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SCA1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SCA1S01_Region002_connection" ref="regions">
+				<macro name="CDA3SCA1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SCA1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SCA1" />
+				</macro>
+			</connection>
+			<connection name="CDA3SCA1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SCA1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SCA1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SCA1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SCA1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SCA1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3SCA2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3SCA2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3SCA2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3SCA2S01_Region001_connection" ref="regions">
+				<macro name="CDA3SCA2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3SCA2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SCA2S01_Region002_connection" ref="regions">
+				<macro name="CDA3SCA2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3SCA2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3SCA2" />
+				</macro>
+			</connection>
+			<connection name="CDA3SCA2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SCA2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3SCA2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SCA2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3SCA2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3SCA2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3ALI1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3ALI1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3ALI1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3ALI1S01_Region001_connection" ref="regions">
+				<macro name="CDA3ALI1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3ALI1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3ALI1S01_Region002_connection" ref="regions">
+				<macro name="CDA3ALI1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3ALI1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3ALI1" />
+				</macro>
+			</connection>
+			<connection name="CDA3ALI1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3ALI1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3ALI1S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3ALI1S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3ALI1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3ALI1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Cluster_DA3ALI2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA3ALI2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA3ALI2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA3ALI2S01_Region001_connection" ref="regions">
+				<macro name="CDA3ALI2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA3ALI2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3ALI2S01_Region002_connection" ref="regions">
+				<macro name="CDA3ALI2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA3ALI2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA3ALI2" />
+				</macro>
+			</connection>
+			<connection name="CDA3ALI2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3ALI2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA3ALI2S01_Region009_connection" ref="regions">
+				<offset>
+					<position x="50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3ALI2S01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_40km_ice_field" />
+					</properties>
+				</macro>
+			</connection>	
+			<connection name="CDA3ALI2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA3ALI2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago3_outer_resources" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
 </add>
 <replace sel="//macros/macro[@name='Cluster_02_macro']/connections/connection[@name='C02S02_Region001_connection']/macro/properties/region">
 	<region ref="p1_40km_ice_field" />
 </replace>
+<add sel="//macros/macro[@name='Cluster_43_macro']/connections">
+	  <connection name="C43S01_RegionDA1_connection" ref="regions">
+        <offset>
+          <position x="1" y="1" z="1" />
+        </offset>
+        <macro name="C43S01_RegionDA1_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="dago3_outer_resourcesgreen" />
+          </properties>
+        </macro>
+      </connection>
+	  <connection name="C43S01_RegionDA2_connection" ref="regions">
+        <offset>
+          <position x="1" y="1" z="1" />
+        </offset>
+        <macro name="C43S01_RegionDA2_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="dago1_outer_resources2" />
+          </properties>
+        </macro>
+      </connection>
+</add>
 <!-- Let's try to solve the route problem -->
 <!-- v0.6 -->
 <remove sel="//macros/macro[@name='Cluster_01_macro']/connections/connection[@name='SuperHighway001_Cluster_01_connection']"/>

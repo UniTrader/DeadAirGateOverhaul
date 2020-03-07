@@ -55,5 +55,62 @@
 <!-- END DA2 HOP CORE -->
 <!-- BEGIN DA2 XEN CORE -->
 	<entry name="cluster_DA2XEN1_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END DA2 XEN CORE -->
+<!-- BEGIN HAT -->
+	<entry name="cluster_DA2HAT1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2HAT2_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END HAT -->
+<!-- BEGIN ALI -->
+	<entry name="cluster_DA2ALI1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2ALI2_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END ALI -->
+<!-- BEGIN SCA -->
+	<entry name="cluster_DA2SCA1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA2SCA2_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END SCA -->
+<!-- BEGIN DA3 -->
+	<entry name="cluster_DA3NW1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NW2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NW3_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NW4_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NW5_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NW6_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NW7_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NE1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NE2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NE3_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NE4_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NE5_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3NE6_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SE1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SE2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SE3_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SE4_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SE5_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SE6_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SE7_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SW1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SW2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SW3_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SW4_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SW5_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SW6_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SW7_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3W1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3W2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3W3_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3E1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3E2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3E3_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3HAT1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SCA1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SCA2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3ALI1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3ALI2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3XEN1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3XEN2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3XEN3_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3XEN4_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END DA3 -->
 </add>
 </diff>
