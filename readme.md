@@ -1,13 +1,14 @@
 # DeadAirGate Overhaul
 
-## Adds over 30 new sectors
+## Adds over 70 new sectors
 - Major factions are split into 7 core systems and multiple border systems
-- Adds neutral sector between major factions
+- Minor factions are split into 4 core systems
+- Adds neutral sector(s) between major factions
 - Removes all highways and super highways
 - Replaces all gates and provides increased connections between systems
 
-##### Requires mod: Faction Fix Pack by Mysterial
+##### Works best with mod: Faction Fix Pack by Mysterial
 
-##### Requires new game.
+##### If not using, requires new game. If using old versions (v0.79 or older), then v0.80 or newer requires new game.
 
-##### Installation: extract to x4 foundations\extensions
+##### Installation: extract to x4 foundations\extensions and do not rename folder
