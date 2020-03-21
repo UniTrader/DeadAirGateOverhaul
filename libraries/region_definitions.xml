@@ -27,7 +27,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA1E_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -55,7 +54,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA1W_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -83,7 +81,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA1ARG_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -111,7 +108,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA1HOP_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -139,7 +135,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA1PAR_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -167,7 +162,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA1TEL_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -195,7 +189,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA1 -->
@@ -225,7 +218,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2N_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -253,7 +245,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2E_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -281,7 +272,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2S_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -309,7 +299,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2W_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -337,7 +326,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 NEUTRAL -->
@@ -367,7 +355,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2ARGE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -395,7 +382,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2ARGSE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -423,7 +409,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2ARGS_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -451,7 +436,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2ARGNW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -479,7 +463,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2ARGC_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -507,7 +490,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 ARG -->
@@ -537,7 +519,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2HOPE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -565,7 +546,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2HOPSE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -593,7 +573,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2HOPSW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -621,7 +600,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2HOPN_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -649,7 +627,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2HOPC_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -677,7 +654,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 HOP -->
@@ -707,7 +683,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2PARW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -735,7 +710,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2PARSW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -763,7 +737,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2PARSE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -791,7 +764,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2PARN_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -819,7 +791,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2PARC_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -847,7 +818,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 PAR -->
@@ -877,7 +847,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2TELW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -905,7 +874,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2TELSW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -933,7 +901,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2TELS_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -961,7 +928,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2TELNE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -989,7 +955,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2TELC_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1017,7 +982,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 TEL -->
@@ -1047,7 +1011,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   <region name="region_cluster_DA2HOP2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1075,7 +1038,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 HOP CORE -->
@@ -1105,7 +1067,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 XEN CORE -->
@@ -1135,7 +1096,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   
@@ -1164,7 +1124,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 HAT CORE -->
@@ -1194,7 +1153,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   
@@ -1223,7 +1181,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 ALI CORE -->
@@ -1253,7 +1210,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
   
@@ -1282,7 +1238,6 @@
       <ambientsound soundid="zoned_sound_05" seed="88199" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_06" seed="91194" noisescale="26000" minnoisevalue="0.8" playtime="20" />
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
 	</fields>
   </region>
 <!-- END DA2 SCA CORE -->
@@ -1305,7 +1260,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NW2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1326,7 +1281,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NW3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1347,7 +1302,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NW4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1368,7 +1323,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NW5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1389,7 +1344,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NW6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1410,7 +1365,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NW7_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1431,7 +1386,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NE1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1452,7 +1407,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NE2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1473,7 +1428,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NE3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1494,7 +1449,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NE4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1515,7 +1470,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NE5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1536,7 +1491,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3NE6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1557,7 +1512,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SE1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1578,7 +1533,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SE2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1599,7 +1554,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SE3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1620,7 +1575,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SE4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1641,7 +1596,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SE5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1662,7 +1617,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SE6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1683,7 +1638,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SE7_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1704,7 +1659,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SW1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1725,7 +1680,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SW2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1746,7 +1701,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SW3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1767,7 +1722,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SW4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1788,7 +1743,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SW5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1809,7 +1764,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SW6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1830,7 +1785,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SW7_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1851,7 +1806,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3W1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1872,7 +1827,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3W2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1893,7 +1848,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3W3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1914,7 +1869,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3E1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1935,7 +1890,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3E2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1956,7 +1911,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3E3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1977,7 +1932,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3XEN1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -1998,7 +1953,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3XEN2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -2019,7 +1974,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3XEN3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -2040,7 +1995,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3XEN4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -2061,7 +2016,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3HAT1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -2082,7 +2037,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SCA1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -2103,7 +2058,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3SCA2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -2124,7 +2079,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3ALI1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -2145,7 +2100,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
   <region name="region_cluster_DA3ALI2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
@@ -2166,7 +2121,7 @@
 	<falloff>
 	</falloff>
 	<fields>
-      <ambientsound soundid="legacy_music_pool" seed="82649" noisescale="100000" minnoisevalue="0.6" priority="1" playtime="120" />
+      
 	</fields>
   </region>
 <!-- END DA3 -->
@@ -2183,16 +2138,17 @@
     <falloff>
     </falloff>
     <fields>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ore_m" densityfactor="2.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_silicon_m" densityfactor="2.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebulabig" densityfactor="0.5" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
-		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformred="66" uniformgreen="33" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="hydrogen" />
-		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformred="33" uniformgreen="66" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="helium" />
-		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformred="33" uniformgreen="33" uniformblue="66" uniformdensity="0.4" backgroundfog="true" resources="methane" />
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebula" densityfactor="0.5" noisescale="1000" seed="32" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="methane" />
     </fields>
     <resources>
 		<resource ware="ore" yield="high" />
@@ -2216,16 +2172,17 @@
     <falloff>
     </falloff>
     <fields>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_ice_xl" lodrule="asteroidxl" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<asteroid groupref="asteroid_ore_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<asteroid groupref="asteroid_silicon_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebulamedium" densityfactor="0.75" rotationvariation="0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
-		<nebula ref="fogvolume_small_macro" localred="165" localgreen="165" localblue="255" localdensity="1.0" uniformred="50" uniformgreen="165" uniformblue="255" uniformdensity="0.5" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
-		<nebula ref="fogvolume_small_macro" localred="50" localgreen="225" localblue="255" localdensity="1.0" uniformred="50" uniformgreen="165" uniformblue="255" uniformdensity="0.5" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
-		<nebula ref="fogvolume_small_macro" localred="0" localgreen="100" localblue="255" localdensity="1.0" uniformred="50" uniformgreen="165" uniformblue="255" uniformdensity="0.5" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_xl" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebula" densityfactor="0.75" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+		<nebula ref="fogvolume_small_macro" localred="165" localgreen="165" localblue="255" localdensity="1.0" uniformdensity="0.5" backgroundfog="false" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="50" localgreen="225" localblue="255" localdensity="1.0" uniformdensity="0.5" backgroundfog="false" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="0" localgreen="100" localblue="255" localdensity="1.0" uniformdensity="0.5" backgroundfog="false" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
     </fields>
     <resources>
 		<resource ware="ore" yield="high" />
@@ -2249,12 +2206,13 @@
     <falloff>
     </falloff>
     <fields>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_ore_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<asteroid groupref="asteroid_silicon_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebulamedium" densityfactor="1.0" rotationvariation="0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebula" densityfactor="1.0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
     </fields>
     <resources>
 		<resource ware="ore" yield="high" />
@@ -2274,16 +2232,17 @@
     <falloff>
     </falloff>
     <fields>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="1.2" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.8" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ore_m" densityfactor="2.2" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_silicon_m" densityfactor="1.8" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<positional ref="fog_outside_set1_lightorange_macro"  lodrule="nebulabig" densityfactor="0.8" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="0.2"/>
-		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformred="66" uniformgreen="33" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="hydrogen" />
-		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformred="33" uniformgreen="66" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="helium" />
-		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformred="33" uniformgreen="33" uniformblue="66" uniformdensity="0.4" backgroundfog="true" resources="methane" />
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="1.2" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.8" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="2.2" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="1.8" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<positional ref="fog_outside_set1_lightorange_macro"  lodrule="nebula" densityfactor="0.8" noisescale="1000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="0.2"/>
+		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="methane" />
     </fields>
     <resources>
 		<resource ware="ore" yield="high" />
@@ -2307,16 +2266,17 @@
     <falloff>
     </falloff>
     <fields>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_ice_xl" lodrule="asteroidxl" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<asteroid groupref="asteroid_ore_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<asteroid groupref="asteroid_silicon_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<positional ref="fog_outside_set1_lightorange_macro"  lodrule="nebulamedium" densityfactor="1.0" rotationvariation="0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
-		<nebula ref="fogvolume_small_macro" localred="255" localgreen="100" localblue="0" localdensity="1" uniformred="255" uniformgreen="165" uniformblue="50" uniformdensity="0.75" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
-		<nebula ref="fogvolume_small_macro" localred="255" localgreen="225" localblue="50" localdensity="1" uniformred="255" uniformgreen="165" uniformblue="50" uniformdensity="0.75" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
-		<nebula ref="fogvolume_small_macro" localred="255" localgreen="165" localblue="50" localdensity="1" uniformred="255" uniformgreen="165" uniformblue="50" uniformdensity="0.75" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_xl" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<positional ref="fog_outside_set1_lightorange_macro"  lodrule="nebula" densityfactor="1.0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="100" localblue="0" localdensity="1" uniformdensity="0.75" backgroundfog="false" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="225" localblue="50" localdensity="1" uniformdensity="0.75" backgroundfog="false" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="165" localblue="50" localdensity="1" uniformdensity="0.75" backgroundfog="false" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
     </fields>
     <resources>
 		<resource ware="ore" yield="high" />
@@ -2340,16 +2300,17 @@
     <falloff>
     </falloff>
     <fields>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.8" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="1.2" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ore_m" densityfactor="1.8" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_silicon_m" densityfactor="2.2" rotation="0" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<positional ref="fog_outside_set1_darkblue_macro"  lodrule="nebulabig" densityfactor="0.75" rotationvariation="0" noisescale="1000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="0.2"/>
-		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformred="66" uniformgreen="33" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="hydrogen" />
-		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformred="33" uniformgreen="66" uniformblue="33" uniformdensity="0.4" backgroundfog="true" resources="helium" />
-		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformred="33" uniformgreen="33" uniformblue="66" uniformdensity="0.4" backgroundfog="true" resources="methane" />
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.8" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="1.2" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="1.8" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="2.2" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<positional ref="fog_outside_set1_darkblue_macro"  lodrule="nebula" densityfactor="0.75" noisescale="1000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="0.2"/>
+		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="methane" />
     </fields>
     <resources>
 		<resource ware="ore" yield="high" />
@@ -2373,16 +2334,17 @@
     <falloff>
     </falloff>
     <fields>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
-		<asteroid groupref="asteroid_ice_xl" lodrule="asteroidxl" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<asteroid groupref="asteroid_ore_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<asteroid groupref="asteroid_silicon_m" densityfactor="1.0" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
-		<positional ref="fog_outside_set1_green_macro"  lodrule="nebulamedium" densityfactor="1.0" rotationvariation="0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
-		<nebula ref="fogvolume_small_macro" localred="165" localgreen="255" localblue="50" localdensity="0.8" uniformred="165" uniformgreen="255" uniformblue="50" uniformdensity="0.4" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
-		<nebula ref="fogvolume_small_macro" localred="100" localgreen="255" localblue="0" localdensity="0.8" uniformred="165" uniformgreen="255" uniformblue="50" uniformdensity="0.4" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
-		<nebula ref="fogvolume_small_macro" localred="225" localgreen="255" localblue="50" localdensity="0.8" uniformred="165" uniformgreen="255" uniformblue="50" uniformdensity="0.4" backgroundfog="true" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.5" noisescale="1000" minnoisevalue="0.2" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_xl" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="1.0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="0.7"/>
+		<positional ref="fog_outside_set1_green_macro"  lodrule="nebula" densityfactor="1.0" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+		<nebula ref="fogvolume_small_macro" localred="165" localgreen="255" localblue="50" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="100" localgreen="255" localblue="0" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="225" localgreen="255" localblue="50" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" noisescale="1000" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
     </fields>
     <resources>
 		<resource ware="ore" yield="high" />
