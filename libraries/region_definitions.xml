@@ -2,7 +2,7 @@
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="region_definitions.xsd" >
 <add sel="//regions">
 <!-- BEGIN DA1 -->
-  <region name="region_cluster_DA1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -13,7 +13,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -29,7 +29,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA1E_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA1E_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -40,7 +40,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA1E_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA1E_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -56,7 +56,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA1W_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA1W_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -67,7 +67,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA1W_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA1W_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -83,7 +83,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA1ARG_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA1ARG_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -94,7 +94,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA1ARG_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA1ARG_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -110,7 +110,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA1HOP_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA1HOP_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -121,7 +121,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA1HOP_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA1HOP_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -137,7 +137,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA1PAR_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA1PAR_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -148,7 +148,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA1PAR_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA1PAR_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -164,7 +164,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA1TEL_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA1TEL_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -175,7 +175,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA1TEL_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA1TEL_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -193,7 +193,7 @@
   </region>
 <!-- END DA1 -->
 <!-- BEGIN DA2 NEUTRAL -->
-  <region name="region_cluster_DA2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -204,7 +204,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -220,7 +220,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2N_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2N_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -231,7 +231,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2N_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2N_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -247,7 +247,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2E_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2E_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -258,7 +258,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2E_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2E_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -274,7 +274,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2S_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2S_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -285,7 +285,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2S_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2S_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -301,7 +301,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2W_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2W_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -312,7 +312,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2W_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2W_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -330,7 +330,7 @@
   </region>
 <!-- END DA2 NEUTRAL -->
 <!-- BEGIN DA2 ARG -->
-  <region name="region_cluster_DA2ARGNE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2ARGNE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -341,7 +341,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2ARGNE_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2ARGNE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -357,7 +357,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2ARGE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2ARGE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -368,7 +368,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2ARGE_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2ARGE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -384,7 +384,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2ARGSE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2ARGSE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -395,7 +395,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2ARGSE_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2ARGSE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -411,7 +411,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2ARGS_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2ARGS_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -422,7 +422,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2ARGS_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2ARGS_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -438,7 +438,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2ARGNW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2ARGNW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -449,7 +449,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2ARGNW_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2ARGNW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -465,7 +465,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2ARGC_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2ARGC_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -476,7 +476,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2ARGC_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2ARGC_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -494,7 +494,7 @@
   </region>
 <!-- END DA2 ARG -->
 <!-- BEGIN DA2 HOP -->
-  <region name="region_cluster_DA2HOPNE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HOPNE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -505,7 +505,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HOPNE_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HOPNE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -521,7 +521,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2HOPE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HOPE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -532,7 +532,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HOPE_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HOPE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -548,7 +548,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2HOPSE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HOPSE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -559,7 +559,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HOPSE_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HOPSE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -575,7 +575,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2HOPSW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HOPSW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -586,7 +586,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HOPSW_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HOPSW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -602,7 +602,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2HOPN_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HOPN_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -613,7 +613,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HOPN_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HOPN_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -629,7 +629,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2HOPC_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HOPC_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -640,7 +640,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HOPC_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HOPC_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -658,7 +658,7 @@
   </region>
 <!-- END DA2 HOP -->
 <!-- BEGIN DA2 PAR -->
-  <region name="region_cluster_DA2PARNW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2PARNW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -669,7 +669,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2PARNW_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2PARNW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -685,7 +685,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2PARW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2PARW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -696,7 +696,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2PARW_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2PARW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -712,7 +712,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2PARSW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2PARSW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -723,7 +723,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2PARSW_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2PARSW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -739,7 +739,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2PARSE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2PARSE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -750,7 +750,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2PARSE_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2PARSE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -766,7 +766,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2PARN_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2PARN_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -777,7 +777,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2PARN_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2PARN_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -793,7 +793,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2PARC_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2PARC_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -804,7 +804,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2PARC_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2PARC_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -822,7 +822,7 @@
   </region>
 <!-- END DA2 PAR -->
 <!-- BEGIN DA2 TEL -->
-  <region name="region_cluster_DA2TELNW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2TELNW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -833,7 +833,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2TELNW_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2TELNW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -849,7 +849,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2TELW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2TELW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -860,7 +860,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2TELW_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2TELW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -876,7 +876,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2TELSW_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2TELSW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -887,7 +887,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2TELSW_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2TELSW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -903,7 +903,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2TELS_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2TELS_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -914,7 +914,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2TELS_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2TELS_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -930,7 +930,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2TELNE_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2TELNE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -941,7 +941,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2TELNE_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2TELNE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -957,7 +957,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2TELC_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2TELC_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -968,7 +968,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2TELC_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2TELC_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -986,7 +986,7 @@
   </region>
 <!-- END DA2 TEL -->
 <!-- BEGIN DA2 HOP CORE -->
-  <region name="region_cluster_DA2HOP1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HOP1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -997,7 +997,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HOP1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HOP1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1013,7 +1013,7 @@
       <ambientsound soundid="zoned_sound_07" seed="72531" noisescale="26000" minnoisevalue="0.8" playtime="20" />
 	</fields>
   </region>
-  <region name="region_cluster_DA2HOP2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HOP2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1024,7 +1024,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HOP2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HOP2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1042,7 +1042,7 @@
   </region>
 <!-- END DA2 HOP CORE -->
 <!-- BEGIN DA2 XEN CORE -->
-  <region name="region_cluster_DA2XEN1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2XEN1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1053,7 +1053,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2XEN1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2XEN1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1071,7 +1071,7 @@
   </region>
 <!-- END DA2 XEN CORE -->
 <!-- BEGIN DA2 HAT CORE -->
-  <region name="region_cluster_DA2HAT1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HAT1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1082,7 +1082,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HAT1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HAT1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1099,7 +1099,7 @@
 	</fields>
   </region>
   
-  <region name="region_cluster_DA2HAT2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2HAT2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1110,7 +1110,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2HAT2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2HAT2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1128,7 +1128,7 @@
   </region>
 <!-- END DA2 HAT CORE -->
 <!-- BEGIN DA2 ALI CORE -->
-  <region name="region_cluster_DA2ALI1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2ALI1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1139,7 +1139,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2ALI1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2ALI1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1156,7 +1156,7 @@
 	</fields>
   </region>
   
-  <region name="region_cluster_DA2ALI2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2ALI2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1167,7 +1167,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2ALI2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2ALI2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1185,7 +1185,7 @@
   </region>
 <!-- END DA2 ALI CORE -->
 <!-- BEGIN DA2 SCA CORE -->
-  <region name="region_cluster_DA2SCA1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2SCA1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1196,7 +1196,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2SCA1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2SCA1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1213,7 +1213,7 @@
 	</fields>
   </region>
   
-  <region name="region_cluster_DA2SCA2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA2SCA2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1224,7 +1224,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA2SCA2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA2SCA2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1242,7 +1242,7 @@
   </region>
 <!-- END DA2 SCA CORE -->
 <!-- BEGIN DA3 -->
-  <region name="region_cluster_DA3NW1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NW1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1253,7 +1253,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NW1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NW1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1263,7 +1263,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NW2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NW2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1274,7 +1274,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NW2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NW2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1284,7 +1284,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NW3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NW3_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1295,7 +1295,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NW3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NW3_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1305,7 +1305,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NW4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NW4_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1316,7 +1316,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NW4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NW4_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1326,7 +1326,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NW5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NW5_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1337,7 +1337,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NW5_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NW5_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1347,7 +1347,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NW6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NW6_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1358,7 +1358,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NW6_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NW6_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1368,7 +1368,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NW7_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NW7_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1379,7 +1379,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NW7_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NW7_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1389,7 +1389,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NE1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NE1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1400,7 +1400,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NE1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NE1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1410,7 +1410,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NE2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NE2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1421,7 +1421,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NE2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NE2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1431,7 +1431,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NE3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NE3_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1442,7 +1442,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NE3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NE3_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1452,7 +1452,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NE4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NE4_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1463,7 +1463,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NE4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NE4_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1473,7 +1473,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NE5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NE5_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1484,7 +1484,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NE5_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NE5_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1494,7 +1494,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3NE6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3NE6_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1505,7 +1505,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3NE6_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3NE6_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1515,7 +1515,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SE1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SE1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1526,7 +1526,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SE1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SE1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1536,7 +1536,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SE2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SE2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1547,7 +1547,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SE2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SE2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1557,7 +1557,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SE3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SE3_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1568,7 +1568,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SE3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SE3_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1578,7 +1578,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SE4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SE4_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1589,7 +1589,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SE4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SE4_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1599,7 +1599,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SE5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SE5_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1610,7 +1610,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SE5_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SE5_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1620,7 +1620,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SE6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SE6_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1631,7 +1631,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SE6_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SE6_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1641,7 +1641,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SE7_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SE7_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1652,7 +1652,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SE7_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SE7_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1662,7 +1662,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SW1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SW1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1673,7 +1673,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SW1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SW1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1683,7 +1683,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SW2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SW2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1694,7 +1694,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SW2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SW2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1704,7 +1704,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SW3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SW3_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1715,7 +1715,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SW3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SW3_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1725,7 +1725,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SW4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SW4_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1736,7 +1736,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SW4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SW4_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1746,7 +1746,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SW5_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SW5_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1757,7 +1757,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SW5_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SW5_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1767,7 +1767,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SW6_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SW6_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1778,7 +1778,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SW6_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SW6_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1788,7 +1788,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SW7_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SW7_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1799,7 +1799,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SW7_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SW7_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1809,7 +1809,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3W1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3W1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1820,7 +1820,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3W1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3W1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1830,7 +1830,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3W2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3W2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1841,7 +1841,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3W2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3W2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1851,7 +1851,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3W3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3W3_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1862,7 +1862,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3W3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3W3_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1872,7 +1872,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3E1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3E1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1883,7 +1883,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3E1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3E1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1893,7 +1893,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3E2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3E2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1904,7 +1904,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3E2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3E2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1914,7 +1914,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3E3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3E3_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1925,7 +1925,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3E3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3E3_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1935,7 +1935,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3XEN1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3XEN1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1946,7 +1946,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3XEN1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3XEN1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1956,7 +1956,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3XEN2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3XEN2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1967,7 +1967,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3XEN2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3XEN2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1977,7 +1977,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3XEN3_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3XEN3_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -1988,7 +1988,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3XEN3_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3XEN3_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -1998,7 +1998,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3XEN4_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3XEN4_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -2009,7 +2009,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3XEN4_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3XEN4_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -2019,7 +2019,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3HAT1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3HAT1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -2030,7 +2030,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3HAT1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3HAT1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -2040,7 +2040,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SCA1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SCA1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -2051,7 +2051,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SCA1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SCA1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -2061,7 +2061,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3SCA2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3SCA2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -2072,7 +2072,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3SCA2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3SCA2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -2082,7 +2082,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3ALI1_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3ALI1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -2093,7 +2093,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3ALI1_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3ALI1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -2103,7 +2103,7 @@
       
 	</fields>
   </region>
-  <region name="region_cluster_DA3ALI2_sector_001" density="1.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="region_cluster_DA3ALI2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
     <boundary class="sphere">
       <size r="1000000" />
     </boundary>
@@ -2114,7 +2114,7 @@
     <resources>
     </resources>
   </region>
-  <region name="audioregion_cluster_DA3ALI2_sector_001" density="1.0" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+  <region name="audioregion_cluster_DA3ALI2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
 	<boundary class="sphere">
 		<size r="500000" />
 	</boundary>
@@ -2139,13 +2139,13 @@
     </falloff>
     <fields>
 		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ore_l" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_silicon_l" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebula" densityfactor="0.5" noisescale="1000" seed="32" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="1.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="1.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="2.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="2.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebula" densityfactor="0.5" noisescale="1000" minnoisevalue="0" maxnoisevalue="1" distancefactor="0.2"/>
 		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="hydrogen" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="helium" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="methane" />
@@ -2233,13 +2233,13 @@
     </falloff>
     <fields>
 		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="1.2" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.8" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ore_l" densityfactor="2.2" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_silicon_l" densityfactor="1.8" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<positional ref="fog_outside_set1_lightorange_macro"  lodrule="nebula" densityfactor="0.8" noisescale="1000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="0.2"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="1.2" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.8" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="2.2" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="1.8" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<positional ref="fog_outside_set1_lightorange_macro"  lodrule="nebula" densityfactor="0.8" noisescale="1000" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="0.2"/>
 		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="hydrogen" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="helium" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="methane" />
@@ -2301,13 +2301,13 @@
     </falloff>
     <fields>
 		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.8" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="1.2" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_ore_l" densityfactor="1.8" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<asteroid groupref="asteroid_silicon_l" densityfactor="2.2" noisescale="1000" seed="32" minnoisevalue="0.8" maxnoisevalue="1"/>
-		<positional ref="fog_outside_set1_darkblue_macro"  lodrule="nebula" densityfactor="0.75" noisescale="1000" seed="32" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="0.2"/>
+		<asteroid groupref="asteroid_highyield_v1" densityfactor="0.8" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="1.2" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="1.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ice_xl" densityfactor="2.0" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_l" densityfactor="1.8" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_silicon_l" densityfactor="2.2" noisescale="1000" minnoisevalue="0.8" maxnoisevalue="1"/>
+		<positional ref="fog_outside_set1_darkblue_macro"  lodrule="nebula" densityfactor="0.75" noisescale="1000" minnoisevalue="0.50" maxnoisevalue="1" distancefactor="0.2"/>
 		<nebula ref="fogvolume_small_macro" localred="100" localgreen="30" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="hydrogen" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="100" localblue="30" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="helium" />
 		<nebula ref="fogvolume_small_macro" localred="30" localgreen="30" localblue="100" localdensity="0.8" uniformdensity="0.4" backgroundfog="false" resources="methane" />
@@ -2356,8 +2356,343 @@
 		<resource ware="methane" yield="high" />
     </resources>
   </region>
+  <region name="dago_solid_high_ore" >
+    <boundary class="splinetube">
+      <size r="10000" />
+      <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500" />
+	  <splineposition x="175000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500" />
+	  <splineposition x="0" y="0" z="-175000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500" />
+	  <splineposition x="-175000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500" />
+	  <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0" />
+    </boundary>
+    <falloff>
+		<radial>
+			<step position="0.0" value="1.0" />
+			<step position="0.3" value="1.0" />
+			<step position="0.5" value="0.9" />
+			<step position="0.9" value="0.4" />
+			<step position="1.0" value="0.0" />
+		</radial>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_xl" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ore_l" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_nividium_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_silicon_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<debris groupref="debris_s" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+    </fields>
+    <resources>
+		<resource ware="ore" yield="high" />
+		<resource ware="silicon" yield="medium" />
+		<resource ware="nividium" yield="medium" />
+		<resource ware="ice" yield="medium" />
+    </resources>
+  </region>
+  <region name="dago_solid_high_silicon" >
+    <boundary class="splinetube">
+      <size r="10000" />
+      <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500" />
+	  <splineposition x="175000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500" />
+	  <splineposition x="0" y="0" z="-175000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500" />
+	  <splineposition x="-175000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500" />
+	  <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0" />
+    </boundary>
+    <falloff>
+		<radial>
+			<step position="0.0" value="1.0" />
+			<step position="0.3" value="1.0" />
+			<step position="0.5" value="0.9" />
+			<step position="0.9" value="0.4" />
+			<step position="1.0" value="0.0" />
+		</radial>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_silicon_xl" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_silicon_l" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_nividium_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ore_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<debris groupref="debris_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+    </fields>
+    <resources>
+		<resource ware="ore" yield="medium" />
+		<resource ware="silicon" yield="high" />
+		<resource ware="nividium" yield="medium" />
+		<resource ware="ice" yield="medium" />
+    </resources>
+  </region>
+  <region name="dago_solid_high_ice" >
+    <boundary class="splinetube">
+      <size r="10000" />
+      <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500" />
+	  <splineposition x="175000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500" />
+	  <splineposition x="0" y="0" z="-175000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500" />
+	  <splineposition x="-175000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500" />
+	  <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0" />
+    </boundary>
+    <falloff>
+		<radial>
+			<step position="0.0" value="1.0" />
+			<step position="0.3" value="1.0" />
+			<step position="0.5" value="0.9" />
+			<step position="0.9" value="0.4" />
+			<step position="1.0" value="0.0" />
+		</radial>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ice_xl" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_l" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_nividium_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ore_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_silicon_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<debris groupref="debris_m" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+    </fields>
+    <resources>
+		<resource ware="ore" yield="medium" />
+		<resource ware="silicon" yield="medium" />
+		<resource ware="nividium" yield="medium" />
+		<resource ware="ice" yield="high" />
+    </resources>
+  </region>
+  <region name="dago_solid_high_all" >
+    <boundary class="splinetube">
+      <size r="10000" />
+      <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500" />
+	  <splineposition x="175000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500" />
+	  <splineposition x="0" y="0" z="-175000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500" />
+	  <splineposition x="-175000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500" />
+	  <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0" />
+    </boundary>
+    <falloff>
+		<radial>
+			<step position="0.0" value="1.0" />
+			<step position="0.3" value="1.0" />
+			<step position="0.5" value="0.9" />
+			<step position="0.9" value="0.4" />
+			<step position="1.0" value="0.0" />
+		</radial>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_xl" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_silicon_xl" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_xl" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_nividium_l" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_highyield_niv_v1" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<debris groupref="debris_xl" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+    </fields>
+    <resources>
+		<resource ware="ore" yield="high" />
+		<resource ware="silicon" yield="high" />
+		<resource ware="nividium" yield="high" />
+		<resource ware="ice" yield="high" />
+    </resources>
+  </region>
+  <region name="dago_liquid_blue" >
+    <boundary class="splinetube">
+      <size r="30000" />
+      <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="0.0" outlength="100000" />
+	  <splineposition x="200000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="-200000" tx="-1" ty="0" tz="0" inlength="100000" outlength="100000" />
+	  <splineposition x="-200000" y="0" z="0" tx="0" ty="0" tz="1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="100000" outlength="0.0" />
+    </boundary>
+    <falloff>
+		<radial>
+			<step position="0.0" value="1.0" />
+			<step position="0.3" value="1.0" />
+			<step position="0.5" value="0.9" />
+			<step position="0.9" value="0.4" />
+			<step position="1.0" value="0.0" />
+		</radial>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<!--<positional ref="fog_outside_set1_blue_macro"  lodrule="nebula" minnoisevalue="0" maxnoisevalue="1" />-->
+		<nebula ref="fogvolume_small_macro" localred="165" localgreen="165" localblue="255" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="50" localgreen="225" localblue="255" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="0" localgreen="100" localblue="255" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+    </fields>
+    <resources>
+		<resource ware="hydrogen" yield="medium" />
+		<resource ware="helium" yield="medium" />
+		<resource ware="methane" yield="high" />
+    </resources>
+  </region>
+  <region name="dago_liquid_red" >
+    <boundary class="splinetube">
+      <size r="30000" />
+      <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="0.0" outlength="100000" />
+	  <splineposition x="200000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="-200000" tx="-1" ty="0" tz="0" inlength="100000" outlength="100000" />
+	  <splineposition x="-200000" y="0" z="0" tx="0" ty="0" tz="1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="100000" outlength="0.0" />
+    </boundary>
+    <falloff>
+		<radial>
+			<step position="0.0" value="1.0" />
+			<step position="0.3" value="1.0" />
+			<step position="0.5" value="0.9" />
+			<step position="0.9" value="0.4" />
+			<step position="1.0" value="0.0" />
+		</radial>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<!--<positional ref="fog_outside_set1_red_macro"  lodrule="nebula" minnoisevalue="0" maxnoisevalue="1" />-->
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="100" localblue="0" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="225" localblue="50" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="165" localblue="50" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+    </fields>
+    <resources>
+		<resource ware="hydrogen" yield="high" />
+		<resource ware="helium" yield="medium" />
+		<resource ware="methane" yield="medium" />
+    </resources>
+  </region>
+  <region name="dago_liquid_green" >
+    <boundary class="splinetube">
+      <size r="30000" />
+      <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="0.0" outlength="100000" />
+	  <splineposition x="200000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="-200000" tx="-1" ty="0" tz="0" inlength="100000" outlength="100000" />
+	  <splineposition x="-200000" y="0" z="0" tx="0" ty="0" tz="1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="100000" outlength="0.0" />
+    </boundary>
+    <falloff>
+		<radial>
+			<step position="0.0" value="1.0" />
+			<step position="0.3" value="1.0" />
+			<step position="0.5" value="0.9" />
+			<step position="0.9" value="0.4" />
+			<step position="1.0" value="0.0" />
+		</radial>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<!--<positional ref="fog_outside_set1_green_macro"  lodrule="nebula" minnoisevalue="0" maxnoisevalue="1" />-->
+		<nebula ref="fogvolume_small_macro" localred="165" localgreen="255" localblue="50" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="100" localgreen="255" localblue="0" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="225" localgreen="255" localblue="50" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+    </fields>
+    <resources>
+		<resource ware="hydrogen" yield="medium" />
+		<resource ware="helium" yield="high" />
+		<resource ware="methane" yield="medium" />
+    </resources>
+  </region>
+  <region name="dago_liquid_white" >
+    <boundary class="splinetube">
+      <size r="30000" />
+      <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="0.0" outlength="100000" />
+	  <splineposition x="200000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="-200000" tx="-1" ty="0" tz="0" inlength="100000" outlength="100000" />
+	  <splineposition x="-200000" y="0" z="0" tx="0" ty="0" tz="1" inlength="100000" outlength="100000" />
+	  <splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="100000" outlength="0.0" />
+    </boundary>
+    <falloff>
+		<radial>
+			<step position="0.0" value="1.0" />
+			<step position="0.3" value="1.0" />
+			<step position="0.5" value="0.9" />
+			<step position="0.9" value="0.4" />
+			<step position="1.0" value="0.0" />
+		</radial>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<!--<positional ref="fog_outside_set1_whiteblue_macro"  lodrule="nebula" minnoisevalue="0" maxnoisevalue="1" />-->
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="255" localblue="255" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="255" localblue="255" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="helium" />
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="255" localblue="255" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+    </fields>
+    <resources>
+		<resource ware="hydrogen" yield="high" />
+		<resource ware="helium" yield="high" />
+		<resource ware="methane" yield="high" />
+    </resources>
+  </region>
+  <region name="dago_mixed_one" density="0.10" >
+    <boundary class="sphere">
+      <size r="250000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_s" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_s" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+    </fields>
+    <resources>
+		<resource ware="ore" yield="medium" />
+		<resource ware="ice" yield="medium" />
+    </resources>
+  </region>
+  <region name="dago_mixed_two" density="0.10" >
+    <boundary class="sphere">
+      <size r="250000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_silicon_s" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<nebula ref="fogvolume_small_macro" localred="255" localgreen="100" localblue="0" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="hydrogen" />
+    </fields>
+    <resources>
+		<resource ware="silicon" yield="medium" />
+		<resource ware="hydrogen" yield="medium" />
+    </resources>
+  </region>
+  <region name="dago_mixed_three" density="0.10" >
+    <boundary class="sphere">
+      <size r="250000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ice_s" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<nebula ref="fogvolume_small_macro" localred="0" localgreen="100" localblue="255" localdensity="3.0" uniformdensity="0.5" backgroundfog="false" minnoisevalue="0.4" maxnoisevalue="0.8" resources="methane" />
+    </fields>
+    <resources>
+		<resource ware="ice" yield="medium" />
+		<resource ware="methane" yield="medium" />
+    </resources>
+  </region>
+  <region name="dago_mixed_four" density="0.10" >
+    <boundary class="sphere">
+      <size r="250000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+		<object groupref="lockboxes_extra" densityfactor="0.00005" minnoisevalue="0.1" maxnoisevalue="1"/>
+		<asteroid groupref="asteroid_ore_s" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_silicon_s" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_nividium_s" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+		<asteroid groupref="asteroid_ice_s" minnoisevalue="0.4" maxnoisevalue="0.8"/>
+    </fields>
+    <resources>
+		<resource ware="ore" yield="medium" />
+		<resource ware="silicon" yield="medium" />
+		<resource ware="nividium" yield="medium" />
+		<resource ware="ice" yield="medium" />
+    </resources>
+  </region>
 </add>
+<!-- remove damage fields -->
 <remove sel="//regions/region[@name='region2_cluster_27_sector_001']/fields/damagefield" />
 <remove sel="//regions/region[@name='region_cluster_32_sector_001']/fields/damagefield[2]" />
 <remove sel="//regions/region[@name='region_cluster_32_sector_001']/fields/damagefield[1]" />
+<remove sel="//regions/region[@name='region_cluster_35_sector_001_a']/fields/damagefield" />
+<remove sel="//regions/region[@name='region_cluster_35_sector_001_a']/fields/effect" />
+<!-- remove mines -->
+<remove sel="//regions/region[@name='region_cluster_25_sector_002']/fields/object[@ref='weapon_gen_mine_02_macro']" />
+<remove sel="//regions/region[@name='region_cluster_45_sector_001']/fields/object[@ref='weapon_gen_mine_03_macro']" />
+<remove sel="//regions/region[@name='mine_field_1']/fields/object[@ref='weapon_gen_mine_03_macro']" />
 </diff>
