@@ -1,6 +1,6 @@
 # DeadAirGate Overhaul
 
-## Adds over 70 new sectors
+## Adds over 85 new sectors
 - Major factions are split into 7 core systems and multiple border systems
 - Minor factions are split into 4 core systems
 - Adds neutral sector(s) between major factions
