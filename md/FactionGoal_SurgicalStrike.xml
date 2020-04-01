@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<replace sel="//do_if[@value='player.age - @$LastSurgicalTime gt this.$MinInterval and $Faction != faction.hatikvah and (this.$IsPirate or $ClaimedSectors.count gt 0)']/@value">player.age - @$LastSurgicalTime gt this.$MinInterval and (this.$IsPirate or $ClaimedSectors.count gt 0)</replace>
+</diff>

@@ -112,5 +112,36 @@
 	<entry name="cluster_DA3XEN3_sector*" value="maps\xu_ep2_universe\sectors" />
 	<entry name="cluster_DA3XEN4_sector*" value="maps\xu_ep2_universe\sectors" />
 <!-- END DA3 -->
+<!-- BEGIN SPLIT VENDETTA -->
+	<entry name="cluster_DA3SPL1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SPL2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SPLSW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SPLSE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SPLC_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FRF1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FRF2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FRFNW_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FRFNE_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FRFN_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FRFC_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FAF1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FAF2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FAF3_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FAF4_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3SPL_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3FRF_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DA3CAB1_sector*" value="maps\xu_ep2_universe\sectors" />
+<!-- END SPLIT VENDETTA -->
+<!-- BEGIN STATIONS -->
+	<entry name="station_arg_tradestation_dabase_01_macro" value="extensions\deadairgateoverhaul-master\assets\structures\macros\station_arg_tradestation_dabase_01_macro" />
+	<entry name="station_par_tradestation_dabase_01_macro" value="extensions\deadairgateoverhaul-master\assets\structures\macros\station_par_tradestation_dabase_01_macro" />
+	<entry name="station_tel_tradestation_dabase_01_macro" value="extensions\deadairgateoverhaul-master\assets\structures\macros\station_tel_tradestation_dabase_01_macro" />
+	<entry name="station_arg_shipyard_dabase_01_macro" value="extensions\deadairgateoverhaul-master\assets\structures\macros\station_arg_shipyard_dabase_01_macro" />
+	<entry name="station_par_shipyard_dabase_01_macro" value="extensions\deadairgateoverhaul-master\assets\structures\macros\station_par_shipyard_dabase_01_macro" />
+	<entry name="station_tel_shipyard_dabase_01_macro" value="extensions\deadairgateoverhaul-master\assets\structures\macros\station_tel_shipyard_dabase_01_macro" />
+	<entry name="station_arg_wharf_dabase_01_macro" value="extensions\deadairgateoverhaul-master\assets\structures\macros\station_arg_wharf_dabase_01_macro" />
+	<entry name="station_par_wharf_dabase_01_macro" value="extensions\deadairgateoverhaul-master\assets\structures\macros\station_par_wharf_dabase_01_macro" />
+	<entry name="station_tel_wharf_dabase_01_macro" value="extensions\deadairgateoverhaul-master\assets\structures\macros\station_tel_wharf_dabase_01_macro" />
+<!-- END STATIONS -->
 </add>
 </diff>

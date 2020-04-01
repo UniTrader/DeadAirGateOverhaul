@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../libraries/libraries.xsd">
+<replace sel="//modules/module[@id='prod_spl_medicalsupplies']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='prod_spl_scruffinfruits']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='prod_spl_cheltmeat']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='stor_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='dockarea_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='dockarea_spl_hightech']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='dockarea_spl_lowtech']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='pier_base_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='pier_add_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='hab_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='def_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='claim_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='build_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='equip_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+<replace sel="//modules/module[@id='conn_spl']/category/@faction">[court, fallensplit, freesplit, split]</replace>
+
+<replace sel="//modules/module[@id='prod_arg_spacefuel']/category/@faction">[alliance, antigone, argon, buccaneers, court, fallensplit, freesplit, hatikvah, holyorder, ministry, paranid, scaleplate, teladi, trinity]</replace>
+<replace sel="//modules/module[@id='prod_par_majadust']/category/@faction">[alliance, antigone, argon, buccaneers, court, fallensplit, freesplit, hatikvah, holyorder, ministry, paranid, scaleplate, teladi, trinity]</replace>
+<replace sel="//modules/module[@id='prod_tel_spaceweed']/category/@faction">[alliance, antigone, argon, buccaneers, court, fallensplit, freesplit, hatikvah, holyorder, ministry, paranid, scaleplate, teladi, trinity]</replace>
+</diff>

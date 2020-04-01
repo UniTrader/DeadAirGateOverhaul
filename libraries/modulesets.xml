@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+<add sel="//modulesets">
+  <set id="datradestation_argon"    name="{20112,2301}" race="argon"   type="tradingstation" macro="station_arg_tradestation_dabase_01_macro" player="true" constructionvesselrequired="true" />
+
+  <set id="datradestation_paranid"  name="{20112,3301}" race="paranid" type="tradingstation" macro="station_par_tradestation_dabase_01_macro" player="true" constructionvesselrequired="true" />
+
+  <set id="datradestation_teladi"   name="{20112,4301}" race="teladi"  type="tradingstation" macro="station_tel_tradestation_dabase_01_macro" player="true" constructionvesselrequired="true" />
+  
+  <set id="dashipyard_argon"    name="{20112,2201}" race="argon"   type="shipyard" macro="station_arg_shipyard_dabase_01_macro" player="true" constructionvesselrequired="true" />
+
+  <set id="dashipyard_paranid"  name="{20112,3201}" race="paranid" type="shipyard" macro="station_par_shipyard_dabase_01_macro" player="true" constructionvesselrequired="true" />
+
+  <set id="dashipyard_teladi"   name="{20112,4201}" race="teladi"  type="shipyard" macro="station_tel_shipyard_dabase_01_macro" player="true" constructionvesselrequired="true" />
+  
+  <set id="dawharf_argon"    name="{20112,2201}" race="argon"   type="wharf" macro="station_arg_wharf_dabase_01_macro" player="true" constructionvesselrequired="true" />
+
+  <set id="dawharf_paranid"  name="{20112,3201}" race="paranid" type="wharf" macro="station_par_wharf_dabase_01_macro" player="true" constructionvesselrequired="true" />
+
+  <set id="dawharf_teladi"   name="{20112,4201}" race="teladi"  type="wharf" macro="station_tel_wharf_dabase_01_macro" player="true" constructionvesselrequired="true" />
+</add>
+</diff>

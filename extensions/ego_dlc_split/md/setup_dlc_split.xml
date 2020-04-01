@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff name="Setup_DLC_Split" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+<add sel="//library[@name='Start_Actions']/actions/get_ware_definition[@faction='faction.court']" pos="after">
+<get_ware_definition result="md.$EquipmentTable.{faction.fallensplit}" faction="faction.fallensplit" flags="equipment" />
+</add>
+<replace sel="//library[@name='Start_Actions']/actions/append_list_elements[@name='md.$SplitFactions']/@other">[faction.split, faction.freesplit, faction.court, faction.fallensplit]</replace>
+</diff>

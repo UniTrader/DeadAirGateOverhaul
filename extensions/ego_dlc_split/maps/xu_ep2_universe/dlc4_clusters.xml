@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<remove sel="//macros/macro[@name='Cluster_408_macro']/connections/connection[@name='SuperHighway02_Cluster_408_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_408_macro']/connections/connection[@name='SuperHighway01_Cluster_408_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_416_macro']/connections/connection[@name='SuperHighway02_Cluster_416_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_416_macro']/connections/connection[@name='SuperHighway01_Cluster_416_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_423_macro']/connections/connection[@name='SuperHighway02_Cluster_423_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_423_macro']/connections/connection[@name='SuperHighway01_Cluster_423_connection']"/>
+
+<remove sel="//macros/macro[@name='Cluster_424_macro']/connections/connection[@name='SuperHighway01_Cluster_424_connection']"/>
+<remove sel="//macros/macro[@name='Cluster_424_macro']/connections/connection[@name='SuperHighway02_Cluster_424_connection']"/>
+
+<add sel="//macros/macro[@name='Cluster_417_macro']/connections">
+			<connection name="C417S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="C417S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago_solid_high_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="C417S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="C417S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago_liquid_blue" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="C417S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="C417S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago_mixed_one" />
+					</properties>
+				</macro>
+			</connection>
+</add>
+<add sel="//macros/macro[@name='Cluster_425_macro']/connections">
+			<connection name="C425S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="C425S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago_solid_high_ore" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="C425S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="C425S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago_liquid_blue" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="C425S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="C425S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="dago_mixed_one" />
+					</properties>
+				</macro>
+			</connection>
+</add>
+</diff>

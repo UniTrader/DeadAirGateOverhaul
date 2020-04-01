@@ -1387,6 +1387,330 @@
 			</properties>
 		</dataset>
 <!-- END DA3 -->
+<!-- BEGIN SPLIT VENDETTA -->
+		<dataset macro="Cluster_DA3SPL1_macro">
+			<properties>
+				<identification name="{20005,5003}" description="{20005,5003}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+				<area sunlight="1" economy="0.75" security="0.75" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3SPL1_Sector001_macro">
+			<properties>
+				<identification name="{20005,5003}" description="{20005,5003}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3SPL2_macro">
+			<properties>
+				<identification name="{20005,5005}" description="{20005,5005}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+				<area sunlight="1" economy="0.75" security="0.75" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3SPL2_Sector001_macro">
+			<properties>
+				<identification name="{20005,5005}" description="{20005,5005}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3SPLSW_macro">
+			<properties>
+				<identification name="{20005,5009}" description="{20005,5009}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3SPLSW_Sector001_macro">
+			<properties>
+				<identification name="{20005,5009}" description="{20005,5009}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3SPLSE_macro">
+			<properties>
+				<identification name="{20005,5010}" description="{20005,5010}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3SPLSE_Sector001_macro">
+			<properties>
+				<identification name="{20005,5010}" description="{20005,5010}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3SPLC_macro">
+			<properties>
+				<identification name="{20005,5012}" description="{20005,5012}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3SPLC_Sector001_macro">
+			<properties>
+				<identification name="{20005,5012}" description="{20005,5012}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_patriarchy" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FRF1_macro">
+			<properties>
+				<identification name="{20005,5054}" description="{20005,5054}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.75" security="0.75" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FRF1_Sector001_macro">
+			<properties>
+				<identification name="{20005,5054}" description="{20005,5054}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FRF2_macro">
+			<properties>
+				<identification name="{20005,5055}" description="{20005,5055}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.75" security="0.75" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FRF2_Sector001_macro">
+			<properties>
+				<identification name="{20005,5055}" description="{20005,5055}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FRFNW_macro">
+			<properties>
+				<identification name="{20005,5056}" description="{20005,5056}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FRFNW_Sector001_macro">
+			<properties>
+				<identification name="{20005,5056}" description="{20005,5056}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FRFNE_macro">
+			<properties>
+				<identification name="{20005,5057}" description="{20005,5057}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FRFNE_Sector001_macro">
+			<properties>
+				<identification name="{20005,5057}" description="{20005,5057}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FRFN_macro">
+			<properties>
+				<identification name="{20005,5059}" description="{20005,5059}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FRFN_Sector001_macro">
+			<properties>
+				<identification name="{20005,5059}" description="{20005,5059}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FRFC_macro">
+			<properties>
+				<identification name="{20005,5058}" description="{20005,5058}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.5" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FRFC_Sector001_macro">
+			<properties>
+				<identification name="{20005,5058}" description="{20005,5058}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FAF1_macro">
+			<properties>
+				<identification name="{20005,5031}" description="{20005,5031}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="1" security="1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FAF1_Sector001_macro">
+			<properties>
+				<identification name="{20005,5031}" description="{20005,5031}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FAF2_macro">
+			<properties>
+				<identification name="{20005,5033}" description="{20005,5033}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.75" security="0.75" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FAF2_Sector001_macro">
+			<properties>
+				<identification name="{20005,5033}" description="{20005,5033}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FAF3_macro">
+			<properties>
+				<identification name="{20005,5034}" description="{20005,5034}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.75" security="0.75" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FAF3_Sector001_macro">
+			<properties>
+				<identification name="{20005,5034}" description="{20005,5034}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FAF4_macro">
+			<properties>
+				<identification name="{20005,5035}" description="{20005,5035}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.75" security="0.75" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FAF4_Sector001_macro">
+			<properties>
+				<identification name="{20005,5035}" description="{20005,5035}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3SPL_macro">
+			<properties>
+				<identification name="{20005,5028}" description="{20005,5028}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3SPL_Sector001_macro">
+			<properties>
+				<identification name="{20005,5028}" description="{20005,5028}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3FRF_macro">
+			<properties>
+				<identification name="{20005,5011}" description="{20005,5011}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3FRF_Sector001_macro">
+			<properties>
+				<identification name="{20005,5011}" description="{20005,5011}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
+		
+		<dataset macro="Cluster_DA3CAB1_macro">
+			<properties>
+				<identification name="{20005,5060}" description="{20005,5060}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="1" economy="1" security="1" />
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DA3CAB1_Sector001_macro">
+			<properties>
+				<identification name="{20005,5060}" description="{20005,5060}" />
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+			</properties>
+		</dataset>
 	</add>
 <!-- 
 CAPITAL: <area sunlight="1" economy="1" security="1" />
@@ -1439,6 +1763,43 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 <replace sel="//defaults/dataset[@macro='Cluster_26_macro']/properties/area"><area sunlight="1" economy="1" security="1" /></replace>
 <replace sel="//defaults/dataset[@macro='Cluster_32_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
 <replace sel="//defaults/dataset[@macro='Cluster_33_macro']/properties/area"><area sunlight="1" economy="1" security="1" /></replace>
+
+<!-- SPLIT VENDETTA -->
+<!-- CAPITALS -->
+<replace sel="//defaults/dataset[@macro='Cluster_405_macro']/properties/area"><area sunlight="1" economy="1" security="1" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_411_macro']/properties/area"><area sunlight="1" economy="1" security="1" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_419_macro']/properties/area"><area sunlight="1" economy="1" security="1" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_415_macro']/properties/area"><area sunlight="1" economy="1" security="1" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_424_Sector001_macro']/properties/area"><area sunlight="1" economy="1" security="1" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_424_Sector002_macro']/properties/area"><area sunlight="1" economy="1" security="1" /></replace>
+<!-- CORE -->
+<replace sel="//defaults/dataset[@macro='Cluster_402_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_403_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_404_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_406_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_408_Sector001_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_408_Sector002_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_409_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_410_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_412_Sector001_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_413_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_414_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_416_Sector001_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_416_Sector002_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_417_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_420_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_422_Sector001_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_423_Sector001_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_423_Sector002_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_425_macro']/properties/area"><area sunlight="1" economy="0.75" security="0.75" /></replace>
+<!-- OCCUPIED -->
+<replace sel="//defaults/dataset[@macro='Cluster_418_macro']/properties/area"><area sunlight="1" economy="0.5" security="0.5" /></replace>
+<!-- BORDER -->
+<replace sel="//defaults/dataset[@macro='Cluster_400_macro']/properties/area"><area sunlight="1" economy="0.5" security="0.25" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_401_macro']/properties/area"><area sunlight="1" economy="0.5" security="0.25" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_407_macro']/properties/area"><area sunlight="1" economy="0.5" security="0.25" /></replace>
+<replace sel="//defaults/dataset[@macro='Cluster_421_macro']/properties/area"><area sunlight="1" economy="0.5" security="0.25" /></replace>
+
 <!-- Bring out the faction logic 
 <replace sel="//defaults/dataset[@macro='XXX']/properties/area">YYY</replace>
 -->

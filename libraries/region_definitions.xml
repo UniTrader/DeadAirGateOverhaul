@@ -1260,7 +1260,6 @@
 	<falloff>
 	</falloff>
 	<fields>
-      
 	</fields>
   </region>
   <region name="region_cluster_DA3NW2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
@@ -2125,6 +2124,387 @@
 	</fields>
   </region>
 <!-- END DA3 -->
+<!-- SPLIT VENDETTA -->
+  <region name="region_cluster_DA3SPL1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SPL1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3SPL2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SPL2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3SPLSW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SPLSW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3SPLSE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SPLSE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3SPLC_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SPLC_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FRF1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FRF1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FRF2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FRF2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FRFNW_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FRFNW_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FRFNE_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FRFNE_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FRFN_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FRFN_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FRFC_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FRFC_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FAF1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FAF1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FAF2_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FAF2_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FAF3_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FAF3_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FAF4_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FAF4_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3SPL_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3SPL_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3FRF_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3FRF_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  <region name="region_cluster_DA3CAB1_sector_001" density="1.5" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+    </fields>
+    <resources>
+    </resources>
+  </region>
+  <region name="audioregion_cluster_DA3CAB1_sector_001" density="1.0" rotation="0" noisescale="10000" minnoisevalue="0.15" maxnoisevalue="1">
+	<boundary class="sphere">
+		<size r="500000" />
+	</boundary>
+	<falloff>
+	</falloff>
+	<fields>
+	</fields>
+  </region>
+  
+  
+<!-- END SPLIT VENDETTA -->
 
   <region name="dago1_outer_resources" density="1.5" rotation="0" >
     <boundary class="splinetube">

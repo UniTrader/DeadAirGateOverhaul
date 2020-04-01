@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+	<!-- Fix Loadouts-->
+<replace sel="//parameters/loadout">
+  <loadout level="0.7" variation="0.4" ammo="1.0" software="1.0">
+    <units min="0.8" max="1.0">
+      <defence min="0.5" max="0.8" />
+    </units>
+    <group threshold="0.75" />
+  </loadout>
+</replace>
+<replace sel="//parameters/navigation/travelspeed/@space">4000</replace>
+<replace sel="//parameters/aiflight/steering/linear/@start">1.8</replace>
+<replace sel="//parameters/aiflight/steering/linear/@end">10</replace>
+
+<replace sel="//parameters/aiflight/skills/skill[@level='0']/@strafespeed">0.5</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='0']/@strafeacc">0.5</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='0']/@steeringspeed">0.5</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='0']/@steeringacc">0.5</replace>
+
+<replace sel="//parameters/aiflight/skills/skill[@level='1']/@strafespeed">0.6</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='1']/@strafeacc">0.6</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='1']/@steeringspeed">0.6</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='1']/@steeringacc">0.6</replace>
+
+<replace sel="//parameters/aiflight/skills/skill[@level='2']/@strafespeed">0.7</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='2']/@strafeacc">0.7</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='2']/@steeringspeed">0.7</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='2']/@steeringacc">0.7</replace>
+
+<replace sel="//parameters/aiflight/skills/skill[@level='3']/@strafespeed">0.8</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='3']/@strafeacc">0.8</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='3']/@steeringspeed">0.8</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='3']/@steeringacc">0.8</replace>
+
+<replace sel="//parameters/aiflight/skills/skill[@level='4']/@strafespeed">0.9</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='4']/@strafeacc">0.9</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='4']/@steeringspeed">0.9</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='4']/@steeringacc">0.9</replace>
+
+<replace sel="//parameters/aiflight/skills/skill[@level='5']/@strafespeed">1.0</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='5']/@strafeacc">1.0</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='5']/@steeringspeed">1.0</replace>
+<replace sel="//parameters/aiflight/skills/skill[@level='5']/@steeringacc">1.0</replace>
+</diff>
+

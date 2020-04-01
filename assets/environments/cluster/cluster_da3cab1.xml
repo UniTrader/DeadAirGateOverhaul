@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+<components>
+	<component name="Cluster_DA3CAB1" class="celestialbody">
+		<source geometry="assets\environments\cluster\Cluster_50_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="202" g="249" b="255" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="1.1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="-1.352928E+08" y="1.933208E+08" z="-3.62958E+08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni02" shadow="0" r="196" g="255" b="255" range="1E+11" shadowrange="1E+11" lighteffect="1" trigger="1" intensity="0.275" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="5.340145E+07" y="-2.135384E+07" z="3.62958E+08"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_c26_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.9775E+08" y="4.9775E+08" z="4.9775E+08"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ">
+				<offset>
+					<position x="1.226125E+07" y="31.25" z="8100447"/>
+				</offset>
+				<parts>
+					<part name="Background">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.backgroundstars"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.214036E+08" y="4.25545E+08" z="4.214036E+08"/>
+							<center x="-19.53125" y="0" z="6.835938"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part  ">
+				<offset>
+					<position x="5937281" y="-553812.5" z="1171969"/>
+				</offset>
+				<parts>
+					<part name="bigstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.702529E+08" y="3.48666E+08" z="3.871963E+08"/>
+							<center x="-1.684747E+07" y="-1520797" z="3.048273E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part  ">
+				<offset>
+					<position x="8354969" y="438851.6" z="3983781"/>
+				</offset>
+				<parts>
+					<part name="mediumstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.632484E+08" y="3.606822E+08" z="3.58029E+08"/>
+							<center x="4159375" y="-455804.7" z="-1310781"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part  ">
+				<offset>
+					<position x="898960.9" y="1.511347E+07" z="-1258906"/>
+				</offset>
+				<parts>
+					<part name="smallstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.650654E+08" y="3.56234E+08" z="3.760593E+08"/>
+							<center x="-1066008" y="-2.230669E+07" z="1.243445E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part  ">
+				<offset>
+					<position x="-7.48388E+07" y="4339606" z="-1.979334E+07"/>
+				</offset>
+				<parts>
+					<part name="nebula001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.135547E+08" y="3.998032E+08" z="4.219442E+08"/>
+							<center x="8.661586E+07" y="2.437872E+07" z="1.154042E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part  ">
+				<offset>
+					<position x="-1.878857E+07" y="3.866002E+07" z="1.302957E+08"/>
+				</offset>
+				<parts>
+					<part name="atmosphereb">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.atmo_cluster26_planet2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.531058E+07" y="1.530887E+07" z="1.530771E+07"/>
+							<center x="-80126.95" y="115109.4" z="38875"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part  ">
+				<offset>
+					<position x="-8.405367E+07" y="1.005155E+07" z="-3.760157E+07"/>
+				</offset>
+				<parts>
+					<part name="planet001b">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.planet_cluster50_planet1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.863793E+07" y="3.86336E+07" z="3.863069E+07"/>
+							<center x="-80085.94" y="115309.6" z="38867.19"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection09" tags="part  ">
+				<offset>
+					<position x="-8.405367E+07" y="1.005155E+07" z="-3.760157E+07"/>
+					<quaternion qx="3.879666E-02" qy="4.321016E-03" qz="0.1106073" qw="-0.9930973"/>
+				</offset>
+				<parts>
+					<part name="atmosphere001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.atmo_cluster50_planet1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.960395E+07" y="3.960395E+07" z="3.960395E+07"/>
+							<center x="-80078.13" y="115309.6" z="38863.28"/>
+						</size>
+						<offset>
+							<position x="-15.625" y="2.929688" z="3.90625"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection10" tags="part  ">
+				<offset>
+					<position x="-1.878857E+07" y="3.866002E+07" z="1.302957E+08"/>
+				</offset>
+				<parts>
+					<part name="Sphere001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.planet_cluster26_planet2"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.4937E+07" y="1.4937E+07" z="1.4937E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection11" tags="part animation textureanimation nocollision  ">
+				<offset>
+					<position x="6.366463E-09" y="-1814940" z="-585791"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="3001"/>
+				</animations>
+				<parts>
+					<part name="Plane010">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.fogwall"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.834857E+08" y="407.2266" z="1.918567E+08"/>
+							<center x="15.625" y="294.7998" z="-21.48438"/>
+						</size>
+						<size_raw>
+							<max x="1.834857E+08" y="407.196" z="1.918567E+08"/>
+							<center x="15.625" y="294.6777" z="-13.67188"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection12" tags="part animation textureanimation nocollision  ">
+				<offset>
+					<position x="6.366463E-09" y="-1304326" z="-585791"/>
+					<quaternion qx="6.181725E-08" qy="-0.7071068" qz="6.181723E-08" qw="-0.7071067"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="3001"/>
+				</animations>
+				<parts>
+					<part name="Plane011">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.fogwall"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.834857E+08" y="407.1884" z="1.918567E+08"/>
+							<center x="-6.366457E-09" y="294.7998" z="-21.48438"/>
+						</size>
+						<size_raw>
+							<max x="1.834857E+08" y="407.1884" z="1.918567E+08"/>
+							<center x="-7.8125" y="294.7998" z="-21.48438"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection13" tags="part animation textureanimation nocollision  ">
+				<offset>
+					<position x="6.366463E-09" y="-793711.7" z="-585791"/>
+					<quaternion qx="8.742278E-08" qy="-1" qz="-6.600236E-15" qw="7.54979E-08"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="3001"/>
+				</animations>
+				<parts>
+					<part name="Plane012">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.fogwall"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.834857E+08" y="407.1884" z="1.918567E+08"/>
+							<center x="-15.625" y="294.7998" z="9.765625"/>
+						</size>
+						<size_raw>
+							<max x="1.834857E+08" y="407.1884" z="1.918567E+08"/>
+							<center x="-15.625" y="294.7388" z="1.953125"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection14" tags="part animation textureanimation nocollision  ">
+				<offset>
+					<position x="6.366463E-09" y="-326430.3" z="-585791"/>
+					<quaternion qx="-6.445483E-08" qy="0.7372773" qz="5.906197E-08" qw="-0.6755902"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="0" end="3001"/>
+				</animations>
+				<parts>
+					<part name="Plane013">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.fogwall"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.834858E+08" y="407.196" z="1.918567E+08"/>
+							<center x="31.19452" y="294.7693" z="-5.92041"/>
+						</size>
+						<size_raw>
+							<max x="1.834857E+08" y="407.196" z="1.918567E+08"/>
+							<center x="15.56952" y="294.7693" z="1.89209"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="3">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="3001" value="1"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="linear_float">
+									<key frame="0" value="-0"/>
+									<key frame="3001" value="-0"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection15" tags="part animation textureanimation nocollision  ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="0" end="6008"/>
+				</animations>
+				<parts>
+					<part name="Cylinder01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.fogwall_vert"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.854759E+08" y="5685474" z="1.854759E+08"/>
+							<center x="0" y="11011.72" z="0"/>
+						</size>
+						<size_raw>
+							<max x="1.854759E+08" y="5685474" z="1.854759E+08"/>
+							<center x="0" y="11011.72" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="2" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="3" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="-1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection16" tags="part animation textureanimation nocollision  ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="0" end="6008"/>
+				</animations>
+				<parts>
+					<part name="Cylinder002">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.fogwall_vert"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.112178E+08" y="5569379" z="1.112178E+08"/>
+							<center x="-15.625" y="142360.8" z="0"/>
+						</size>
+						<size_raw>
+							<max x="1.112178E+08" y="5569379" z="1.112178E+08"/>
+							<center x="-19.53125" y="142360.8" z="3.90625"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="2" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="3" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="-1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection17" tags="part animation textureanimation nocollision  ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="0" end="6008"/>
+				</animations>
+				<parts>
+					<part name="Cylinder003">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.fogwall_vert"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6.660869E+07" y="5583787" z="6.660869E+07"/>
+							<center x="-7.8125" y="-104729.5" z="7.8125"/>
+						</size>
+						<size_raw>
+							<max x="6.660869E+07" y="5583787" z="6.660869E+07"/>
+							<center x="-3.90625" y="-104729.5" z="3.90625"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="2" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="3" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="-1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection18" tags="part animation textureanimation nocollision  ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="0" end="6008"/>
+				</animations>
+				<parts>
+					<part name="Cylinder004">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.fogwall_vert"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.996522E+07" y="5757153" z="3.996522E+07"/>
+							<center x="-7.8125" y="78773.92" z="-3.90625"/>
+						</size>
+						<size_raw>
+							<max x="3.996522E+07" y="5757153" z="3.996522E+07"/>
+							<center x="-5.859375" y="78773.92" z="-3.90625"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="3">
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="2" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="2">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="3" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="-1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+								<uv_property name="v_offset" controller="bezier_float">
+									<key frame="0" value="-0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="6008" value="1" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff name="FactionLogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+<add sel="//cue[@name='FactionLogicManagers']/cues">
+	<cue name="FallensplitFactionLogic" comment="">
+      <cues>
+        <cue name="FallensplitFactionLogic_Manager" ref="Manager">
+          <param name="Faction" value="faction.fallensplit"/>
+          <param name="BaseAggressionLevel" value="moodlevel.high"/>
+          <param name="BaseAvariceLevel" value="moodlevel.low"/>
+          <param name="BaseLawfulness" value="0.2"/>
+          <param name="PreferredHQSpaceMacro" value="macro.cluster_DA3FAF1_sector001_macro" comment=""/>
+          <param name="PreferredHQTypes" value="['shipbuilding', 'equipmentdock', 'defencestation']"/>
+          <param name="SatelliteNetworkGoal" value="7"/>
+          <param name="LasertowerNetworkGoal" value="5"/>
+          <param name="MinefieldGoalPerSector" value="1" comment="[MGPS * Sectors, 12].min is the maximum amount of Minefields for this faction"/>
+          <param name="DebugChance" value="0"/>
+          <param name="DebugChance2" value="0"/>
+        </cue>
+      </cues>
+    </cue>
+</add>
+<replace sel="//cue[@name='FactionLogicManagers']/cues/cue[@name='SetupSplitDLC']">
+	<cue name="SetupSplitDLC" version="3" comment="">
+      <actions>
+        <set_value name="md.$FactionData.{faction.split}" exact="table[]" />
+        <set_value name="md.$FactionData.{faction.freesplit}" exact="table[]" />
+        <set_value name="md.$FactionData.{faction.court}" exact="table[]" />
+		<set_value name="md.$FactionData.{faction.fallensplit}" exact="table[]" />
+      </actions>
+      <patch sinceversion="3">
+        <set_value name="SplitFactionLogic.$PreferredHQSpaceMacro" exact="macro.cluster_405_sector001_macro"/>
+        <set_value name="FreeSplitFactionLogic.$PreferredHQSpaceMacro" exact="macro.cluster_408_sector002_macro"/>
+        <set_value name="CourtFactionLogic.$PreferredHQSpaceMacro" exact="macro.cluster_425_sector001_macro"/>
+		<set_value name="FallensplitFactionLogic.$PreferredHQSpaceMacro" exact="macro.cluster_DA3FAF1_sector001_macro"/>
+      </patch>
+    </cue>
+</replace>
+<remove sel="//cue[@name='CourtFactionLogic']/conditions" />
+<replace sel="//cue[@name='FreeSplitFactionLogic']/cues/cue/param[@name='PreferredHQSpaceMacro']/@value">macro.cluster_411_sector001_macro</replace>
+<replace sel="//cue[@name='CourtFactionLogic']/cues/cue/param[@name='PreferredHQSpaceMacro']/@value">macro.cluster_DA3CAB1_sector001_macro</replace>
+</diff>

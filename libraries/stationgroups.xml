@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//groups">
+  <group name="datradestation_arg">
+    <select constructionplan="daarg_tradestation" />
+  </group>
+
+  <group name="datradestation_par">
+    <select constructionplan="dapar_tradestation" />
+  </group>
+  
+  <group name="datradestation_tel">
+    <select constructionplan="datel_tradestation" />
+  </group>
+
+  <group name="dashipyard_arg">
+    <select constructionplan="daarg_shipyard" />
+  </group>
+
+  <group name="dawharf_arg">
+    <select constructionplan="daarg_wharf" />
+  </group>
+
+  <group name="dashipyard_par">
+    <select constructionplan="dapar_shipyard" />
+  </group>
+  
+  <group name="dawharf_par">
+    <select constructionplan="dapar_wharf" />
+  </group>
+
+  <group name="dashipyard_tel">
+    <select constructionplan="datel_shipyard" />
+  </group>
+  
+  <group name="dawharf_tel">
+    <select constructionplan="datel_wharf" />
+  </group>
+
+</add>
+</diff>

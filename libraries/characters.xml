@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+<replace sel="//characters/character[@id='trader_argon_random']/owner/@list">[argon, antigone, hatikvah]</replace>\
+<replace sel="//characters/character[@id='fighter_argon_random']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='manager_argon_random']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='service_argon_random']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='marine_argon_random']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='passenger_argon_random']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='prisoner_argon_random']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='service_argon_random_rookie']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='marine_argon_random_rookie']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='fighter_argon_random_rookie']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='service_argon_random_veteran']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='marine_argon_random_veteran']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='service_argon_random_elite']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='marine_argon_random_elite']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='fighter_argon_random_elite']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='platform_trader_argon_random']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='ship_trader_argon_random']/owner/@list">[argon, antigone, hatikvah]</replace>
+<replace sel="//characters/character[@id='trader_teladi_random']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='fighter_teladi_random']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='manager_teladi_random']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='service_teladi_random']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='marine_teladi_random']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='passenger_teladi_random']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='prisoner_teladi_random']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='service_teladi_random_rookie']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='marine_teladi_random_rookie']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='fighter_teladi_random_rookie']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='service_teladi_random_veteran']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='marine_teladi_random_veteran']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='service_teladi_random_elite']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='marine_teladi_random_elite']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='platform_trader_teladi_random']/owner/@list">[ministry, scaleplate, teladi]</replace>
+<replace sel="//characters/character[@id='trader_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='fighter_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='manager_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='service_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='marine_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='passenger_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='prisoner_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='service_paranid_random_rookie']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='marine_paranid_random_rookie']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='fighter_paranid_random_rookie']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='service_paranid_random_veteran']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='marine_paranid_random_veteran']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='service_paranid_random_elite']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='marine_paranid_random_elite']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='fighter_paranid_random_elite']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='platform_trader_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='ship_trader_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+<replace sel="//characters/character[@id='shadyguy_paranid_random']/owner/@list">[alliance, holyorder, paranid, buccaneers]</replace>
+
+<add sel="//characters">
+	<character id="factionrepresentative_court" group="split.factionrepresentative.male">
+      <category tags="[factionrepresentative]" faction="court" race="split"/>
+      <skills>
+        <skill type="management" min="10" max="15"/>
+        <skill type="morale" max="15"/>
+
+        <skill type="boarding" min="6" max="15"/>
+        <skill type="engineering" min="5" max="15"/>
+        <skill type="piloting" min="11" max="15"/>
+      </skills>
+      <owner exact="court"/>
+    </character>
+    <character id="factionrepresentative_fallensplit" group="split.factionrepresentative.female">
+      <category tags="[factionrepresentative]" faction="fallensplit" race="split"/>
+      <skills>
+        <skill type="management" min="10" max="15"/>
+        <skill type="morale" max="15"/>
+
+        <skill type="boarding" min="6" max="15"/>
+        <skill type="engineering" min="5" max="15"/>
+        <skill type="piloting" min="11" max="15"/>
+      </skills>
+      <owner exact="fallensplit"/>
+    </character>
+</add>
+</diff>
