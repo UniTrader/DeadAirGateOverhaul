@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff name="Story_Split" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+<remove sel="//cue[@name='Sink_Effect_Curbs_Stage1_NewFaction']/actions/signal_cue[@cue='md.FactionLogic.CourtFactionLogic']" />
+<remove sel="//cue[@name='Sink_Effect_Curbs_Stage1_NewFaction']/actions/set_faction_active[@faction='faction.court']" />
+<remove sel="//cue[@name='Sink_Effect_Zyarth_Stage1_RenameFaction']/actions/signal_cue[@cue='md.FactionLogic.CourtFactionLogic']" />
+<remove sel="//cue[@name='Sink_Effect_Zyarth_Stage1_RenameFaction']/actions/set_faction_active[@faction='faction.court']" />
+
+<replace sel="//cue[@name='Sink_Effect_Court_Jobs']/actions"><actions /></replace>
+<remove sel="//cue[@name='Sink_Effect_Curbs_Stage2_StopPolice']/actions/set_job_active[3]" />
+<remove sel="//cue[@name='Sink_Effect_Curbs_Stage2_StopPolice']/actions/set_job_active[2]" />
+<remove sel="//cue[@name='Sink_Effect_Curbs_Stage2_StopPolice']/actions/set_job_active[1]" />
+
+<remove sel="//cue[@name='Sink_Effect_Zyarth_Stage2_TakeOverSectors']/actions/set_job_active" />
+</diff>

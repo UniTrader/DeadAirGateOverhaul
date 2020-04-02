@@ -62,7 +62,7 @@
 <!-- BEGIN HOP -->
 	<station id="wharf_holyorder_02" race="paranid" owner="holyorder" type="factory">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_DA2HOP1_sector001_macro" matchextension="false"/>
       <station>
@@ -186,7 +186,7 @@
 <!-- BEGIN TEL -->
 	<station id="wharf_teladi_02" race="teladi" owner="teladi" type="factory">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_15_sector002_macro" matchextension="false"/>
       <station>
@@ -377,7 +377,7 @@
 <!-- BEGIN FRF -->
 	 <station id="wharf_freesplit_02" race="split" owner="freesplit" type="factory">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_DA3FRF1_sector001_macro" matchextension="false"/>
       <station>
@@ -478,7 +478,7 @@
     </station>
 	<station id="tradestation_fallensplit_01" race="split" owner="fallensplit" type="tradingstation">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_DA3FAF4_sector001_macro" matchextension="false"/>
       <station>
@@ -490,7 +490,7 @@
     </station>
 	<station id="equipmentdock_fallensplit_01" race="split" owner="fallensplit" type="factory">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_DA3FAF4_sector001_macro" matchextension="false"/>
       <station>
@@ -564,7 +564,7 @@
     </station>
 	<station id="tradestation_court_01" race="split" owner="court" type="tradingstation">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_423_sector002_macro" matchextension="false"/>
       <station>
@@ -576,7 +576,7 @@
     </station>
 	<station id="equipmentdock_court_01" race="split" owner="court" type="factory">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_423_sector002_macro" matchextension="false"/>
       <station>
@@ -632,7 +632,7 @@
     </station>
 	<station id="tradestation_buccaneers_01" race="paranid" owner="buccaneers" type="tradingstation">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_420_sector001_macro" matchextension="false"/>
       <station>
@@ -644,7 +644,7 @@
     </station>
 	<station id="equipmentdock_buccaneers_01" race="paranid" owner="buccaneers" type="factory">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_420_sector001_macro" matchextension="false"/>
       <station>
@@ -754,7 +754,7 @@
 	
 	<station id="tradestation_scaleplate_01" race="teladi" owner="scaleplate" type="tradingstation">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_DA3SCA1_sector001_macro" matchextension="false"/>
       <station>
@@ -821,7 +821,7 @@
 <!-- BEGIN ALI -->
 	<station id="tradestation_alliance_01" race="paranid" owner="alliance" type="tradingstation">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_DA3ALI2_sector001_macro" matchextension="false"/>
       <station>
@@ -834,7 +834,7 @@
 	
 	<station id="equipmentdock_alliance_01" race="paranid" owner="alliance" type="factory">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_DA3ALI2_sector001_macro" matchextension="false"/>
       <station>
@@ -888,7 +888,7 @@
 <!-- BEGIN MIN -->
 	<station id="tradestation_ministry_01" race="teladi" owner="ministry" type="tradingstation">
       <quotas>
-        <quota galaxy="1" zone="1" />
+        <quota galaxy="1" sector="1" />
       </quotas>
       <location class="sector" macro="cluster_19_sector001_macro" matchextension="false"/>
       <station>
@@ -912,11 +912,25 @@
 <!-- END ADDING -->
 <!-- START REPLACING -->
 <!-- GAMESTART -->
+<replace sel="//object[@id='split_gamestart_battlefield_debris']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//object[@id='split_gamestart_battlefield_debris']/location"><location class="sector" macro="cluster_421_sector001_macro" solitary="true" matchextension="false"/></replace>
 <!-- ARG -->
-<replace sel="//god/stations/station[@id='arg_wharf_cluster_416_sector002']/location"><location class="sector" macro="cluster_07_sector001_macro" matchextension="false"/></replace>
-<replace sel="//god/stations/station[@id='arg_wharf_cluster_416_sector002']/@id">wharf_argon_02</replace>
+<replace sel="//god/stations/station[@id='arg_wharf_cluster_416_sector002']">
+	<station id="wharf_argon_02" race="argon" owner="argon" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1" />
+      </quotas>
+      <location class="sector" macro="cluster_07_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="argon" tags="[wharf]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+</replace>
 <replace sel="//god/stations/station[@id='equipmentdock_argon_02']/location"><location class="sector" macro="cluster_30_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='equipmentdock_argon_02']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='ant_defence_cluster_13_sector001']">
 	<station id="arg_defence_cluster_13_sector001" race="argon" owner="argon" type="factory">
       <quotas>
@@ -930,31 +944,62 @@
 </replace>
 <!-- HOP -->
 <replace sel="//god/stations/station[@id='shipyard_holyorder']/location"><location class="sector" macro="cluster_24_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='shipyard_holyorder']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='wharf_holyorder']/location"><location class="sector" macro="cluster_24_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='wharf_holyorder']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='tradestation_holyorder']/location"><location class="sector" macro="cluster_11_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='tradestation_holyorder']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <!-- PAR -->
-<replace sel="//god/stations/station[@id='par_wharf_cluster_422_sector001']/location"><location class="sector" macro="cluster_23_sector001_macro" matchextension="false"/></replace>
-<replace sel="//god/stations/station[@id='par_wharf_cluster_422_sector001']/@id">wharf_paranid_02</replace>
+<replace sel="//god/stations/station[@id='par_wharf_cluster_422_sector001']">
+	<station id="wharf_paranid_02" race="paranid" owner="paranid" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1" />
+      </quotas>
+      <location class="sector" macro="cluster_23_sector001_macro" matchextension="false"/>
+      <station>
+        <select faction="paranid" tags="[wharf]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+</replace>
 <replace sel="//god/stations/station[@id='equipmentdock_paranid']/location"><location class="sector" macro="cluster_47_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='equipmentdock_paranid']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <!-- TEL -->
 <replace sel="//god/stations/station[@id='ringstation_03']/location"><location class="sector" macro="cluster_39_sector001_macro" matchextension="false"/></replace>
 <!-- XEN -->
 <replace sel="//god/stations/station[@id='xen_defence_cluster_413_sector001']/location"><location class="sector" macro="cluster_413_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='xen_defence_cluster_413_sector001']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='xen_defence_cluster_414_sector001']/location"><location class="sector" macro="cluster_414_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='xen_defence_cluster_414_sector001']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='xen_defence_cluster_415_sector001']/location"><location class="sector" macro="cluster_415_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='xen_defence_cluster_415_sector001']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='shipyard_xenon_cluster_415']/location"><location class="sector" macro="cluster_415_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='shipyard_xenon_cluster_415']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='wharf_xenon_cluster_415']/location"><location class="sector" macro="cluster_415_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='wharf_xenon_cluster_415']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='xen_defence_cluster_424_sector001']/location"><location class="sector" macro="cluster_424_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='xen_defence_cluster_424_sector001']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='xen_defence_cluster_424_sector002']/location"><location class="sector" macro="cluster_424_sector002_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='xen_defence_cluster_424_sector002']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='shipyard_xenon_cluster_424']/location"><location class="sector" macro="cluster_424_sector002_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='shipyard_xenon_cluster_424']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='wharf_xenon_cluster_424']/location"><location class="sector" macro="cluster_424_sector002_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='wharf_xenon_cluster_424']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <!-- SPL -->
 <replace sel="//god/stations/station[@id='shipyard_split_01']/location"><location class="sector" macro="cluster_405_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='shipyard_split_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='wharf_split_01']/location"><location class="sector" macro="cluster_405_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='wharf_split_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='wharf_split_02']/location"><location class="sector" macro="cluster_403_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='wharf_split_02']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='equipmentdock_split_01']/location"><location class="sector" macro="cluster_404_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='equipmentdock_split_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='tradestation_split_01']/location"><location class="sector" macro="cluster_406_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='tradestation_split_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='equipmentdock_split_02']/location"><location class="sector" macro="cluster_418_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='equipmentdock_split_02']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='spl_defence_cluster_400_sector001']/location"><location class="zone" macro="zoneDAGO7_cluster_400_sector001_macro" matchextension="false"/></replace>
 <replace sel="//god/stations/station[@id='spl_defence_cluster_401_sector001']/location"><location class="zone" macro="zoneDAGO7_cluster_401_sector001_macro" matchextension="false"/></replace>
 <replace sel="//god/stations/station[@id='spl_defence_cluster_402_sector001']/location"><location class="zone" macro="zoneDAGO7_cluster_402_sector001_macro" matchextension="false"/></replace>
@@ -965,10 +1010,15 @@
 <replace sel="//god/stations/station[@id='spl_defence_cluster_418_sector001']/location"><location class="zone" macro="zoneDAGO7_cluster_418_sector001_macro" matchextension="false"/></replace>
 <!-- FRF -->
 <replace sel="//god/stations/station[@id='shipyard_freesplit_01']/location"><location class="sector" macro="cluster_411_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='shipyard_freesplit_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='wharf_freesplit_01']/location"><location class="sector" macro="cluster_411_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='wharf_freesplit_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='equipmentdock_freesplit_01']/location"><location class="sector" macro="cluster_412_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='equipmentdock_freesplit_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='tradestation_freesplit_01']/location"><location class="sector" macro="cluster_410_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='tradestation_freesplit_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='equipmentdock_freesplit_02']/location"><location class="sector" macro="cluster_DA3FRFN_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='equipmentdock_freesplit_02']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='frf_defence_cluster_407_sector001']/location"><location class="zone" macro="zoneDAGO7_cluster_407_sector001_macro" matchextension="false"/></replace>
 <replace sel="//god/stations/station[@id='frf_defence_cluster_408_sector001']/location"><location class="zone" macro="zoneDAGO7_cluster_408_sector001_macro" matchextension="false"/></replace>
 <replace sel="//god/stations/station[@id='frf_defence_cluster_408_sector002']/location"><location class="zone" macro="zoneDAGO7_cluster_408_sector002_macro" matchextension="false"/></replace>
@@ -1070,14 +1120,19 @@
 </replace>
 <!-- HAT -->
 <replace sel="//god/stations/station[@id='tradestation_hatikvah_01']/location"><location class="sector" macro="cluster_DA2HAT2_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='tradestation_hatikvah_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='freeport_hatikvah_01']/location"><location class="sector" macro="cluster_DA3NW6_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='freeport_hatikvah_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='freeport_hatikvah_02']/location"><location class="sector" macro="cluster_DA1W_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='freeport_hatikvah_02']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='arg_defence_cluster_29_sector002']/@owner">hatikvah</replace>
 <replace sel="//god/stations/station[@id='arg_defence_cluster_29_sector002']/station/select/@faction">hatikvah</replace>
 <!-- SCA -->
 <replace sel="//god/stations/station[@id='piratedock_scaleplate_01']/location"><location class="zone" macro="ZoneDAGO7_Cluster_DA2SCA1_Sector001_macro" matchextension="false"/></replace>
 <replace sel="//god/stations/station[@id='piratebase_scaleplate_01']/location"><location class="sector" macro="cluster_44_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='piratebase_scaleplate_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='piratebase_scaleplate_02']/location"><location class="sector" macro="cluster_48_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='piratebase_scaleplate_02']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <!-- ALI -->
 <replace sel="//god/stations/station[@id='shipyard_alliance']">
 	<station id="shipyard_alliance_01" race="paranid" owner="alliance" type="factory">
@@ -1109,6 +1164,7 @@
 </replace>
 <!-- MIN -->
 <replace sel="//god/stations/station[@id='equipmentdock_ministry_01']/location"><location class="sector" macro="cluster_19_sector001_macro" matchextension="false"/></replace>
+<replace sel="//god/stations/station[@id='equipmentdock_ministry_01']/quotas/quota"><quota galaxy="1" sector="1" /></replace>
 <replace sel="//god/stations/station[@id='tel_defence_cluster_43_sector001']">
 	<station id="min_defence_cluster_43_sector001" race="teladi" owner="ministry" type="factory">
       <quotas>
@@ -3028,7 +3084,7 @@
 <!-- BEGIN XENON ECONOMY -->
 	<product id="xen_energycells" ware="energycells" owner="xenon" type="factory">
       <quotas>
-        <quota galaxy="48" cluster="4" />
+        <quota galaxy="48" cluster="3" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[xenon]" relation="self" comparison="exact"  matchextension="false"/>
       <module>

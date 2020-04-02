@@ -2367,7 +2367,7 @@
 <remove sel="//macros/macro[@name='Zone003_Cluster_410_Sector001_macro']/connections/connection[@name='connection_ClusterGate410To409']" />
 <remove sel="//macros/macro[@name='Zone002_Cluster_410_Sector001_macro']/connections/connection[@name='connection_ClusterGate410To411']" />
 <remove sel="//macros/macro[@name='Zone005_Cluster_410_Sector001_macro']/connections/connection[@name='connection_ClusterGate410To412']" />
-<remove sel="//macros/macro[@name='Zone002_Cluster_411_Sector001_macro']/connections/connection[@name='connection_ClusterGate411To425']" />
+<!--<remove sel="//macros/macro[@name='Zone002_Cluster_411_Sector001_macro']/connections/connection[@name='connection_ClusterGate411To425']" /> split_story -->
 <remove sel="//macros/macro[@name='Zone005_Cluster_411_Sector001_macro']/connections/connection[@name='connection_ClusterGate411To410']" />
 <remove sel="//macros/macro[@name='Zone003_Cluster_405_Sector001_macro']/connections/connection[@name='connection_ClusterGate405To406']" />
 <remove sel="//macros/macro[@name='Zone005_Cluster_405_Sector001_macro']/connections/connection[@name='connection_ClusterGate405To419']" />
@@ -2407,7 +2407,7 @@
 <remove sel="//macros/macro[@name='Zone002_Cluster_415_Sector001_macro']/connections/connection[@name='connection_ClusterGate415To414']" />
 <remove sel="//macros/macro[@name='Zone004_Cluster_415_Sector001_macro']/connections/connection[@name='connection_ClusterGate415To404']" />
 <remove sel="//macros/macro[@name='Zone005_Cluster_424_Sector001_macro']/connections/connection[@name='connection_ClusterGate424To423']" />
-<remove sel="//macros/macro[@name='Zone005_Cluster_425_Sector001_macro']/connections/connection[@name='connection_ClusterGate425To411']" />
+<!--<remove sel="//macros/macro[@name='Zone005_Cluster_425_Sector001_macro']/connections/connection[@name='connection_ClusterGate425To411']" /> split story -->
 <!-- END SPLIT VENDETTA -->
 <!-- SPLIT VENDETTA -->
 <!-- ACCELERATOR REMOVAL -->
