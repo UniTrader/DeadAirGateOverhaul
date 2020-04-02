@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<replace sel="//do_if[@value='$Ships.count + $RequestedShips.count lt $DesiredNumShips and $AllowedShipRequests gt $RequestedShips.count and $Faction != faction.hatikvah']/@value">$Ships.count + $RequestedShips.count lt $DesiredNumShips and $AllowedShipRequests gt $RequestedShips.count</replace>
+<diff name="FactionSubgoal_SupplyFreighters" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../extracted/md/md.xsd">
+<replace sel="//do_elseif[@value='$Ships.count + $RequestedShips.count lt $DesiredNumShips and $AllowedShipRequests gt $RequestedShips.count and $Faction != faction.hatikvah']/@value">$Ships.count + $RequestedShips.count lt $DesiredNumShips and $AllowedShipRequests gt $RequestedShips.count</replace>
 </diff>

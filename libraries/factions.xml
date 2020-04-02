@@ -74,7 +74,7 @@ Note: Relations defined here apply only to gamestart. Relations may change throu
 
 <!-- Player -->
 <remove sel="//factions/faction[@id='player']/licences/licence[@type='station_gen_basic'][2]" />
-<replace sel="//factions/faction[@id='player']/licences/licence[@type='station_gen_basic']/@factions">alliance antigone argon buccaneers court fallensplit freesplit hatikvah holyorder ministry paranid scaleplate teladi trinity</replace>
+<replace sel="//factions/faction[@id='player']/licences/licence[@type='station_gen_basic']/@factions">alliance antigone argon buccaneers court fallensplit freesplit hatikvah holyorder ministry paranid scaleplate split teladi trinity</replace>
 
 <!-- ALI // PAR // HOP // BUC-->
 <replace sel="//factions/faction[@id='alliance']/licences">

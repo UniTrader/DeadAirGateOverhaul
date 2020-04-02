@@ -1,16 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff name="FactionLogic_Stations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
 <!-- Wharfs -->
-<replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_if[@value='[faction.argon, faction.antigone, faction.paranid, faction.holyorder, faction.alliance, faction.teladi, faction.ministry].indexof.{$Faction}'][2]/@value">[faction.alliance, faction.argon, faction.antigone, faction.buccaneers, faction.court, faction.fallensplit, faction.hatikvah, faction.holyorder, faction.ministry, faction.paranid, faction.scaleplate, faction.teladi].indexof.{$Faction}</replace>
+<replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_if[@value='[faction.argon, faction.antigone, faction.paranid, faction.holyorder, faction.alliance, faction.teladi, faction.ministry].indexof.{$Faction}'][2]/@value">[faction.alliance, faction.antigone, faction.buccaneers, faction.court, faction.fallensplit, faction.hatikvah, faction.ministry, faction.scaleplate].indexof.{$Faction}</replace>
 <replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_elseif[@value='$Faction == faction.freesplit']">
-	<do_elseif value="$Faction == faction.freesplit or $Faction == faction.holyorder or $Faction == faction.teladi">
+	<do_elseif value="[faction.argon, faction.freesplit, faction.holyorder, faction.paranid, faction.teladi].indexof.{$Faction}">
       <set_value name="$DesiredWharfs" exact="2"/>
     </do_elseif>
 </replace>
 <!-- Shipyards -->
-<replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_if[@value='[faction.argon, faction.antigone, faction.paranid, faction.holyorder, faction.alliance, faction.teladi, faction.ministry].indexof.{$Faction}'][1]/@value">[faction.alliance, faction.argon, faction.antigone, faction.buccaneers, faction.court, faction.fallensplit, faction.hatikvah, faction.holyorder, faction.ministry, faction.paranid, faction.scaleplate, faction.teladi].indexof.{$Faction}</replace>
+<replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_if[@value='[faction.argon, faction.antigone, faction.paranid, faction.holyorder, faction.alliance, faction.teladi, faction.ministry].indexof.{$Faction}'][1]/@value">[faction.alliance, faction.antigone, faction.argon, faction.buccaneers, faction.court, faction.fallensplit, faction.hatikvah, faction.holyorder, faction.ministry, faction.paranid, faction.scaleplate, faction.teladi].indexof.{$Faction}</replace>
 <!-- Equipment Docks -->
-<replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_elseif[@value='[faction.antigone, faction.paranid, faction.holyorder, faction.teladi, faction.ministry].indexof.{$Faction}']/@value">[faction.alliance, faction.antigone, faction.buccaneers, faction.court, faction.fallensplit, faction.hatikvah, faction.holyorder, faction.ministry, faction.paranid, faction.scaleplate, faction.teladi].indexof.{$Faction}</replace>
+<replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_if[@value='$Faction == faction.argon']/@value">[faction.argon, faction.holyorder, faction.paranid, faction.teladi].indexof.{$Faction}</replace>
+<replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_elseif[@value='[faction.antigone, faction.paranid, faction.holyorder, faction.teladi, faction.ministry].indexof.{$Faction}']/@value">[faction.alliance, faction.antigone, faction.buccaneers, faction.court, faction.fallensplit, faction.hatikvah, faction.ministry, faction.scaleplate].indexof.{$Faction}</replace>
 <!-- Trade Stations -->
-<replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_elseif[@value='[faction.argon, faction.antigone, faction.hatikvah, faction.paranid, faction.holyorder].indexof.{$Faction}']/@value">[faction.alliance, faction.argon, faction.antigone, faction.buccaneers, faction.court, faction.fallensplit, faction.freesplit, faction.hatikvah, faction.holyorder, faction.ministry, faction.paranid, faction.scaleplate].indexof.{$Faction}</replace>
+<replace sel="//mdscript[@name='FactionLogic_Stations']/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_elseif[@value='[faction.argon, faction.antigone, faction.hatikvah, faction.paranid, faction.holyorder].indexof.{$Faction}']/@value">[faction.alliance, faction.antigone, faction.argon, faction.buccaneers, faction.court, faction.fallensplit, faction.freesplit, faction.hatikvah, faction.holyorder, faction.ministry, faction.paranid, faction.scaleplate, faction.split].indexof.{$Faction}</replace>
+<!-- Solve spamming of stations -->
+<add sel="//do_if[@value='$ShipyardCount lt $DesiredShipyards']" pos="before">
+<do_if value="$ShipyardCount lt $DesiredShipyards">
+	<set_value name="$DoubleCheckShipyardsCount" exact="0" />
+	<find_station_by_true_owner name="$DoubleCheckPlannedShipyards" faction="$Faction" planneddefencestation="false" plannedshipyard="true" plannedwharf="false" plannedequipmentdock="false" plannedtradestation="false" space="player.galaxy" checkoperational="false" multiple="true"/>
+	<do_if value="$DoubleCheckPlannedShipyards.count gt 0">
+		<set_value name="$DoubleCheckShipyardsCount" exact="$DoubleCheckPlannedShipyards.count" />
+	</do_if>
+	<find_station_by_true_owner name="$DoubleCheckCompletedShipyards" faction="$Faction" space="player.galaxy" checkoperational="true" multiple="true">
+		<match shipyard="true"/>
+	</find_station_by_true_owner>
+	<do_if value="$DoubleCheckPlannedShipyards and $DoubleCheckCompletedShipyards">
+		<remove_from_list name="$DoubleCheckCompletedShipyards" list="$DoubleCheckPlannedShipyards" multiple="true"/>
+	</do_if>
+	<do_if value="$DoubleCheckCompletedShipyards.count gt 0">
+		<set_value name="$DoubleCheckShipyardsCount" exact="$DoubleCheckCompletedShipyards.count" operation="add" />
+	</do_if>
+	<do_if value="$ShipyardCount lt $DoubleCheckShipyardsCount">
+		<set_value name="$ShipyardCount" exact="$DoubleCheckShipyardsCount" />
+	</do_if>
+	<remove_value name="$DoubleCheckShipyardsCount" />
+	<remove_value name="$DoubleCheckPlannedShipyards" />
+	<remove_value name="$DoubleCheckCompletedShipyards" />
+</do_if>
+</add>
+<add sel="//do_if[@value='$WharfCount lt $DesiredWharfs']" pos="before">
+<do_if value="$WharfCount lt $DesiredWharfs">
+	<set_value name="$DoubleCheckWharfsCount" exact="0" />
+	<find_station_by_true_owner name="$DoubleCheckPlannedWharfs" faction="$Faction" planneddefencestation="false" plannedshipyard="false" plannedwharf="true" plannedequipmentdock="false" plannedtradestation="false" space="player.galaxy" checkoperational="false" multiple="true"/>
+	<do_if value="$DoubleCheckPlannedWharfs.count gt 0">
+		<set_value name="$DoubleCheckWharfsCount" exact="$DoubleCheckPlannedWharfs.count" />
+	</do_if>
+	<find_station_by_true_owner name="$DoubleCheckCompletedWharfs" faction="$Faction" space="player.galaxy" checkoperational="true" multiple="true">
+		<match wharf="true"/>
+	</find_station_by_true_owner>
+	<do_if value="$DoubleCheckPlannedWharfs and $DoubleCheckCompletedWharfs">
+		<remove_from_list name="$DoubleCheckCompletedWharfs" list="$DoubleCheckPlannedWharfs" multiple="true"/>
+	</do_if>
+	<do_if value="$DoubleCheckCompletedWharfs.count gt 0">
+		<set_value name="$DoubleCheckWharfsCount" exact="$DoubleCheckCompletedWharfs.count" operation="add" />
+	</do_if>
+	<do_if value="$WharfCount lt $DoubleCheckWharfsCount">
+		<set_value name="$WharfCount" exact="$DoubleCheckWharfsCount" />
+	</do_if>
+	<remove_value name="$DoubleCheckWharfsCount" />
+	<remove_value name="$DoubleCheckPlannedWharfs" />
+	<remove_value name="$DoubleCheckCompletedWharfs" />
+</do_if>
+</add>
+<add sel="//do_if[@value='$EquipmentDockCount lt $DesiredEquipmentDocks']" pos="before">
+<do_if value="$EquipmentDockCount lt $DesiredEquipmentDocks">
+	<set_value name="$DoubleCheckEquipmentDocksCount" exact="0" />
+	<find_station_by_true_owner name="$DoubleCheckPlannedEquipmentDocks" faction="$Faction" planneddefencestation="false" plannedshipyard="false" plannedwharf="false" plannedequipmentdock="true" plannedtradestation="false" space="player.galaxy" checkoperational="false" multiple="true"/>
+	<do_if value="$DoubleCheckPlannedEquipmentDocks.count gt 0">
+		<set_value name="$DoubleCheckEquipmentDocksCount" exact="$DoubleCheckPlannedEquipmentDocks.count" />
+	</do_if>
+	<find_station_by_true_owner name="$DoubleCheckCompletedEquipmentDocks" faction="$Faction" space="player.galaxy" checkoperational="true" multiple="true">
+		<match equipmentdock="true"/>
+	</find_station_by_true_owner>
+	<do_if value="$DoubleCheckPlannedEquipmentDocks and $DoubleCheckCompletedEquipmentDocks">
+		<remove_from_list name="$DoubleCheckCompletedEquipmentDocks" list="$DoubleCheckPlannedEquipmentDocks" multiple="true"/>
+	</do_if>
+	<do_if value="$DoubleCheckCompletedEquipmentDocks.count gt 0">
+		<set_value name="$DoubleCheckEquipmentDocksCount" exact="$DoubleCheckCompletedEquipmentDocks.count" operation="add" />
+	</do_if>
+	<do_if value="$EquipmentDockCount lt $DoubleCheckEquipmentDocksCount">
+		<set_value name="$EquipmentDockCount" exact="$DoubleCheckEquipmentDocksCount" />
+	</do_if>
+	<remove_value name="$DoubleCheckEquipmentDocksCount" />
+	<remove_value name="$DoubleCheckPlannedEquipmentDocks" />
+	<remove_value name="$DoubleCheckCompletedEquipmentDocks" />
+</do_if>
+</add>
+<add sel="//do_if[@value='$TradeStationCount lt $DesiredTradeStation']" pos="before">
+<do_if value="$TradeStationCount lt $DesiredTradeStation">
+	<set_value name="$DoubleCheckTradeStationsCount" exact="0" />
+	<find_station_by_true_owner name="$DoubleCheckPlannedTradeStations" faction="$Faction" planneddefencestation="false" plannedshipyard="false" plannedwharf="false" plannedequipmentdock="false" plannedtradestation="true" space="player.galaxy" checkoperational="false" multiple="true"/>
+	<do_if value="$DoubleCheckPlannedTradeStations.count gt 0">
+		<set_value name="$DoubleCheckTradeStationsCount" exact="$DoubleCheckPlannedTradeStations.count" />
+	</do_if>
+	<find_station_by_true_owner name="$DoubleCheckCompletedTradeStations" faction="$Faction" space="player.galaxy" checkoperational="true" multiple="true">
+		<match tradestation="true"/>
+	</find_station_by_true_owner>
+	<do_if value="$DoubleCheckPlannedTradeStations and $DoubleCheckCompletedTradeStations">
+		<remove_from_list name="$DoubleCheckCompletedTradeStations" list="$DoubleCheckPlannedTradeStations" multiple="true"/>
+	</do_if>
+	<do_if value="$DoubleCheckCompletedTradeStations.count gt 0">
+		<set_value name="$DoubleCheckTradeStationsCount" exact="$DoubleCheckCompletedTradeStations.count" operation="add" />
+	</do_if>
+	<do_if value="$TradeStationCount lt $DoubleCheckTradeStationsCount">
+		<set_value name="$TradeStationCount" exact="$DoubleCheckTradeStationsCount" />
+	</do_if>
+	<remove_value name="$DoubleCheckTradeStationsCount" />
+	<remove_value name="$DoubleCheckPlannedTradeStations" />
+	<remove_value name="$DoubleCheckCompletedTradeStations" />
+</do_if>
+</add>
 </diff>
